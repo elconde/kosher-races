@@ -145,6 +145,12 @@
       <button class="filter-btn" id="btn-hag"     onclick="setFilter('hag')">Hag</button>
       <button class="filter-btn active" id="btn-kosher" onclick="setFilter('kosher')">Kosher</button>
     </div>
+    <div class="filter-row">
+      <span class="filter-label">Org:</span>
+      <button class="filter-btn active" id="org-btn-all"     onclick="setOrgFilter('all')">All</button>
+      <button class="filter-btn" id="org-btn-nyrr"    onclick="setOrgFilter('nyrr')">NYRR</button>
+      <button class="filter-btn" id="org-btn-nycruns" onclick="setOrgFilter('nycruns')">NYCRUNS</button>
+    </div>
 
     <div class="table-wrap">
       <table>
@@ -179,6 +185,7 @@
     var cholHamoedDates = {};
     var allRows = [];
     var currentFilter = 'kosher';
+    var currentOrgFilter = 'all';
 
     function isShabbat(dateStr) {
       var p = dateStr.split('-');
@@ -219,6 +226,10 @@
         if (currentFilter === 'hag')     return r.status === 'hag'     || r.status === 'both';
         if (currentFilter === 'kosher')  return r.status === 'kosher';
         return true;
+      }).filter(function(r) {
+        if (currentOrgFilter === 'nyrr')    return r.source === 'NYRR';
+        if (currentOrgFilter === 'nycruns') return r.source === 'NYCRUNS';
+        return true;
       });
       var tbody = document.getElementById('race-body');
       if (!rows.length) {
@@ -249,6 +260,14 @@
       currentFilter = f;
       ['all','shabbat','hag','kosher'].forEach(function(k) {
         document.getElementById('btn-' + k).classList.toggle('active', k === f);
+      });
+      render();
+    }
+
+    function setOrgFilter(f) {
+      currentOrgFilter = f;
+      ['all','nyrr','nycruns'].forEach(function(k) {
+        document.getElementById('org-btn-' + k).classList.toggle('active', k === f);
       });
       render();
     }
