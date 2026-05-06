@@ -4,6 +4,7 @@ Scrapes upcoming races from runningintheusa.com (New York, NY).
 Returns a list of race dicts with keys: date, name, dist, loc, url, source.
 """
 
+import os
 import re
 from datetime import datetime, date as date_cls
 
@@ -49,6 +50,54 @@ LOC_MAP = {
     "bronx": "Bronx",
     "staten island": "Staten Island",
 }
+
+# Patterns stripped before matching race names against nyrr.txt entries.
+# The site drops sponsor names; nyrr.txt keeps them.
+_STRIP_PREFIX = re.compile(
+    r'^\s*(virtual|rising nyrr at the|rising nyrr|nyrr|tcs|new balance|'
+    r'mastercard|rbc|citizens|united airlines|maybelline)\s+',
+    re.IGNORECASE,
+)
+_STRIP_SUFFIX = re.compile(
+    r'(\s+presented by\s+.*'
+    r'|\s*[–\-]\s+women\'?s\s+race'
+    r'|\s*\+\s+[\d.]+\s+mile\s+.*'
+    r'|\s*&\s+drhazel.*'
+    r'|\s*&\s+\d+.*mile.*walk.*)$',
+    re.IGNORECASE,
+)
+
+
+def _clean(name):
+    n = _STRIP_PREFIX.sub('', name)
+    n = _STRIP_SUFFIX.sub('', n)
+    return re.sub(r'\s+', ' ', re.sub(r'[^\w\s]', ' ', n.lower())).strip()
+
+
+def _load_nyrr():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'nyrr.txt')
+    try:
+        with open(path, encoding='utf-8') as f:
+            return [line.strip() for line in f if line.strip()]
+    except FileNotFoundError:
+        return []
+
+
+_NYRR_CLEANED = [_clean(n) for n in _load_nyrr()]
+
+
+def is_nyrr(race_name):
+    r = _clean(race_name)
+    for e in _NYRR_CLEANED:
+        if r == e:
+            return True
+        # Only use substring match when the needle is long enough to be distinctive
+        if len(r) >= 10 and r in e:
+            return True
+        if len(e) >= 10 and e in r:
+            return True
+    return False
+
 
 SKIP_KEYWORDS = [
     "virtual", "youth", "summer speed", "girls run", "rising nyrr", "gaza",
@@ -171,7 +220,7 @@ def parse_page(html):
             "dist": dist,
             "loc": loc,
             "url": url,
-            "source": "NYCRUNS" if "NYCRUNS" in name else "",
+            "source": "NYCRUNS" if "NYCRUNS" in name else ("NYRR" if is_nyrr(name) else ""),
         })
         print(f"  [RUSA] {date_str} — {name} ({dist})", flush=True)
 

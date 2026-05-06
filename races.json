@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T22:08:43Z",
+  "generated": "2026-05-06T22:19:29Z",
   "races": [
     {
       "date": "2026-05-09",
@@ -87,7 +87,7 @@
       "dist": "HM",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/13321",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-05-16",
@@ -263,7 +263,7 @@
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/12210",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-06-06",
@@ -391,7 +391,7 @@
       "dist": "10K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/29057",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-06-21",
@@ -463,7 +463,7 @@
       "dist": "4M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/31238",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-07-11",
@@ -527,7 +527,7 @@
       "dist": "2.5M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/188309",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-07-25",
@@ -551,7 +551,7 @@
       "dist": "5M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/29058",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-07-26",
@@ -615,7 +615,7 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/17136",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-08-08",
@@ -631,7 +631,7 @@
       "dist": "12M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/91906",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-08-22",
@@ -671,7 +671,7 @@
       "dist": "1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/13228",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-09-13",
@@ -695,7 +695,7 @@
       "dist": "10M",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/29066",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-09-19",
@@ -727,7 +727,7 @@
       "dist": "18M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/187310",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-09-20",
@@ -887,7 +887,7 @@
       "dist": "HM",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/12534",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-10-17",
@@ -999,7 +999,7 @@
       "dist": "Marathon",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/10019",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-11-07",
@@ -1167,7 +1167,7 @@
       "dist": "15K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/12689",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-12-05",
@@ -1223,7 +1223,7 @@
       "dist": "4M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/10481",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2027-01-01",
