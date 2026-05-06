@@ -275,7 +275,7 @@
           + '<td class="td-date">' + fmtDate(r.date) + '</td>'
           + '<td><a class="race-link" href="' + r.url + '" target="_blank" rel="noopener">' + r.name + '</a></td>'
           + '<td class="td-note">' + r.source + '</td>'
-          + '<td><span class="dist-badge">' + r.dist + '</span></td>'
+          + '<td>' + (r.dist === 'Race' ? '' : '<span class="dist-badge">' + r.dist + '</span>') + '</td>'
           + '<td class="td-loc">' + r.loc + '</td>'
           + '<td><span class="badge ' + r.badge + '">' + statusLabel(r.status) + '</span></td>'
           + '<td class="td-note">' + (r.note || '—') + '</td>'
