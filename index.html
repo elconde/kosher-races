@@ -153,7 +153,16 @@
     </div>
     <div class="filter-row">
       <span class="filter-label">Dist:</span>
-      <span id="dist-btns"></span>
+      <button class="filter-btn active" id="dist-btn-all"   onclick="setDistFilter('all')"  >All</button>
+      <button class="filter-btn"        id="dist-btn-lt5k"  onclick="setDistFilter('lt5k')" >&lt;5K</button>
+      <button class="filter-btn"        id="dist-btn-5k"    onclick="setDistFilter('5k')"   >5K</button>
+      <button class="filter-btn"        id="dist-btn-lt10k" onclick="setDistFilter('lt10k')">&lt;10K</button>
+      <button class="filter-btn"        id="dist-btn-10k"   onclick="setDistFilter('10k')"  >10K</button>
+      <button class="filter-btn"        id="dist-btn-15"    onclick="setDistFilter('15')"   >15</button>
+      <button class="filter-btn"        id="dist-btn-hm"    onclick="setDistFilter('hm')"   >HM</button>
+      <button class="filter-btn"        id="dist-btn-ltm"   onclick="setDistFilter('ltm')"  >&lt;M</button>
+      <button class="filter-btn"        id="dist-btn-m"     onclick="setDistFilter('m')"    >M</button>
+      <button class="filter-btn"        id="dist-btn-gtm"   onclick="setDistFilter('gtm')"  >&gt;M</button>
     </div>
 
     <div class="table-wrap">
@@ -228,27 +237,27 @@
     function distToMiles(d) {
       if (d === 'Marathon') return 26.2;
       if (d === 'HM')       return 13.1;
-      if (d === 'Race')     return Infinity;
       var m = d.match(/^([\d.]+)M$/); if (m) return parseFloat(m[1]);
       var k = d.match(/^([\d.]+)K$/); if (k) return parseFloat(k[1]) * 0.621371;
-      return Infinity;
+      return null;
     }
 
-    function buildDistButtons() {
-      var seen = {};
-      allRows.forEach(function(r) {
-        r.dist.split('/').forEach(function(d) { seen[d.trim()] = true; });
-      });
-      var dists = Object.keys(seen).filter(function(d) { return d !== 'Race'; }).sort(function(a, b) {
-        return distToMiles(a) - distToMiles(b);
-      });
-      var container = document.getElementById('dist-btns');
-      var html = '<button class="filter-btn active" id="dist-btn-all" onclick="setDistFilter(\'all\')">All</button>';
-      dists.forEach(function(d) {
-        var id = 'dist-btn-' + d.replace(/[^a-z0-9]/gi, '_');
-        html += '<button class="filter-btn" id="' + id + '" onclick="setDistFilter(\'' + d + '\')">' + d + '</button>';
-      });
-      container.innerHTML = html;
+    var K5 = 5 * 0.621371, K10 = 10 * 0.621371, K15 = 15 * 0.621371, HM = 13.1094, MARA = 26.2188;
+
+    function distInBucket(d, bucket) {
+      if (d === 'Race') return false;
+      var mi = distToMiles(d);
+      if (mi === null) return false;
+      if (bucket === 'lt5k')  return mi < K5;
+      if (bucket === '5k')    return d === '5K';
+      if (bucket === 'lt10k') return mi > K5  && mi < K10;
+      if (bucket === '10k')   return d === '10K';
+      if (bucket === '15')    return mi > K10 && mi < HM;
+      if (bucket === 'hm')    return d === 'HM';
+      if (bucket === 'ltm')   return mi > HM  && mi < MARA;
+      if (bucket === 'm')     return d === 'Marathon';
+      if (bucket === 'gtm')   return mi > MARA;
+      return false;
     }
 
     function render() {
@@ -263,7 +272,7 @@
         return true;
       }).filter(function(r) {
         if (currentDistFilter === 'all') return true;
-        return r.dist.split('/').map(function(d){ return d.trim(); }).indexOf(currentDistFilter) !== -1;
+        return r.dist.split('/').some(function(d) { return distInBucket(d.trim(), currentDistFilter); });
       });
       var tbody = document.getElementById('race-body');
       if (!rows.length) {
@@ -306,10 +315,12 @@
       render();
     }
 
-    function setDistFilter(d) {
-      currentDistFilter = d;
-      document.getElementById('dist-btns').querySelectorAll('.filter-btn').forEach(function(btn) {
-        btn.classList.toggle('active', btn.textContent === d || (d === 'all' && btn.id === 'dist-btn-all'));
+    var DIST_BTNS = ['all','lt5k','5k','lt10k','10k','15','hm','ltm','m','gtm'];
+
+    function setDistFilter(b) {
+      currentDistFilter = b;
+      DIST_BTNS.forEach(function(k) {
+        document.getElementById('dist-btn-' + k).classList.toggle('active', k === b);
       });
       render();
     }
@@ -324,7 +335,6 @@
         hagDates         = data.hag_dates         || {};
         cholHamoedDates  = data.chol_hamoed_dates || {};
         buildRows(data.races || []);
-        buildDistButtons();
         updateSummary();
         render();
         if (data.generated) {
