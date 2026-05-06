@@ -151,6 +151,10 @@
       <button class="filter-btn" id="org-btn-nyrr"    onclick="setOrgFilter('nyrr')">NYRR</button>
       <button class="filter-btn" id="org-btn-nycruns" onclick="setOrgFilter('nycruns')">NYCRUNS</button>
     </div>
+    <div class="filter-row">
+      <span class="filter-label">Dist:</span>
+      <span id="dist-btns"></span>
+    </div>
 
     <div class="table-wrap">
       <table>
@@ -186,6 +190,7 @@
     var allRows = [];
     var currentFilter = 'kosher';
     var currentOrgFilter = 'all';
+    var currentDistFilter = 'all';
 
     function isShabbat(dateStr) {
       var p = dateStr.split('-');
@@ -220,6 +225,32 @@
       });
     }
 
+    function distToMiles(d) {
+      if (d === 'Marathon') return 26.2;
+      if (d === 'HM')       return 13.1;
+      if (d === 'Race')     return Infinity;
+      var m = d.match(/^([\d.]+)M$/); if (m) return parseFloat(m[1]);
+      var k = d.match(/^([\d.]+)K$/); if (k) return parseFloat(k[1]) * 0.621371;
+      return Infinity;
+    }
+
+    function buildDistButtons() {
+      var seen = {};
+      allRows.forEach(function(r) {
+        r.dist.split('/').forEach(function(d) { seen[d.trim()] = true; });
+      });
+      var dists = Object.keys(seen).sort(function(a, b) {
+        return distToMiles(a) - distToMiles(b);
+      });
+      var container = document.getElementById('dist-btns');
+      var html = '<button class="filter-btn active" id="dist-btn-all" onclick="setDistFilter(\'all\')">All</button>';
+      dists.forEach(function(d) {
+        var id = 'dist-btn-' + d.replace(/[^a-z0-9]/gi, '_');
+        html += '<button class="filter-btn" id="' + id + '" onclick="setDistFilter(\'' + d + '\')">' + d + '</button>';
+      });
+      container.innerHTML = html;
+    }
+
     function render() {
       var rows = allRows.filter(function(r) {
         if (currentFilter === 'shabbat') return r.status === 'shabbat' || r.status === 'both';
@@ -230,6 +261,9 @@
         if (currentOrgFilter === 'nyrr')    return r.source === 'NYRR';
         if (currentOrgFilter === 'nycruns') return r.source === 'NYCRUNS';
         return true;
+      }).filter(function(r) {
+        if (currentDistFilter === 'all') return true;
+        return r.dist.split('/').map(function(d){ return d.trim(); }).indexOf(currentDistFilter) !== -1;
       });
       var tbody = document.getElementById('race-body');
       if (!rows.length) {
@@ -272,6 +306,14 @@
       render();
     }
 
+    function setDistFilter(d) {
+      currentDistFilter = d;
+      document.getElementById('dist-btns').querySelectorAll('.filter-btn').forEach(function(btn) {
+        btn.classList.toggle('active', btn.textContent === d || (d === 'all' && btn.id === 'dist-btn-all'));
+      });
+      render();
+    }
+
     // Load everything from races.json — races, hag_dates, chol_hamoed_dates all in one fetch
     fetch('races.json?_=' + Date.now())
       .then(function(r) {
@@ -282,6 +324,7 @@
         hagDates         = data.hag_dates         || {};
         cholHamoedDates  = data.chol_hamoed_dates || {};
         buildRows(data.races || []);
+        buildDistButtons();
         updateSummary();
         render();
         if (data.generated) {
