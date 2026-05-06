@@ -84,7 +84,7 @@ def parse_page(full_text, url_map):
             url = url_map.get(key)
             if url and url not in seen_urls:
                 seen_urls.add(url)
-                race_name = line.strip().title()
+                race_name = re.sub(r'^Nycruns\s+', '', line.strip().title())
                 races.append({
                     "date": date_str,
                     "name": race_name,

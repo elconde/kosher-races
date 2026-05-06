@@ -1,49 +1,129 @@
 {
-  "generated": "2026-05-06T17:40:57Z",
+  "generated": "2026-05-06T18:37:11Z",
   "races": [
     {
+      "date": "2026-05-16",
+      "name": "2026 RBC Brooklyn Half",
+      "dist": "HM",
+      "loc": "Brooklyn, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-06-06",
+      "name": "Mastercard New York Mini 10K \u2013 Women\u2019s Race",
+      "dist": "10K",
+      "loc": "New York",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-06-16",
-      "name": "Nycruns Lousy T-Shirt Race\u00a0 Benefiting Prospect Park Alliance",
+      "name": "Lousy T-Shirt Race\u00a0 Benefiting Prospect Park Alliance",
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-lousy-t-shirt-race",
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-06-20",
+      "name": "Citizens Queens 10K",
+      "dist": "10K",
+      "loc": "Queens, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-06-21",
-      "name": "Nycruns Summer Loving 5K & 10K",
+      "name": "Summer Loving 5K & 10K",
       "dist": "10K/5K",
       "loc": "Flushing Meadows Corona Park",
       "url": "https://nycruns.com/race/summer-loving-5k-10k",
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-06-27",
+      "name": "Front Runners New York LGBTQ+ Pride Run 4M",
+      "dist": "4M",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-06-28",
+      "name": "Achilles Hope & Possibility 4M Presented by TD",
+      "dist": "4M",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-07-11",
+      "name": "9/11 Memorial & Museum 4M Presented by RXR",
+      "dist": "4M",
+      "loc": "New York",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-07-25",
-      "name": "Nycruns Brooklyn Ice Cream Social 5K",
+      "name": "Brooklyn Ice Cream Social 5K",
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-brooklyn-ice-cream-social-5K",
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-07-26",
+      "name": "NYRR Team Champs",
+      "dist": "5M",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-08-08",
-      "name": "Nycruns Manhattan Ice Cream Social 10K",
+      "name": "Manhattan Ice Cream Social 10K",
       "dist": "10K",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-manhattan-ice-cream-social-10K",
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-08-08",
+      "name": "Percy Sutton Harlem 5K & Dr. Hazel Dukes Memorial Walk",
+      "dist": "5K",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-08-15",
+      "name": "TCS New York City Marathon Training Series 12M",
+      "dist": "12 Miles",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-08-22",
-      "name": "Nycruns Brooklyn Ice Cream Social Half Marathon",
+      "name": "Brooklyn Ice Cream Social Half Marathon",
       "dist": "HM",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-brooklyn-ice-cream-social-half-marathon",
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-08-22",
+      "name": "NYRR Grete's Great Gallop 10K",
+      "dist": "10K",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-08-29",
-      "name": "Nycruns Endless Summer 10K",
+      "name": "Endless Summer 10K",
       "dist": "10K",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-endless-summer-10k",
@@ -51,15 +131,39 @@
     },
     {
       "date": "2026-09-12",
-      "name": "Nycruns Squirrel Stampede 10K",
+      "name": "Squirrel Stampede 10K",
       "dist": "10K",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-squirrel-stampede-10k",
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-09-13",
+      "name": "New Balance 5th Avenue Mile",
+      "dist": "1 Mile",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "New Balance Bronx 10 Mile",
+      "dist": "10 Miles",
+      "loc": "The Bronx, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "TCS New York City Marathon Training Series 18M",
+      "dist": "18 Miles",
+      "loc": "Manhattan, NY",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-09-26",
-      "name": "Nycruns Big Apple Marathon",
+      "name": "Big Apple Marathon",
       "dist": "Marathon",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-big-apple-marathon",
@@ -67,7 +171,7 @@
     },
     {
       "date": "2026-10-17",
-      "name": "Nycruns Falling Leaves Half Marathon",
+      "name": "Falling Leaves Half Marathon",
       "dist": "HM",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-falling-leaves-half-marathon",
@@ -75,7 +179,7 @@
     },
     {
       "date": "2026-10-24",
-      "name": "Nycruns Haunted Island 10K",
+      "name": "Haunted Island 10K",
       "dist": "10K",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-haunted-island-10K",
@@ -83,15 +187,23 @@
     },
     {
       "date": "2026-10-25",
-      "name": "Nycruns Haunted Island 5K",
+      "name": "Haunted Island 5K",
       "dist": "5K",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-haunted-island-5K",
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-11-01",
+      "name": "2026 TCS New York City Marathon",
+      "dist": "Marathon",
+      "loc": "New York City",
+      "url": "https://www.nyrr.org/run/race-calendar",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-11-14",
-      "name": "Nycruns Go Nuts For Donuts 10K",
+      "name": "Go Nuts For Donuts 10K",
       "dist": "10K",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-go-nuts-for-donuts-10K",
@@ -99,7 +211,7 @@
     },
     {
       "date": "2026-11-15",
-      "name": "Nycruns Go Nuts For Donuts 5K",
+      "name": "Go Nuts For Donuts 5K",
       "dist": "5K",
       "loc": "Governors Island, New York",
       "url": "https://nycruns.com/race/nycruns-go-nuts-for-donuts-5K",
@@ -107,7 +219,7 @@
     },
     {
       "date": "2026-11-21",
-      "name": "Nycruns Great Gobble 5K",
+      "name": "Great Gobble 5K",
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-great-gobble-5k",
@@ -115,7 +227,7 @@
     },
     {
       "date": "2026-12-05",
-      "name": "Nycruns Ugly Sweater 5K",
+      "name": "Ugly Sweater 5K",
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-ugly-sweater-5k",
@@ -123,7 +235,7 @@
     },
     {
       "date": "2026-12-13",
-      "name": "Nycruns Big Apple Half Marathon",
+      "name": "Big Apple Half Marathon",
       "dist": "HM",
       "loc": "Central Park, New York",
       "url": "https://nycruns.com/race/nycruns-big-apple-half-marathon",
@@ -131,7 +243,7 @@
     },
     {
       "date": "2027-01-10",
-      "name": "Nycruns Frozen Penguin 5K",
+      "name": "Frozen Penguin 5K",
       "dist": "5K",
       "loc": "Central Park, New York",
       "url": "https://nycruns.com/race/nycruns-frozen-penguin-5k",
@@ -139,7 +251,7 @@
     },
     {
       "date": "2027-01-16",
-      "name": "Nycruns Frozen Pigeon 5K",
+      "name": "Frozen Pigeon 5K",
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-frozen-pigeon-5K",
@@ -147,7 +259,7 @@
     },
     {
       "date": "2027-02-28",
-      "name": "Nycruns Central Park Half Marathon",
+      "name": "Central Park Half Marathon",
       "dist": "HM",
       "loc": "Central Park, New York",
       "url": "https://nycruns.com/race/nycruns-central-park-half-marathon",
@@ -155,7 +267,7 @@
     },
     {
       "date": "2027-03-06",
-      "name": "Nycruns Frozen Bonsai 5K",
+      "name": "Frozen Bonsai 5K",
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-frozen-bonsai-5K",
@@ -163,7 +275,7 @@
     },
     {
       "date": "2027-04-11",
-      "name": "Nycruns Prospect Park 5K\u00a0 Benefiting Camba",
+      "name": "Prospect Park 5K\u00a0 Benefiting Camba",
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn",
       "url": "https://nycruns.com/race/nycruns-prospect-park-5k",
@@ -171,7 +283,7 @@
     },
     {
       "date": "2027-04-25",
-      "name": "Nycruns Brooklyn Experience Half Marathon",
+      "name": "Brooklyn Experience Half Marathon",
       "dist": "HM",
       "loc": "New York",
       "url": "https://nycruns.com/race/nycruns-brooklyn-experience-half-marathon",

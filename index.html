@@ -123,7 +123,7 @@
 <body>
   <div class="container">
     <h1>NYC Races &amp; the Jewish Calendar</h1>
-    <p class="subtitle">NYCRUNS upcoming races checked against Shabbat and Yom Tov dates</p>
+    <p class="subtitle">NYCRUNS and NYRR upcoming races checked against Shabbat and Yom Tov dates</p>
 
     <div class="summary-grid">
       <div class="metric"><div class="metric-label">Total races</div><div class="metric-value" id="s-total">—</div></div>
@@ -146,6 +146,7 @@
           <tr>
             <th>Date</th>
             <th>Race</th>
+            <th>Org</th>
             <th>Dist</th>
             <th>Location</th>
             <th>Status</th>
@@ -153,7 +154,7 @@
           </tr>
         </thead>
         <tbody id="race-body">
-          <tr><td colspan="6" class="msg">Loading race data…</td></tr>
+          <tr><td colspan="7" class="msg">Loading race data…</td></tr>
         </tbody>
       </table>
     </div>
@@ -214,13 +215,14 @@
       });
       var tbody = document.getElementById('race-body');
       if (!rows.length) {
-        tbody.innerHTML = '<tr><td colspan="6" class="msg">No races match this filter.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" class="msg">No races match this filter.</td></tr>';
         return;
       }
       tbody.innerHTML = rows.map(function(r) {
         return '<tr>'
           + '<td class="td-date">' + fmtDate(r.date) + '</td>'
           + '<td><a class="race-link" href="' + r.url + '" target="_blank" rel="noopener">' + r.name + '</a></td>'
+          + '<td class="td-note">' + r.source + '</td>'
           + '<td><span class="dist-badge">' + r.dist + '</span></td>'
           + '<td class="td-loc">' + r.loc + '</td>'
           + '<td><span class="badge ' + r.badge + '">' + statusLabel(r.status) + '</span></td>'
@@ -231,7 +233,7 @@
 
     function updateSummary() {
       document.getElementById('s-total').textContent   = allRows.length;
-      document.getElementById('s-shabbat').textContent = allRows.filter(function(r){ return r.status==='shabbat'||r.status==='both'; }).length;
+      document.getElementById('s-shabbat').textContent = allRows.filter(function(r){ return r.status==='shabbat'; }).length;
       document.getElementById('s-hag').textContent     = allRows.filter(function(r){ return r.status==='hag'||r.status==='both'; }).length;
       document.getElementById('s-clear').textContent   = allRows.filter(function(r){ return r.status==='clear'; }).length;
     }
@@ -270,7 +272,7 @@
       .catch(function(err) {
         console.warn('Could not load races.json:', err);
         document.getElementById('race-body').innerHTML =
-          '<tr><td colspan="6" class="msg">Could not load race data. Please try again later.</td></tr>';
+          '<tr><td colspan="7" class="msg">Could not load race data. Please try again later.</td></tr>';
       });
   </script>
 </body>
