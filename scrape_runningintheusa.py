@@ -12,11 +12,11 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.runningintheusa.com"
 LIST_URLS = [
-    BASE_URL + "/classic/list/new%20york-ny/upcoming/Run",
-    BASE_URL + "/classic/list/bronx-ny/upcoming/Run",
-    BASE_URL + "/classic/list/brooklyn-ny/upcoming/Run",
-    BASE_URL + "/classic/list/queens-ny/upcoming/Run",
-    BASE_URL + "/classic/list/staten%20island-ny/upcoming/Run",
+    BASE_URL + "/classic/list/new%20york-ny/upcoming/run",
+    BASE_URL + "/classic/list/bronx-ny/upcoming/run",
+    BASE_URL + "/classic/list/brooklyn-ny/upcoming/run",
+    BASE_URL + "/classic/list/queens-ny/upcoming/run",
+    BASE_URL + "/classic/list/staten%20island-ny/upcoming/run",
 ]
 
 HEADERS = {
@@ -103,18 +103,24 @@ def parse_total(soup):
 def parse_page(html):
     soup = BeautifulSoup(html, "html.parser")
 
-    # There is exactly one table on the page (the desktop race list).
-    table = soup.find("table")
+    # Pick the main race-listing table (has a "No" row-number column header).
+    # Some pages also have a smaller "Featured Listings" table — skip it.
+    table = None
+    for t in soup.find_all("table"):
+        th = t.find("th")
+        if th and "No" in th.get_text():
+            table = t
+            break
     if not table:
         return [], None
 
     total = parse_total(soup)
 
     races = []
-    for tr in table.find_all("tr", style=lambda s: s and "background-color:inherit" in s):
+    for tr in table.find_all("tr"):
         tds = tr.find_all("td")
         if len(tds) < 4:
-            continue  # rowspan continuation row (sub-event)
+            continue  # header row or rowspan continuation row
 
         # td[0] = row number, td[1] = date, td[2] = race, td[3] = location
         date_div = tds[1].find("div", style=lambda s: s and "font-weight:bold" in s)
