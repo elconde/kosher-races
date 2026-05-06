@@ -158,7 +158,7 @@
       <button class="filter-btn"        id="dist-btn-5k"    onclick="setDistFilter('5k')"   >5K</button>
       <button class="filter-btn"        id="dist-btn-lt10k" onclick="setDistFilter('lt10k')">&lt;10K</button>
       <button class="filter-btn"        id="dist-btn-10k"   onclick="setDistFilter('10k')"  >10K</button>
-      <button class="filter-btn"        id="dist-btn-15"    onclick="setDistFilter('15')"   >15</button>
+      <button class="filter-btn"        id="dist-btn-lthm"  onclick="setDistFilter('lthm')" >&lt;HM</button>
       <button class="filter-btn"        id="dist-btn-hm"    onclick="setDistFilter('hm')"   >HM</button>
       <button class="filter-btn"        id="dist-btn-ltm"   onclick="setDistFilter('ltm')"  >&lt;M</button>
       <button class="filter-btn"        id="dist-btn-m"     onclick="setDistFilter('m')"    >M</button>
@@ -252,7 +252,7 @@
       if (bucket === '5k')    return d === '5K';
       if (bucket === 'lt10k') return mi > K5  && mi < K10;
       if (bucket === '10k')   return d === '10K';
-      if (bucket === '15')    return mi > K10 && mi < HM;
+      if (bucket === 'lthm')  return mi > K10 && mi < HM;
       if (bucket === 'hm')    return d === 'HM';
       if (bucket === 'ltm')   return mi > HM  && mi < MARA;
       if (bucket === 'm')     return d === 'Marathon';
@@ -315,7 +315,7 @@
       render();
     }
 
-    var DIST_BTNS = ['all','lt5k','5k','lt10k','10k','15','hm','ltm','m','gtm'];
+    var DIST_BTNS = ['all','lt5k','5k','lt10k','10k','lthm','hm','ltm','m','gtm'];
 
     function setDistFilter(b) {
       currentDistFilter = b;
