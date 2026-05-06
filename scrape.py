@@ -105,10 +105,14 @@ def scrape_races():
 
             # Collect race links
             links = page.query_selector_all("a[href*='/race/']")
+            NON_RACE_SLUGS = {"paid-membership", "membership"}
             url_map = {}
             for link in links:
                 href = link.get_attribute("href") or ""
                 if not re.search(r"/race/[a-z]", href):
+                    continue
+                slug = href.rstrip("/").split("/")[-1]
+                if slug in NON_RACE_SLUGS:
                     continue
                 name = re.sub(r'\s+', ' ', (link.inner_text() or "")).strip().upper()
                 if len(name) < 4:
