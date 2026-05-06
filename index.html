@@ -38,7 +38,7 @@
     .metric-value { font-size: 24px; font-weight: 600; }
     .metric-shabbat { color: #3730A3; }
     .metric-hag     { color: #991B1B; }
-    .metric-clear   { color: #14532D; }
+    .metric-kosher  { color: #14532D; }
 
     .filter-row { display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
     .filter-label { font-size: 13px; color: #6b6b67; }
@@ -78,7 +78,7 @@
     .badge-shabbat { background: #C7D2FE; color: #3730A3; }
     .badge-hag     { background: #FECACA; color: #991B1B; }
     .badge-both    { background: #FDE68A; color: #92400E; }
-    .badge-clear   { background: #BBF7D0; color: #14532D; }
+    .badge-kosher  { background: #BBF7D0; color: #14532D; }
 
     .dist-badge {
       font-size: 11px; color: #6b6b67;
@@ -106,7 +106,7 @@
       .metric-label { color: #9b9b97; }
       .metric-shabbat { color: #4338CA; }
       .metric-hag     { color: #B91C1C; }
-      .metric-clear   { color: #15803D; }
+      .metric-kosher  { color: #15803D; }
       .filter-btn { border-color: #3a3a37; color: #9b9b97; }
       .filter-btn:hover { background: #2a2a27; }
       .filter-btn.active { background: #2a2a27; border-color: #888887; color: #e8e8e4; }
@@ -120,7 +120,7 @@
       .badge-shabbat { background: #4338CA; color: #EEF2FF; }
       .badge-hag     { background: #B91C1C; color: #FEF2F2; }
       .badge-both    { background: #B45309; color: #FFFBEB; }
-      .badge-clear   { background: #15803D; color: #F0FDF4; }
+      .badge-kosher  { background: #15803D; color: #F0FDF4; }
       .page-note { color: #6b6b67; border-color: #3a3a37; }
       .page-note a { color: #85b7eb; }
     }
@@ -135,7 +135,7 @@
       <div class="metric"><div class="metric-label">Total races</div><div class="metric-value" id="s-total">—</div></div>
       <div class="metric"><div class="metric-label">On Shabbat</div><div class="metric-value metric-shabbat" id="s-shabbat">—</div></div>
       <div class="metric"><div class="metric-label">On a Hag</div><div class="metric-value metric-hag" id="s-hag">—</div></div>
-      <div class="metric"><div class="metric-label">Clear days</div><div class="metric-value metric-clear" id="s-clear">—</div></div>
+      <div class="metric"><div class="metric-label">Kosher days</div><div class="metric-value metric-kosher" id="s-kosher">—</div></div>
     </div>
 
     <div class="filter-row">
@@ -143,7 +143,7 @@
       <button class="filter-btn" id="btn-all"     onclick="setFilter('all')">All races</button>
       <button class="filter-btn" id="btn-shabbat" onclick="setFilter('shabbat')">Shabbat</button>
       <button class="filter-btn" id="btn-hag"     onclick="setFilter('hag')">Hag</button>
-      <button class="filter-btn active" id="btn-clear" onclick="setFilter('clear')">Clear</button>
+      <button class="filter-btn active" id="btn-kosher" onclick="setFilter('kosher')">Kosher</button>
     </div>
 
     <div class="table-wrap">
@@ -178,7 +178,7 @@
     var hagDates = {};
     var cholHamoedDates = {};
     var allRows = [];
-    var currentFilter = 'clear';
+    var currentFilter = 'kosher';
 
     function isShabbat(dateStr) {
       var p = dateStr.split('-');
@@ -193,12 +193,12 @@
       if (sat && chm) return { status: 'shabbat', badge: 'badge-shabbat', note: chm };
       if (sat)        return { status: 'shabbat', badge: 'badge-shabbat', note: '' };
       if (hag)        return { status: 'hag',     badge: 'badge-hag',     note: hag };
-      if (chm)        return { status: 'clear',   badge: 'badge-clear',   note: chm };
-      return           { status: 'clear',   badge: 'badge-clear',   note: '' };
+      if (chm)        return { status: 'kosher',  badge: 'badge-kosher',  note: chm };
+      return           { status: 'kosher',  badge: 'badge-kosher',  note: '' };
     }
 
     function statusLabel(s) {
-      return { shabbat: 'Shabbat', hag: 'Hag', both: 'Shabbat + Hag', clear: 'Clear' }[s] || s;
+      return { shabbat: 'Shabbat', hag: 'Hag', both: 'Shabbat + Hag', kosher: 'Kosher' }[s] || s;
     }
 
     function fmtDate(dateStr) {
@@ -217,7 +217,7 @@
       var rows = allRows.filter(function(r) {
         if (currentFilter === 'shabbat') return r.status === 'shabbat' || r.status === 'both';
         if (currentFilter === 'hag')     return r.status === 'hag'     || r.status === 'both';
-        if (currentFilter === 'clear')   return r.status === 'clear';
+        if (currentFilter === 'kosher')  return r.status === 'kosher';
         return true;
       });
       var tbody = document.getElementById('race-body');
@@ -242,12 +242,12 @@
       document.getElementById('s-total').textContent   = allRows.length;
       document.getElementById('s-shabbat').textContent = allRows.filter(function(r){ return r.status==='shabbat'; }).length;
       document.getElementById('s-hag').textContent     = allRows.filter(function(r){ return r.status==='hag'||r.status==='both'; }).length;
-      document.getElementById('s-clear').textContent   = allRows.filter(function(r){ return r.status==='clear'; }).length;
+      document.getElementById('s-kosher').textContent  = allRows.filter(function(r){ return r.status==='kosher'; }).length;
     }
 
     function setFilter(f) {
       currentFilter = f;
-      ['all','shabbat','hag','clear'].forEach(function(k) {
+      ['all','shabbat','hag','kosher'].forEach(function(k) {
         document.getElementById('btn-' + k).classList.toggle('active', k === f);
       });
       render();
