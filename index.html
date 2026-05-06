@@ -159,7 +159,7 @@
     </div>
 
     <p class="page-note">
-      Shabbat = Saturday. Hagim = Torah-mandated Yom Tov days (Diaspora observance).
+      Shabbat = Saturday. Hagim = Torah-mandated Yom Tov days (Diaspora observance). Ch"M = Chol HaMoed (intermediate days — clear to run).
       Race data updated nightly from <a href="https://nycruns.com/races" target="_blank" rel="noopener">NYCRUNS</a>.
       Holiday data from <a href="https://www.hebcal.com" target="_blank" rel="noopener">Hebcal.com</a>.
       Last data refresh: <span id="last-updated">—</span>.
@@ -167,22 +167,8 @@
   </div>
 
   <script>
-    var HAG_DATES = {
-      '2026-09-12': 'Rosh Hashana I',
-      '2026-09-13': 'Rosh Hashana II',
-      '2026-09-21': 'Yom Kippur',
-      '2026-09-26': 'Sukkot I',
-      '2026-09-27': 'Sukkot II',
-      '2026-10-03': 'Shemini Atzeret',
-      '2026-10-04': 'Simchat Torah',
-      '2027-04-02': 'Pesach I',
-      '2027-04-03': 'Pesach II',
-      '2027-04-08': 'Pesach VII',
-      '2027-04-09': 'Pesach VIII',
-      '2027-05-22': 'Shavuot I',
-      '2027-05-23': 'Shavuot II',
-    };
-
+    var hagDates = {};
+    var cholHamoedDates = {};
     var allRows = [];
     var currentFilter = 'clear';
 
@@ -193,10 +179,13 @@
 
     function classify(dateStr) {
       var sat = isShabbat(dateStr);
-      var hag = HAG_DATES[dateStr] || null;
+      var hag = hagDates[dateStr] || null;
+      var chm = cholHamoedDates[dateStr] || null;
       if (sat && hag) return { status: 'both',    badge: 'badge-both',    note: hag };
+      if (sat && chm) return { status: 'shabbat', badge: 'badge-shabbat', note: chm };
       if (sat)        return { status: 'shabbat', badge: 'badge-shabbat', note: '' };
       if (hag)        return { status: 'hag',     badge: 'badge-hag',     note: hag };
+      if (chm)        return { status: 'clear',   badge: 'badge-clear',   note: chm };
       return           { status: 'clear',   badge: 'badge-clear',   note: '' };
     }
 
@@ -208,6 +197,12 @@
       var p = dateStr.split('-');
       return new Date(+p[0], +p[1] - 1, +p[2])
         .toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function buildRows(races) {
+      allRows = races.map(function(race) {
+        return Object.assign({}, race, classify(race.date));
+      });
     }
 
     function render() {
@@ -249,43 +244,21 @@
       render();
     }
 
-    function tryEnrichHebcal(data) {
-      if (!data || !data.items) return;
-      var keywords = ['Rosh Hashana','Yom Kippur','Sukkot I','Sukkot II',
-        'Shemini Atzeret','Shmini Atzeret','Simchat Torah',
-        'Pesach I','Pesach II','Pesach VII','Pesach VIII','Shavuot I','Shavuot II'];
-      data.items.forEach(function(item) {
-        if (item.category !== 'holiday' || !item.date) return;
-        var d = item.date.substring(0, 10);
-        keywords.forEach(function(kw) {
-          if (item.title && item.title.indexOf(kw) !== -1) HAG_DATES[d] = item.title;
-        });
-      });
-    }
-
-    function buildRows(races) {
-      allRows = races.map(function(race) {
-        return Object.assign({}, race, classify(race.date));
-      });
-    }
-
-    // Load races.json (updated nightly by GitHub Action)
+    // Load everything from races.json — races, hag_dates, chol_hamoed_dates all in one fetch
     fetch('races.json?_=' + Date.now())
       .then(function(r) {
         if (!r.ok) throw new Error('races.json not found');
         return r.json();
       })
-      .then(function(races) {
-        buildRows(races);
+      .then(function(data) {
+        hagDates         = data.hag_dates         || {};
+        cholHamoedDates  = data.chol_hamoed_dates || {};
+        buildRows(data.races || []);
         updateSummary();
         render();
-        return fetch('races.json', { method: 'HEAD' });
-      })
-      .then(function(r) {
-        var lm = r.headers.get('last-modified');
-        if (lm) {
+        if (data.generated) {
           document.getElementById('last-updated').textContent =
-            new Date(lm).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+            new Date(data.generated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
         }
       })
       .catch(function(err) {
@@ -293,17 +266,6 @@
         document.getElementById('race-body').innerHTML =
           '<tr><td colspan="6" class="msg">Could not load race data. Please try again later.</td></tr>';
       });
-
-    // Enrich hag dates from live Hebcal API
-    Promise.all([2026, 2027].map(function(y) {
-      return fetch('https://www.hebcal.com/hebcal?v=1&cfg=json&maj=on&min=off&nx=off&mf=off&ss=off&mod=off&year=' + y + '&month=x&c=off&geo=none&i=off&lg=s')
-        .then(function(r) { return r.json(); })
-        .catch(function() { return null; });
-    })).then(function(results) {
-      var enriched = false;
-      results.forEach(function(d) { if (d) { tryEnrichHebcal(d); enriched = true; } });
-      if (enriched && allRows.length) { buildRows(allRows); updateSummary(); render(); }
-    });
   </script>
 </body>
 </html>
