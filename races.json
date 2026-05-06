@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T16:35:22Z",
+  "generated": "2026-05-06T16:40:15Z",
   "races": [
     {
       "date": "2026-06-16",
@@ -32,7 +32,7 @@
     {
       "date": "2026-08-22",
       "name": "Nycruns Brooklyn Ice Cream Social Half Marathon",
-      "dist": "HM/HALF MARATHON",
+      "dist": "HM",
       "loc": "Prospect Park, Brooklyn, Ny",
       "url": "https://nycruns.com/race/nycruns-brooklyn-ice-cream-social-half-marathon"
     },
@@ -53,14 +53,14 @@
     {
       "date": "2026-09-26",
       "name": "Nycruns Big Apple Marathon",
-      "dist": "MARATHON",
+      "dist": "Marathon",
       "loc": "Governors Island, New York, Ny",
       "url": "https://nycruns.com/race/nycruns-big-apple-marathon"
     },
     {
       "date": "2026-10-17",
       "name": "Nycruns Falling Leaves Half Marathon",
-      "dist": "HM/HALF MARATHON",
+      "dist": "HM",
       "loc": "Prospect Park, Brooklyn, Ny",
       "url": "https://nycruns.com/race/nycruns-falling-leaves-half-marathon"
     },
@@ -109,7 +109,7 @@
     {
       "date": "2026-12-13",
       "name": "Nycruns Big Apple Half Marathon",
-      "dist": "HM/HALF MARATHON",
+      "dist": "HM",
       "loc": "Central Park, New York, Ny",
       "url": "https://nycruns.com/race/nycruns-big-apple-half-marathon"
     },
@@ -130,7 +130,7 @@
     {
       "date": "2027-02-28",
       "name": "Nycruns Central Park Half Marathon",
-      "dist": "HM/HALF MARATHON",
+      "dist": "HM",
       "loc": "Central Park, New York, Ny",
       "url": "https://nycruns.com/race/nycruns-central-park-half-marathon"
     },
@@ -151,7 +151,7 @@
     {
       "date": "2027-04-25",
       "name": "Nycruns Brooklyn Experience Half Marathon",
-      "dist": "HM/HALF MARATHON",
+      "dist": "HM",
       "loc": "New York, Ny",
       "url": "https://nycruns.com/race/nycruns-brooklyn-experience-half-marathon"
     }
