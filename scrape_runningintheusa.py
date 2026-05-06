@@ -51,7 +51,7 @@ LOC_MAP = {
 }
 
 SKIP_KEYWORDS = [
-    "virtual", "youth", "summer speed", "girls run", "rising nyrr",
+    "virtual", "youth", "summer speed", "girls run", "rising nyrr", "gaza",
 ]
 
 
