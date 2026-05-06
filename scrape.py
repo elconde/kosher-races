@@ -164,8 +164,11 @@ def scrape_races():
         if not date_str:
             continue
         block_text = "\n".join(block_lines)
-        dist_matches = list(dict.fromkeys(DIST_RE.findall(block_text)))
-        dist_label = "/".join(dist_matches).replace("Half Marathon", "HM") if dist_matches else "Race"
+        dist_matches = DIST_RE.findall(block_text)
+        # Normalize to short forms
+        norm = {"HALF MARATHON": "HM", "MARATHON": "Marathon"}
+        dist_matches = list(dict.fromkeys(norm.get(d.upper(), d.upper()) for d in dist_matches))
+        dist_label = "/".join(dist_matches) if dist_matches else "Race"
         loc_match = LOC_RE.search(block_text)
         location = re.sub(r"\s*\|\s*", ", ", loc_match.group(1)).strip() if loc_match else "New York, NY"
 
