@@ -128,7 +128,8 @@ def scrape_races():
 
     # Parse page text
     DIST_RE = re.compile(r"\b(Half Marathon|Marathon|HM|10K|5K|15K|4M)\b", re.IGNORECASE)
-    LOC_RE  = re.compile(r"([A-Z][^\n]*(?:PARK|ISLAND|CENTER|GARDEN|STADIUM|NY|BROOKLYN|MANHATTAN|QUEENS|BRONX)[^\n]*)", re.IGNORECASE)
+    # Locations on nycruns always contain a pipe: "PROSPECT PARK | BROOKLYN, NY"
+    LOC_RE  = re.compile(r"([^\n]+\|[^\n]+)")
 
     lines = full_text.splitlines()
     current_date_str = None
