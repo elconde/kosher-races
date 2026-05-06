@@ -63,7 +63,7 @@ def fetch_hebcal(year):
     """Fetch major holidays from Hebcal for a given Gregorian year."""
     params = {
         "v": "1", "cfg": "json",
-        "maj": "on", "min": "off", "nx": "off",
+        "maj": "on", "min": "on", "nx": "off",
         "mf": "off", "ss": "off", "mod": "off",
         "year": year, "month": "x",
         "c": "off", "geo": "none", "i": "off", "lg": "s",
