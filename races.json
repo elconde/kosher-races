@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T22:04:55Z",
+  "generated": "2026-05-06T22:08:43Z",
   "races": [
     {
       "date": "2026-05-09",
@@ -367,7 +367,7 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/139245",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-06-19",
@@ -407,7 +407,7 @@
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/57489",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-06-21",
@@ -543,7 +543,7 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/58470",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-07-26",
@@ -607,7 +607,7 @@
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/111962",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-08-08",
@@ -639,7 +639,7 @@
       "dist": "HM",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/184374",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-09-12",
@@ -647,7 +647,7 @@
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/175497",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-09-12",
@@ -911,7 +911,7 @@
       "dist": "HM",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/82980",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-10-18",
@@ -975,7 +975,7 @@
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/29756",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-10-25",
@@ -983,7 +983,7 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/164020",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-10-25",
@@ -1047,7 +1047,7 @@
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/58996",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-11-14",
@@ -1071,7 +1071,7 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/191801",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-11-15",
@@ -1087,7 +1087,7 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/198391",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-11-22",
@@ -1175,7 +1175,7 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/27131",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-12-06",
@@ -1199,7 +1199,7 @@
       "dist": "HM",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/29872",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2026-12-13",
@@ -1247,7 +1247,7 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/47575",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-01-16",
@@ -1255,7 +1255,7 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/179469",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-01-16",
@@ -1319,7 +1319,7 @@
       "dist": "HM",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/26507",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-03-06",
@@ -1327,7 +1327,7 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/179470",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-03-07",
@@ -1367,7 +1367,7 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/179471",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-04-24",
@@ -1383,7 +1383,7 @@
       "dist": "HM",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/21654",
-      "source": ""
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-05-01",
