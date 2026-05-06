@@ -257,8 +257,14 @@
         updateSummary();
         render();
         if (data.generated) {
-          document.getElementById('last-updated').textContent =
-            new Date(data.generated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+          var d = new Date(data.generated);
+          document.getElementById("last-updated").textContent =
+            d.getFullYear() + "-" +
+            String(d.getMonth() + 1).padStart(2, "0") + "-" +
+            String(d.getDate()).padStart(2, "0") + " " +
+            String(d.getHours()).padStart(2, "0") + ":" +
+            String(d.getMinutes()).padStart(2, "0") + ":" +
+            String(d.getSeconds()).padStart(2, "0");
         }
       })
       .catch(function(err) {
