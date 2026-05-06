@@ -24,19 +24,9 @@ MONTH_MAP = {
     "september": "09", "october": "10", "november": "11", "december": "12",
 }
 
-# Hebcal holiday title substrings that are full Yom Tov (no running)
-HAG_KEYWORDS = [
-    'Rosh Hashana', 'Yom Kippur',
-    'Sukkot I', 'Sukkot II',
-    'Shemini Atzeret', 'Shmini Atzeret', 'Simchat Torah',
-    'Pesach I', 'Pesach II', 'Pesach VII', 'Pesach VIII',
-    'Shavuot I', 'Shavuot II',
-]
-
-# Hebcal holiday title substrings that are Chol HaMoed (clear to run, but note it)
-CHOL_HAMOED_KEYWORDS = [
-    'Chol ha-Moed', 'Chol HaMoed',
-]
+# Hebcal marks full Yom Tov days with yomtov=true in the JSON.
+# Chol HaMoed entries have category=holiday but yomtov is absent/false.
+# We use this field rather than title matching for reliability.
 
 
 def parse_date(date_str):
@@ -79,19 +69,21 @@ def fetch_hebcal(year):
 
 def build_holiday_maps(races):
     """
-    Fetch Hebcal data for years covered by the race list and return
-    (hag_dates, chol_hamoed_dates) dicts mapping date strings -> holiday name.
+    Fetch Hebcal data for years covered by the race list.
+
+    Uses the yomtov=true field to identify full Yom Tov days (no running),
+    and treats major-category holidays without yomtov=true as Chol HaMoed
+    (clear to run, but worth noting).
+
+    Returns (hag_dates, chol_hamoed_dates) dicts mapping date string -> title.
     """
-    # Determine which years we need
     years = set()
     today = date.today()
     for r in races:
         try:
-            y = int(r["date"][:4])
-            years.add(y)
+            years.add(int(r["date"][:4]))
         except Exception:
             pass
-    # Also include next year in case races extend that far
     years.add(today.year)
     years.add(today.year + 1)
 
@@ -109,9 +101,11 @@ def build_holiday_maps(races):
             if not d:
                 continue
             title = item.get("title", "")
-            if any(kw in title for kw in HAG_KEYWORDS):
+            if item.get("yomtov"):
+                # Full Yom Tov — no running
                 hag_dates[d] = title
-            elif any(kw in title for kw in CHOL_HAMOED_KEYWORDS):
+            elif item.get("subcat") == "major" and ("Moed" in title or "moed" in title):
+                # Chol HaMoed — clear to run but flag it
                 chol_hamoed_dates[d] = title
 
     print(f"  Found {len(hag_dates)} Yom Tov days, {len(chol_hamoed_dates)} Chol HaMoed days")

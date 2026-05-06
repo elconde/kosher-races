@@ -32,12 +32,12 @@
     "2026-09-27": "Sukkot II",
     "2026-10-03": "Shemini Atzeret",
     "2026-10-04": "Simchat Torah",
-    "2027-04-02": "Pesach I",
-    "2027-04-03": "Pesach II",
-    "2027-04-08": "Pesach VII",
-    "2027-04-09": "Pesach VIII",
-    "2027-05-22": "Shavuot I",
-    "2027-05-23": "Shavuot II"
+    "2027-04-22": "Pesach I",
+    "2027-04-23": "Pesach II",
+    "2027-04-28": "Pesach VII",
+    "2027-04-29": "Pesach VIII",
+    "2027-06-11": "Shavuot I",
+    "2027-06-12": "Shavuot II"
   },
   "chol_hamoed_dates": {
     "2026-09-28": "Chol ha-Moed Sukkot",
@@ -45,9 +45,9 @@
     "2026-09-30": "Chol ha-Moed Sukkot",
     "2026-10-01": "Chol ha-Moed Sukkot",
     "2026-10-02": "Chol ha-Moed Sukkot",
-    "2027-04-04": "Chol ha-Moed Pesach",
-    "2027-04-05": "Chol ha-Moed Pesach",
-    "2027-04-06": "Chol ha-Moed Pesach",
-    "2027-04-07": "Chol ha-Moed Pesach"
+    "2027-04-24": "Chol ha-Moed Pesach",
+    "2027-04-25": "Chol ha-Moed Pesach",
+    "2027-04-26": "Chol ha-Moed Pesach",
+    "2027-04-27": "Chol ha-Moed Pesach"
   }
 }
