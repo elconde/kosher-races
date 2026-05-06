@@ -24,20 +24,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright
+          pip install playwright requests
           playwright install chromium --with-deps
 
       - name: Run scraper
         run: python scrape.py
 
-      - name: Commit races.json if changed
+      - name: Commit races.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add races.json
-          if git diff --cached --quiet; then
-            echo "No changes to races.json — nothing to commit."
-          else
-            git commit -m "chore: update races.json [skip ci]"
-            git push
-          fi
+          git commit -m "chore: update races.json [skip ci]"
+          git push
