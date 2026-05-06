@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T21:56:16Z",
+  "generated": "2026-05-06T22:01:58Z",
   "races": [
     {
       "date": "2026-05-09",
@@ -787,6 +787,14 @@
     },
     {
       "date": "2026-09-27",
+      "name": "Run For Children's Smile 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/130116",
+      "source": ""
+    },
+    {
+      "date": "2026-09-27",
       "name": "INCLUDEnyc 5K Run, Walk, or Roll for Love, Equity and Access",
       "dist": "5K",
       "loc": "Queens",
@@ -915,6 +923,14 @@
     },
     {
       "date": "2026-10-18",
+      "name": "Faith in Children 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/125335",
+      "source": ""
+    },
+    {
+      "date": "2026-10-18",
       "name": "Get Your Rear in Gear - New York",
       "dist": "5K",
       "loc": "Manhattan",
@@ -1019,6 +1035,14 @@
     },
     {
       "date": "2026-11-08",
+      "name": "Global Kids 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/34180",
+      "source": ""
+    },
+    {
+      "date": "2026-11-08",
       "name": "Brooklyn Fall Half",
       "dist": "HM/10K/5K",
       "loc": "Brooklyn",
@@ -1039,6 +1063,14 @@
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/198750",
+      "source": ""
+    },
+    {
+      "date": "2026-11-14",
+      "name": "QDR Kids of Queens 5K & Mile",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/193020",
       "source": ""
     },
     {
