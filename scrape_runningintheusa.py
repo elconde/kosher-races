@@ -11,7 +11,13 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.runningintheusa.com"
-LIST_URL = BASE_URL + "/classic/list/new%20york-NY/upcoming"
+LIST_URLS = [
+    BASE_URL + "/classic/list/new%20york-ny/upcoming/Run",
+    BASE_URL + "/classic/list/bronx-ny/upcoming/Run",
+    BASE_URL + "/classic/list/brooklyn-ny/upcoming/Run",
+    BASE_URL + "/classic/list/queens-ny/upcoming/Run",
+    BASE_URL + "/classic/list/staten%20island-ny/upcoming/Run",
+]
 
 HEADERS = {
     "User-Agent": (
@@ -77,8 +83,8 @@ def should_skip(name, dist_raw):
     return any(kw in name_lower for kw in SKIP_KEYWORDS)
 
 
-def fetch_page(n):
-    url = f"{LIST_URL}/page-{n}"
+def fetch_page(list_url, n):
+    url = f"{list_url}/page-{n}"
     r = requests.get(url, headers=HEADERS, timeout=15)
     r.raise_for_status()
     return r.text
@@ -128,7 +134,7 @@ def parse_page(html):
         dist = norm_dist(dist_raw)
 
         detail_a = tds[2].find("a", href=lambda h: h and "/details/" in h)
-        url = (BASE_URL + detail_a["href"]) if detail_a else LIST_URL
+        url = (BASE_URL + detail_a["href"]) if detail_a else BASE_URL
 
         loc_b = tds[3].find("b")
         loc = loc_b.get_text(strip=True) if loc_b else "New York, NY"
@@ -150,18 +156,15 @@ def parse_page(html):
     return races, total
 
 
-def scrape():
-    print(f"\nFetching {LIST_URL} ...", flush=True)
-
+def scrape_list(list_url):
     all_races = []
     total = None
     page = 1
     per_page = 20
 
     while True:
-        print(f"  Page {page}...", flush=True)
         try:
-            html = fetch_page(page)
+            html = fetch_page(list_url, page)
         except Exception as e:
             print(f"  Warning: page {page} failed: {e}", flush=True)
             break
@@ -178,7 +181,21 @@ def scrape():
             break
         page += 1
 
+    return all_races
+
+
+def scrape():
+    seen_urls = set()
+    all_races = []
+
+    for list_url in LIST_URLS:
+        print(f"\nFetching {list_url} ...", flush=True)
+        for race in scrape_list(list_url):
+            if race["url"] not in seen_urls:
+                seen_urls.add(race["url"])
+                all_races.append(race)
+
     today = date_cls.today().isoformat()
     upcoming = [r for r in all_races if r["date"] >= today]
-    print(f"  [RUSA] {len(upcoming)} upcoming races", flush=True)
+    print(f"\n  [RUSA] {len(upcoming)} upcoming races total", flush=True)
     return upcoming
