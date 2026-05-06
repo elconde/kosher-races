@@ -36,6 +36,9 @@
     }
     .metric-label { font-size: 12px; color: #6b6b67; margin-bottom: 4px; }
     .metric-value { font-size: 24px; font-weight: 600; }
+    .metric-shabbat { color: #3730A3; }
+    .metric-hag     { color: #991B1B; }
+    .metric-clear   { color: #14532D; }
 
     .filter-row { display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
     .filter-label { font-size: 13px; color: #6b6b67; }
@@ -101,6 +104,9 @@
       .subtitle { color: #9b9b97; }
       .metric { background: #2a2a27; border-color: #3a3a37; }
       .metric-label { color: #9b9b97; }
+      .metric-shabbat { color: #4338CA; }
+      .metric-hag     { color: #B91C1C; }
+      .metric-clear   { color: #15803D; }
       .filter-btn { border-color: #3a3a37; color: #9b9b97; }
       .filter-btn:hover { background: #2a2a27; }
       .filter-btn.active { background: #2a2a27; border-color: #888887; color: #e8e8e4; }
@@ -127,9 +133,9 @@
 
     <div class="summary-grid">
       <div class="metric"><div class="metric-label">Total races</div><div class="metric-value" id="s-total">—</div></div>
-      <div class="metric"><div class="metric-label">On Shabbat</div><div class="metric-value" id="s-shabbat" style="color:#534AB7">—</div></div>
-      <div class="metric"><div class="metric-label">On a Hag</div><div class="metric-value" id="s-hag" style="color:#993C1D">—</div></div>
-      <div class="metric"><div class="metric-label">Clear days</div><div class="metric-value" id="s-clear" style="color:#3B6D11">—</div></div>
+      <div class="metric"><div class="metric-label">On Shabbat</div><div class="metric-value metric-shabbat" id="s-shabbat">—</div></div>
+      <div class="metric"><div class="metric-label">On a Hag</div><div class="metric-value metric-hag" id="s-hag">—</div></div>
+      <div class="metric"><div class="metric-label">Clear days</div><div class="metric-value metric-clear" id="s-clear">—</div></div>
     </div>
 
     <div class="filter-row">
