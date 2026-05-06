@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T16:27:31Z",
+  "generated": "2026-05-06T16:35:22Z",
   "races": [
     {
       "date": "2026-06-16",
@@ -147,13 +147,6 @@
       "dist": "5K",
       "loc": "Prospect Park, Brooklyn, Ny",
       "url": "https://nycruns.com/race/nycruns-prospect-park-5k"
-    },
-    {
-      "date": "2027-04-11",
-      "name": "Become A Member",
-      "dist": "5K",
-      "loc": "Prospect Park, Brooklyn, Ny",
-      "url": "https://nycruns.com/race/paid-membership"
     },
     {
       "date": "2027-04-25",
