@@ -178,7 +178,8 @@ def scrape_races():
             if url and url not in seen_urls:
                 seen_urls.add(url)
                 race_name = line.strip().title()
-                races.append({"date": date_str, "name": race_name, "dist": dist_label, "loc": location.title(), "url": url})
+                loc_clean = re.sub(r',\s*Ny\b', '', location.title()).strip().rstrip(',').strip()
+                races.append({"date": date_str, "name": race_name, "dist": dist_label, "loc": loc_clean, "url": url})
                 print(f"  Found: {date_str} — {race_name} ({dist_label})", flush=True)
 
     today = date.today().isoformat()
