@@ -1,22 +1,21 @@
 #!/usr/bin/env python3
 """
-Main scraper — orchestrates NYCRUNS and NYRR scrapers, fetches Hebcal
+Main scraper — orchestrates runningintheusa.com scraper, fetches Hebcal
 holiday data, and writes races.json.
 
-Requires: playwright, requests
-  pip install playwright requests
-  playwright install chromium --with-deps
+Requires: requests, beautifulsoup4
+  pip install requests beautifulsoup4
 """
 
 import json
 import sys
 import traceback
-from datetime import datetime, date
+from datetime import datetime, date, timezone
+UTC = timezone.utc
 
 import requests
 
-import scrape_nycruns
-import scrape_nyrr
+import scrape_runningintheusa
 
 HEBCAL_URL = "https://www.hebcal.com/hebcal"
 
@@ -68,23 +67,7 @@ def build_holiday_maps(races):
 
 def main():
     try:
-        from playwright.sync_api import sync_playwright
-    except ImportError as e:
-        print(f"ERROR: playwright import failed: {e}", file=sys.stderr)
-        sys.exit(1)
-
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page(user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-            ))
-
-            nycruns_races = scrape_nycruns.scrape(page)
-            nyrr_races    = scrape_nyrr.scrape(page)
-
-            browser.close()
+        all_races = scrape_runningintheusa.scrape()
     except Exception as e:
         print(f"ERROR during scrape: {e}", file=sys.stderr)
         traceback.print_exc()
@@ -92,10 +75,10 @@ def main():
 
     today = date.today().isoformat()
     all_races = sorted(
-        [r for r in nycruns_races + nyrr_races if r["date"] >= today],
-        key=lambda r: (r["date"], r["source"])
+        [r for r in all_races if r["date"] >= today],
+        key=lambda r: r["date"]
     )
-    print(f"\nTotal: {len(all_races)} races ({len(nycruns_races)} NYCRUNS, {len(nyrr_races)} NYRR)", flush=True)
+    print(f"\nTotal: {len(all_races)} races", flush=True)
 
     if not all_races:
         print("ERROR: No races found — aborting.", file=sys.stderr)
@@ -105,7 +88,7 @@ def main():
     hag_dates, chol_hamoed_dates = build_holiday_maps(all_races)
 
     output = {
-        "generated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "races": all_races,
         "hag_dates": hag_dates,
         "chol_hamoed_dates": chol_hamoed_dates,
