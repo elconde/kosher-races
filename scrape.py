@@ -14,7 +14,8 @@ MONTH_MAP = {
 }
 
 DATE_RE = re.compile(
-    r"((?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+\w+\s+\d{1,2},\s+\d{4})"
+    r"((?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+\w+\s+\d{1,2},\s+\d{4})",
+    re.IGNORECASE
 )
 
 
@@ -22,7 +23,8 @@ def parse_date(date_str):
     m = re.match(
         r"(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+"
         r"(\w+)\s+(\d{1,2}),\s+(\d{4})",
-        date_str.strip()
+        date_str.strip(),
+        re.IGNORECASE
     )
     if m:
         month = MONTH_MAP.get(m.group(1).lower())
@@ -108,7 +110,7 @@ def scrape_races():
                 href = link.get_attribute("href") or ""
                 if not re.search(r"/race/[a-z]", href):
                     continue
-                name = (link.inner_text() or "").strip().upper()
+                name = re.sub(r'\s+', ' ', (link.inner_text() or "")).strip().upper()
                 if len(name) < 4:
                     continue
                 if href.startswith("/"):
@@ -125,8 +127,8 @@ def scrape_races():
         sys.exit(1)
 
     # Parse page text
-    DIST_RE = re.compile(r"\b(Half Marathon|Marathon|10K|5K|15K|4M)\b")
-    LOC_RE  = re.compile(r"([A-Z][^\n]*(?:Park|Island|Center|Garden|Stadium|NY|Brooklyn|Manhattan|Queens|Bronx)[^\n]*)")
+    DIST_RE = re.compile(r"\b(Half Marathon|Marathon|HM|10K|5K|15K|4M)\b", re.IGNORECASE)
+    LOC_RE  = re.compile(r"([A-Z][^\n]*(?:PARK|ISLAND|CENTER|GARDEN|STADIUM|NY|BROOKLYN|MANHATTAN|QUEENS|BRONX)[^\n]*)", re.IGNORECASE)
 
     lines = full_text.splitlines()
     current_date_str = None
@@ -163,12 +165,13 @@ def scrape_races():
         location = re.sub(r"\s*\|\s*", ", ", loc_match.group(1)).strip() if loc_match else "New York, NY"
 
         for line in block_lines:
-            key = line.strip().upper()
+            key = re.sub(r'\s+', ' ', line).strip().upper()
             url = url_map.get(key)
             if url and url not in seen_urls:
                 seen_urls.add(url)
-                races.append({"date": date_str, "name": line.strip(), "dist": dist_label, "loc": location, "url": url})
-                print(f"  Found: {date_str} — {line.strip()} ({dist_label})", flush=True)
+                race_name = line.strip().title()
+                races.append({"date": date_str, "name": race_name, "dist": dist_label, "loc": location.title(), "url": url})
+                print(f"  Found: {date_str} — {race_name} ({dist_label})", flush=True)
 
     today = date.today().isoformat()
     races = sorted([r for r in races if r["date"] >= today], key=lambda r: r["date"])
