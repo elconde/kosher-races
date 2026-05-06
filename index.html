@@ -239,7 +239,7 @@
       allRows.forEach(function(r) {
         r.dist.split('/').forEach(function(d) { seen[d.trim()] = true; });
       });
-      var dists = Object.keys(seen).sort(function(a, b) {
+      var dists = Object.keys(seen).filter(function(d) { return d !== 'Race'; }).sort(function(a, b) {
         return distToMiles(a) - distToMiles(b);
       });
       var container = document.getElementById('dist-btns');
