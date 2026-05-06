@@ -57,7 +57,7 @@ def build_holiday_maps(races):
             title = item.get("title", "")
             if item.get("yomtov"):
                 hag_dates[d] = title
-            elif item.get("subcat") == "major" and ("Moed" in title or "moed" in title):
+            elif not item.get("yomtov") and "CH''M" in item.get("title_orig", ""):
                 chol_hamoed_dates[d] = title
 
     print(f"  {len(hag_dates)} Yom Tov, {len(chol_hamoed_dates)} Chol HaMoed", flush=True)
