@@ -11,7 +11,7 @@ Requires: playwright, requests
 import json
 import re
 import sys
-from datetime import datetime, date, timedelta
+from datetime import datetime, date
 import requests
 from playwright.sync_api import sync_playwright
 
@@ -24,33 +24,23 @@ MONTH_MAP = {
     "september": "09", "october": "10", "november": "11", "december": "12",
 }
 
-# Hebcal marks full Yom Tov days with yomtov=true in the JSON.
-# Chol HaMoed entries have category=holiday but yomtov is absent/false.
-# We use this field rather than title matching for reliability.
-
 
 def parse_date(date_str):
     """Convert 'Saturday, July 25, 2026' -> '2026-07-25'"""
     date_str = date_str.strip()
-    if "," in date_str:
-        parts = date_str.split(",")
-        if len(parts) == 3:
-            month_day = parts[1].strip().split()
-            year = parts[2].strip()
-            month = MONTH_MAP.get(month_day[0].lower(), "00")
-            day = month_day[1].zfill(2)
-            return f"{year}-{month}-{day}"
-        elif len(parts) == 2:
-            tokens = parts[0].strip().split() + [parts[1].strip()]
-            month = MONTH_MAP.get(tokens[0].lower(), "00")
-            day = tokens[1].zfill(2)
-            year = tokens[2]
-            return f"{year}-{month}-{day}"
+    m = re.match(
+        r"(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+"
+        r"(\w+)\s+(\d{1,2}),\s+(\d{4})",
+        date_str
+    )
+    if m:
+        month = MONTH_MAP.get(m.group(1).lower())
+        if month:
+            return f"{m.group(3)}-{month}-{m.group(2).zfill(2)}"
     return None
 
 
 def fetch_hebcal(year):
-    """Fetch major holidays from Hebcal for a given Gregorian year."""
     params = {
         "v": "1", "cfg": "json",
         "maj": "on", "min": "on", "nx": "off",
@@ -68,15 +58,6 @@ def fetch_hebcal(year):
 
 
 def build_holiday_maps(races):
-    """
-    Fetch Hebcal data for years covered by the race list.
-
-    Uses the yomtov=true field to identify full Yom Tov days (no running),
-    and treats major-category holidays without yomtov=true as Chol HaMoed
-    (clear to run, but worth noting).
-
-    Returns (hag_dates, chol_hamoed_dates) dicts mapping date string -> title.
-    """
     years = set()
     today = date.today()
     for r in races:
@@ -102,10 +83,8 @@ def build_holiday_maps(races):
                 continue
             title = item.get("title", "")
             if item.get("yomtov"):
-                # Full Yom Tov — no running
                 hag_dates[d] = title
             elif item.get("subcat") == "major" and ("Moed" in title or "moed" in title):
-                # Chol HaMoed — clear to run but flag it
                 chol_hamoed_dates[d] = title
 
     print(f"  Found {len(hag_dates)} Yom Tov days, {len(chol_hamoed_dates)} Chol HaMoed days")
@@ -113,7 +92,10 @@ def build_holiday_maps(races):
 
 
 def scrape_races():
-    """Use a headless browser to scrape upcoming races from nycruns.com."""
+    """
+    Scrape nycruns.com by extracting the full page text and parsing it
+    as a sequence of date-headed race blocks.
+    """
     races = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -126,74 +108,94 @@ def scrape_races():
         print(f"Fetching {RACES_URL} ...")
         page.goto(RACES_URL, wait_until="networkidle", timeout=30000)
 
-        race_links = page.query_selector_all("a[href*='/race/']")
-        seen_urls = set()
+        # Grab all race entry containers. Each race on nycruns has a link to /race/slug
+        # and lives alongside a visible date. We collect per-race data via JS evaluation
+        # of the DOM, walking up to find the nearest ancestor that contains a date string.
 
-        for link in race_links:
+        # Strategy: get the full innerText of the page, then parse it as structured text.
+        # The rendered page text looks like:
+        #   "Tuesday, June 16, 2026\nTue, June 16, 2026\n5K\nNYCRUNS Lousy T-Shirt Race...\nProspect Park..."
+        # We also collect hrefs separately to match names to URLs.
+
+        full_text = page.evaluate("() => document.body.innerText")
+
+        # Collect all race URLs keyed by the slug portion of the name
+        links = page.query_selector_all("a[href*='/race/']")
+        url_map = {}  # normalised name -> full url
+        for link in links:
             href = link.get_attribute("href") or ""
             if not re.search(r"/race/[a-z]", href):
                 continue
-            if href in seen_urls:
-                continue
-            seen_urls.add(href)
-
-            name = (link.inner_text() or "").strip()
+            name = (link.inner_text() or "").strip().upper()
             if not name or len(name) < 4:
                 continue
-
-            block = link
-            date_str = None
-            location = ""
-            distances = []
-
-            for _ in range(8):
-                block = page.evaluate("el => el.parentElement", block)
-                if not block:
-                    break
-                text = (page.evaluate("el => el.innerText", block) or "").strip()
-
-                date_match = re.search(
-                    r"(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+"
-                    r"(\w+ \d{1,2},\s+\d{4})",
-                    text
-                )
-                if date_match:
-                    date_str = parse_date(date_match.group(0))
-
-                loc_match = re.search(
-                    r"([A-Z][^\n|]+\|[^\n]+|[A-Z][^\n]+(Park|Island|Center|Garden|Stadium)[^\n]*)",
-                    text
-                )
-                if loc_match and not location:
-                    location = loc_match.group(0).strip()
-
-                dist_matches = re.findall(r"\b(Half Marathon|HM|Marathon|10K|5K|15K|4M)\b", text)
-                if dist_matches and not distances:
-                    distances = list(dict.fromkeys(dist_matches))
-
-                if date_str:
-                    break
-
-            if not date_str:
-                print(f"  Skipping (no date found): {name[:60]}")
-                continue
-
-            dist_label = "/".join(distances) if distances else "Race"
-            dist_label = dist_label.replace("Half Marathon", "HM")
-
             if href.startswith("/"):
                 href = "https://nycruns.com" + href
-
-            races.append({
-                "date": date_str,
-                "name": name,
-                "dist": dist_label,
-                "loc": location or "New York, NY",
-                "url": href,
-            })
-            print(f"  Found: {date_str} — {name} ({dist_label})")
+            url_map[name] = href
 
         browser.close()
+
+    # Parse the full page text into race blocks.
+    # Split on lines that look like a full date heading: "Tuesday, June 16, 2026"
+    DATE_LINE = re.compile(
+        r"^((?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+\w+ \d{1,2},\s+\d{4})$"
+    )
+    DIST_RE = re.compile(r"\b(Half Marathon|Marathon|10K|5K|15K|4M)\b")
+    LOC_RE  = re.compile(r"([A-Z][^\n]*(?:Park|Island|Center|Garden|Stadium|NY|Brooklyn|Manhattan|Queens|Bronx)[^\n]*)")
+
+    lines = full_text.splitlines()
+    current_date = None
+    current_block = []
+    blocks = []  # list of (date_str, lines)
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        m = DATE_LINE.match(line)
+        if m:
+            if current_date and current_block:
+                blocks.append((current_date, current_block))
+            current_date = parse_date(m.group(1))
+            current_block = []
+        else:
+            if current_date:
+                current_block.append(line)
+
+    if current_date and current_block:
+        blocks.append((current_date, current_block))
+
+    seen_urls = set()
+    for date_str, block_lines in blocks:
+        if not date_str:
+            continue
+
+        block_text = "\n".join(block_lines)
+
+        # Find distance badges
+        dist_matches = list(dict.fromkeys(DIST_RE.findall(block_text)))
+        dist_label = "/".join(dist_matches).replace("Half Marathon", "HM") if dist_matches else "Race"
+
+        # Find location
+        loc_match = LOC_RE.search(block_text)
+        location = loc_match.group(1).strip() if loc_match else "New York, NY"
+        # Clean up location — remove pipe separators common in nycruns formatting
+        location = re.sub(r"\s*\|\s*", ", ", location).strip()
+
+        # Find race name(s) — lines that match a URL key
+        for line in block_lines:
+            key = line.strip().upper()
+            url = url_map.get(key)
+            if url and url not in seen_urls:
+                seen_urls.add(url)
+                races.append({
+                    "date": date_str,
+                    "name": line.strip(),
+                    "dist": dist_label,
+                    "loc": location,
+                    "url": url,
+                })
+                print(f"  Found: {date_str} — {line.strip()} ({dist_label})")
 
     # Sort and drop past races
     races.sort(key=lambda r: r["date"])
