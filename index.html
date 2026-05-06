@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYC Races & the Jewish Calendar</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #f5f4f0;
+      color: #1a1a18;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    .container { max-width: 900px; margin: 0 auto; }
+
+    h1 { font-size: 26px; font-weight: 600; color: #1a1a18; margin-bottom: 4px; }
+    .subtitle { font-size: 14px; color: #6b6b67; margin-bottom: 1.75rem; }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 540px) { .summary-grid { grid-template-columns: repeat(2, 1fr); } }
+
+    .metric {
+      background: #fff;
+      border: 0.5px solid #ddddd8;
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+    }
+    .metric-label { font-size: 12px; color: #6b6b67; margin-bottom: 4px; }
+    .metric-value { font-size: 24px; font-weight: 600; }
+
+    .filter-row { display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+    .filter-label { font-size: 13px; color: #6b6b67; }
+    .filter-btn {
+      font-size: 13px; padding: 5px 14px;
+      border: 0.5px solid #c5c5c0; border-radius: 20px;
+      background: transparent; color: #6b6b67; cursor: pointer; transition: all 0.15s;
+    }
+    .filter-btn:hover { background: #eeeee9; }
+    .filter-btn.active {
+      background: #fff; border-color: #888887;
+      color: #1a1a18; font-weight: 500;
+    }
+
+    .table-wrap {
+      background: #fff; border: 0.5px solid #ddddd8;
+      border-radius: 12px; overflow: hidden; overflow-x: auto;
+    }
+
+    table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 600px; }
+    th {
+      text-align: left; font-size: 11px; font-weight: 600; color: #6b6b67;
+      padding: 10px 14px; border-bottom: 0.5px solid #ddddd8;
+      text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap;
+    }
+    td { padding: 11px 14px; border-bottom: 0.5px solid #eeeee9; vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf7; }
+
+    .race-link { color: #185fa5; text-decoration: none; font-weight: 500; }
+    .race-link:hover { text-decoration: underline; }
+
+    .badge {
+      display: inline-block; font-size: 11px; font-weight: 600;
+      padding: 2px 9px; border-radius: 10px; white-space: nowrap;
+    }
+    .badge-shabbat { background: #EEEDFE; color: #3C3489; }
+    .badge-hag     { background: #FAECE7; color: #712B13; }
+    .badge-both    { background: #FAEEDA; color: #633806; }
+    .badge-clear   { background: #EAF3DE; color: #27500A; }
+
+    .dist-badge {
+      font-size: 11px; color: #6b6b67;
+      border: 0.5px solid #ddddd8; border-radius: 8px; padding: 1px 7px; white-space: nowrap;
+    }
+
+    .td-date { white-space: nowrap; font-size: 13px; color: #6b6b67; }
+    .td-loc  { font-size: 13px; color: #6b6b67; }
+    .td-note { font-size: 13px; color: #6b6b67; }
+
+    .msg { text-align: center; padding: 2.5rem; color: #6b6b67; font-size: 14px; }
+
+    .page-note {
+      font-size: 12px; color: #9b9b97; margin-top: 1rem;
+      padding-top: 0.75rem; border-top: 0.5px solid #ddddd8;
+    }
+    .page-note a { color: #185fa5; text-decoration: none; }
+    .page-note a:hover { text-decoration: underline; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1a1a18; color: #e8e8e4; }
+      h1 { color: #e8e8e4; }
+      .subtitle { color: #9b9b97; }
+      .metric { background: #2a2a27; border-color: #3a3a37; }
+      .metric-label { color: #9b9b97; }
+      .filter-btn { border-color: #3a3a37; color: #9b9b97; }
+      .filter-btn:hover { background: #2a2a27; }
+      .filter-btn.active { background: #2a2a27; border-color: #888887; color: #e8e8e4; }
+      .table-wrap { background: #2a2a27; border-color: #3a3a37; }
+      th { color: #9b9b97; border-color: #3a3a37; }
+      td { border-color: #333330; }
+      tr:hover td { background: #323230; }
+      .race-link { color: #85b7eb; }
+      .td-date, .td-loc, .td-note { color: #9b9b97; }
+      .dist-badge { color: #9b9b97; border-color: #3a3a37; }
+      .badge-shabbat { background: #26215C; color: #CECBF6; }
+      .badge-hag     { background: #4A1B0C; color: #F5C4B3; }
+      .badge-both    { background: #412402; color: #FAC775; }
+      .badge-clear   { background: #173404; color: #C0DD97; }
+      .page-note { color: #6b6b67; border-color: #3a3a37; }
+      .page-note a { color: #85b7eb; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>NYC Races &amp; the Jewish Calendar</h1>
+    <p class="subtitle">NYCRUNS upcoming races checked against Shabbat and Yom Tov dates</p>
+
+    <div class="summary-grid">
+      <div class="metric"><div class="metric-label">Total races</div><div class="metric-value" id="s-total">—</div></div>
+      <div class="metric"><div class="metric-label">On Shabbat</div><div class="metric-value" id="s-shabbat" style="color:#534AB7">—</div></div>
+      <div class="metric"><div class="metric-label">On a Hag</div><div class="metric-value" id="s-hag" style="color:#993C1D">—</div></div>
+      <div class="metric"><div class="metric-label">Clear days</div><div class="metric-value" id="s-clear" style="color:#3B6D11">—</div></div>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Show:</span>
+      <button class="filter-btn" id="btn-all"     onclick="setFilter('all')">All races</button>
+      <button class="filter-btn" id="btn-shabbat" onclick="setFilter('shabbat')">Shabbat</button>
+      <button class="filter-btn" id="btn-hag"     onclick="setFilter('hag')">Hag</button>
+      <button class="filter-btn active" id="btn-clear" onclick="setFilter('clear')">Clear</button>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Race</th>
+            <th>Dist</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th>Holiday</th>
+          </tr>
+        </thead>
+        <tbody id="race-body">
+          <tr><td colspan="6" class="msg">Loading race data…</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="page-note">
+      Shabbat = Saturday. Hagim = Torah-mandated Yom Tov days (Diaspora observance).
+      Race data updated nightly from <a href="https://nycruns.com/races" target="_blank" rel="noopener">NYCRUNS</a>.
+      Holiday data from <a href="https://www.hebcal.com" target="_blank" rel="noopener">Hebcal.com</a>.
+      Last data refresh: <span id="last-updated">—</span>.
+    </p>
+  </div>
+
+  <script>
+    var HAG_DATES = {
+      '2026-09-12': 'Rosh Hashana I',
+      '2026-09-13': 'Rosh Hashana II',
+      '2026-09-21': 'Yom Kippur',
+      '2026-09-26': 'Sukkot I',
+      '2026-09-27': 'Sukkot II',
+      '2026-10-03': 'Shemini Atzeret',
+      '2026-10-04': 'Simchat Torah',
+      '2027-04-02': 'Pesach I',
+      '2027-04-03': 'Pesach II',
+      '2027-04-08': 'Pesach VII',
+      '2027-04-09': 'Pesach VIII',
+      '2027-05-22': 'Shavuot I',
+      '2027-05-23': 'Shavuot II',
+    };
+
+    var allRows = [];
+    var currentFilter = 'clear';
+
+    function isShabbat(dateStr) {
+      var p = dateStr.split('-');
+      return new Date(+p[0], +p[1] - 1, +p[2]).getDay() === 6;
+    }
+
+    function classify(dateStr) {
+      var sat = isShabbat(dateStr);
+      var hag = HAG_DATES[dateStr] || null;
+      if (sat && hag) return { status: 'both',    badge: 'badge-both',    note: hag };
+      if (sat)        return { status: 'shabbat', badge: 'badge-shabbat', note: '' };
+      if (hag)        return { status: 'hag',     badge: 'badge-hag',     note: hag };
+      return           { status: 'clear',   badge: 'badge-clear',   note: '' };
+    }
+
+    function statusLabel(s) {
+      return { shabbat: 'Shabbat', hag: 'Hag', both: 'Shabbat + Hag', clear: 'Clear' }[s] || s;
+    }
+
+    function fmtDate(dateStr) {
+      var p = dateStr.split('-');
+      return new Date(+p[0], +p[1] - 1, +p[2])
+        .toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function render() {
+      var rows = allRows.filter(function(r) {
+        if (currentFilter === 'shabbat') return r.status === 'shabbat' || r.status === 'both';
+        if (currentFilter === 'hag')     return r.status === 'hag'     || r.status === 'both';
+        if (currentFilter === 'clear')   return r.status === 'clear';
+        return true;
+      });
+      var tbody = document.getElementById('race-body');
+      if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="6" class="msg">No races match this filter.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = rows.map(function(r) {
+        return '<tr>'
+          + '<td class="td-date">' + fmtDate(r.date) + '</td>'
+          + '<td><a class="race-link" href="' + r.url + '" target="_blank" rel="noopener">' + r.name + '</a></td>'
+          + '<td><span class="dist-badge">' + r.dist + '</span></td>'
+          + '<td class="td-loc">' + r.loc + '</td>'
+          + '<td><span class="badge ' + r.badge + '">' + statusLabel(r.status) + '</span></td>'
+          + '<td class="td-note">' + (r.note || '—') + '</td>'
+          + '</tr>';
+      }).join('');
+    }
+
+    function updateSummary() {
+      document.getElementById('s-total').textContent   = allRows.length;
+      document.getElementById('s-shabbat').textContent = allRows.filter(function(r){ return r.status==='shabbat'||r.status==='both'; }).length;
+      document.getElementById('s-hag').textContent     = allRows.filter(function(r){ return r.status==='hag'||r.status==='both'; }).length;
+      document.getElementById('s-clear').textContent   = allRows.filter(function(r){ return r.status==='clear'; }).length;
+    }
+
+    function setFilter(f) {
+      currentFilter = f;
+      ['all','shabbat','hag','clear'].forEach(function(k) {
+        document.getElementById('btn-' + k).classList.toggle('active', k === f);
+      });
+      render();
+    }
+
+    function tryEnrichHebcal(data) {
+      if (!data || !data.items) return;
+      var keywords = ['Rosh Hashana','Yom Kippur','Sukkot I','Sukkot II',
+        'Shemini Atzeret','Shmini Atzeret','Simchat Torah',
+        'Pesach I','Pesach II','Pesach VII','Pesach VIII','Shavuot I','Shavuot II'];
+      data.items.forEach(function(item) {
+        if (item.category !== 'holiday' || !item.date) return;
+        var d = item.date.substring(0, 10);
+        keywords.forEach(function(kw) {
+          if (item.title && item.title.indexOf(kw) !== -1) HAG_DATES[d] = item.title;
+        });
+      });
+    }
+
+    function buildRows(races) {
+      allRows = races.map(function(race) {
+        return Object.assign({}, race, classify(race.date));
+      });
+    }
+
+    // Load races.json (updated nightly by GitHub Action)
+    fetch('races.json?_=' + Date.now())
+      .then(function(r) {
+        if (!r.ok) throw new Error('races.json not found');
+        return r.json();
+      })
+      .then(function(races) {
+        buildRows(races);
+        updateSummary();
+        render();
+        return fetch('races.json', { method: 'HEAD' });
+      })
+      .then(function(r) {
+        var lm = r.headers.get('last-modified');
+        if (lm) {
+          document.getElementById('last-updated').textContent =
+            new Date(lm).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+      })
+      .catch(function(err) {
+        console.warn('Could not load races.json:', err);
+        document.getElementById('race-body').innerHTML =
+          '<tr><td colspan="6" class="msg">Could not load race data. Please try again later.</td></tr>';
+      });
+
+    // Enrich hag dates from live Hebcal API
+    Promise.all([2026, 2027].map(function(y) {
+      return fetch('https://www.hebcal.com/hebcal?v=1&cfg=json&maj=on&min=off&nx=off&mf=off&ss=off&mod=off&year=' + y + '&month=x&c=off&geo=none&i=off&lg=s')
+        .then(function(r) { return r.json(); })
+        .catch(function() { return null; });
+    })).then(function(results) {
+      var enriched = false;
+      results.forEach(function(d) { if (d) { tryEnrichHebcal(d); enriched = true; } });
+      if (enriched && allRows.length) { buildRows(allRows); updateSummary(); render(); }
+    });
+  </script>
+</body>
+</html>

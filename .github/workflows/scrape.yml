@@ -1,0 +1,43 @@
+name: Scrape NYCRUNS race calendar
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC (2am ET)
+    - cron: "0 6 * * *"
+  workflow_dispatch: # also allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: python scrape.py
+
+      - name: Commit races.json if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add races.json
+          if git diff --cached --quiet; then
+            echo "No changes to races.json — nothing to commit."
+          else
+            git commit -m "chore: update races.json [skip ci]"
+            git push
+          fi
