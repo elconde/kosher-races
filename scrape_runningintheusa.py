@@ -41,10 +41,27 @@ DIST_NORM = {
     "1m": "1M",
 }
 
+LOC_MAP = {
+    "new york": "Manhattan",
+    "manhattan": "Manhattan",
+    "brooklyn": "Brooklyn",
+    "queens": "Queens",
+    "bronx": "Bronx",
+    "staten island": "Staten Island",
+}
+
 SKIP_KEYWORDS = [
     "virtual", "kids", "children", "youth",
     "summer speed", "girls run", "rising nyrr",
 ]
+
+
+def norm_loc(raw):
+    lower = raw.lower()
+    for key, val in LOC_MAP.items():
+        if key in lower:
+            return val
+    return ""
 
 
 def norm_dist(dist_str):
@@ -143,7 +160,7 @@ def parse_page(html):
         url = (BASE_URL + detail_a["href"]) if detail_a else BASE_URL
 
         loc_b = tds[3].find("b")
-        loc = loc_b.get_text(strip=True) if loc_b else "New York, NY"
+        loc = norm_loc(loc_b.get_text(strip=True)) if loc_b else ""
 
         if should_skip(name, dist_raw):
             print(f"  [RUSA] Skip: {name}", flush=True)
