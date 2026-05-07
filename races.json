@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T22:21:45Z",
+  "generated": "2026-05-07T06:52:55Z",
   "races": [
     {
       "date": "2026-05-09",
@@ -1391,6 +1391,14 @@
       "dist": "50K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/139351",
+      "source": ""
+    },
+    {
+      "date": "2027-05-02",
+      "name": "Bridge the Gap 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/169448",
       "source": ""
     }
   ],
