@@ -150,6 +150,7 @@
       <button class="filter-btn active" id="org-btn-all"     onclick="setOrgFilter('all')">All</button>
       <button class="filter-btn" id="org-btn-nyrr"    onclick="setOrgFilter('nyrr')">NYRR</button>
       <button class="filter-btn" id="org-btn-nycruns" onclick="setOrgFilter('nycruns')">NYCRUNS</button>
+      <button class="filter-btn" id="org-btn-qdr"     onclick="setOrgFilter('qdr')">QDR</button>
     </div>
     <div class="filter-row">
       <span class="filter-label">Dist:</span>
@@ -269,6 +270,7 @@
       }).filter(function(r) {
         if (currentOrgFilter === 'nyrr')    return r.source === 'NYRR';
         if (currentOrgFilter === 'nycruns') return r.source === 'NYCRUNS';
+        if (currentOrgFilter === 'qdr')     return r.source === 'QDR';
         return true;
       }).filter(function(r) {
         if (currentDistFilter === 'all') return true;
@@ -309,7 +311,7 @@
 
     function setOrgFilter(f) {
       currentOrgFilter = f;
-      ['all','nyrr','nycruns'].forEach(function(k) {
+      ['all','nyrr','nycruns','qdr'].forEach(function(k) {
         document.getElementById('org-btn-' + k).classList.toggle('active', k === f);
       });
       render();
