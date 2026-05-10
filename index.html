@@ -165,6 +165,15 @@
       <button class="filter-btn"        id="dist-btn-m"     onclick="setDistFilter('m')"    >M</button>
       <button class="filter-btn"        id="dist-btn-gtm"   onclick="setDistFilter('gtm')"  >&gt;M</button>
     </div>
+    <div class="filter-row">
+      <span class="filter-label">Loc:</span>
+      <button class="filter-btn active" id="loc-btn-all"          onclick="setLocFilter('all')"          >All</button>
+      <button class="filter-btn"        id="loc-btn-manhattan"    onclick="setLocFilter('manhattan')"    >Manhattan</button>
+      <button class="filter-btn"        id="loc-btn-bronx"        onclick="setLocFilter('bronx')"        >Bronx</button>
+      <button class="filter-btn"        id="loc-btn-brooklyn"     onclick="setLocFilter('brooklyn')"     >Brooklyn</button>
+      <button class="filter-btn"        id="loc-btn-queens"       onclick="setLocFilter('queens')"       >Queens</button>
+      <button class="filter-btn"        id="loc-btn-staten-island" onclick="setLocFilter('staten-island')">Staten Island</button>
+    </div>
 
     <div class="table-wrap">
       <table>
@@ -201,6 +210,7 @@
     var currentFilter = 'kosher';
     var currentOrgFilter = 'all';
     var currentDistFilter = 'all';
+    var currentLocFilter = 'all';
 
     function isShabbat(dateStr) {
       var p = dateStr.split('-');
@@ -275,6 +285,9 @@
       }).filter(function(r) {
         if (currentDistFilter === 'all') return true;
         return r.dist.split('/').some(function(d) { return distInBucket(d.trim(), currentDistFilter); });
+      }).filter(function(r) {
+        if (currentLocFilter === 'all') return true;
+        return r.loc.toLowerCase().replace(' ', '-') === currentLocFilter;
       });
       var tbody = document.getElementById('race-body');
       if (!rows.length) {
@@ -323,6 +336,16 @@
       currentDistFilter = b;
       DIST_BTNS.forEach(function(k) {
         document.getElementById('dist-btn-' + k).classList.toggle('active', k === b);
+      });
+      render();
+    }
+
+    var LOC_BTNS = ['all','manhattan','bronx','brooklyn','queens','staten-island'];
+
+    function setLocFilter(l) {
+      currentLocFilter = l;
+      LOC_BTNS.forEach(function(k) {
+        document.getElementById('loc-btn-' + k).classList.toggle('active', k === l);
       });
       render();
     }
