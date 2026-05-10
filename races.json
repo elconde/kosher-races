@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T16:47:08Z",
+  "generated": "2026-05-10T16:48:54Z",
   "races": [
     {
       "date": "2026-05-10",
@@ -383,7 +383,7 @@
       "dist": "1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/146162",
-      "source": ""
+      "source": "QDR"
     },
     {
       "date": "2026-06-14",
@@ -583,7 +583,7 @@
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194832",
-      "source": ""
+      "source": "QDR"
     },
     {
       "date": "2026-07-19",
@@ -599,7 +599,7 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194831",
-      "source": ""
+      "source": "QDR"
     },
     {
       "date": "2026-07-25",
@@ -751,7 +751,7 @@
       "dist": "1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/127911",
-      "source": ""
+      "source": "QDR"
     },
     {
       "date": "2026-09-06",
@@ -1255,7 +1255,7 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/193020",
-      "source": ""
+      "source": "QDR"
     },
     {
       "date": "2026-11-15",
