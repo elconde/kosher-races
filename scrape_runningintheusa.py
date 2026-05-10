@@ -43,15 +43,6 @@ DIST_NORM = {
     "1m": "1M",
 }
 
-LOC_MAP = {
-    "new york": "Manhattan",
-    "manhattan": "Manhattan",
-    "brooklyn": "Brooklyn",
-    "queens": "Queens",
-    "bronx": "Bronx",
-    "staten island": "Staten Island",
-}
-
 # Patterns stripped before matching race names against nyrr.txt entries.
 # The site drops sponsor names; nyrr.txt keeps them.
 _STRIP_PREFIX = re.compile(
@@ -103,14 +94,6 @@ def is_nyrr(race_name):
 SKIP_KEYWORDS = [
     "virtual", "youth", "summer speed", "girls run", "rising nyrr", "gaza",
 ]
-
-
-def norm_loc(raw):
-    lower = raw.lower()
-    for key, val in LOC_MAP.items():
-        if key in lower:
-            return val
-    return ""
 
 
 def norm_dist(dist_str):
@@ -208,9 +191,6 @@ def parse_page(html):
         detail_a = tds[2].find("a", href=lambda h: h and "/details/" in h)
         url = (BASE_URL + detail_a["href"]) if detail_a else BASE_URL
 
-        loc_b = tds[3].find("b")
-        loc = norm_loc(loc_b.get_text(strip=True)) if loc_b else ""
-
         if should_skip(name, dist_raw):
             print(f"  [RUSA] Skip: {name}", flush=True)
             continue
@@ -219,7 +199,7 @@ def parse_page(html):
             "date": date_str,
             "name": name,
             "dist": dist,
-            "loc": loc,
+            "loc": "",
             "url": url,
             "source": "NYCRUNS" if "NYCRUNS" in name else ("NYRR" if is_nyrr(name) else ""),
         })
@@ -228,7 +208,7 @@ def parse_page(html):
     return races, total
 
 
-def scrape_list(list_url, default_loc=None):
+def scrape_list(list_url, default_loc):
     all_races = []
     total = None
     page = 1
@@ -245,10 +225,8 @@ def scrape_list(list_url, default_loc=None):
         if page == 1 and page_total is not None:
             total = page_total
 
-        if default_loc:
-            for race in races:
-                if not race["loc"]:
-                    race["loc"] = default_loc
+        for race in races:
+            race["loc"] = default_loc
 
         all_races.extend(races)
 
