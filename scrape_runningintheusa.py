@@ -201,7 +201,7 @@ def parse_page(html):
             "dist": dist,
             "loc": "",
             "url": url,
-            "source": "NYCRUNS" if "NYCRUNS" in name else ("NYRR" if is_nyrr(name) else ""),
+            "source": "NYCRUNS" if "NYCRUNS" in name else ("QDR" if name.startswith("QDR") else ("NYRR" if is_nyrr(name) else "")),
         })
         print(f"  [RUSA] {date_str} — {name} ({dist})", flush=True)
 
