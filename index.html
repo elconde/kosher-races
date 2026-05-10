@@ -175,6 +175,23 @@
       <button class="filter-btn"        id="loc-btn-staten-island" onclick="setLocFilter('staten-island')">Staten Island</button>
     </div>
 
+    <div class="filter-row">
+      <span class="filter-label">Month:</span>
+      <button class="filter-btn active" id="mo-btn-all" onclick="setMonthFilter('all')">All</button>
+      <button class="filter-btn" id="mo-btn-1"  onclick="setMonthFilter('1')" >Jan</button>
+      <button class="filter-btn" id="mo-btn-2"  onclick="setMonthFilter('2')" >Feb</button>
+      <button class="filter-btn" id="mo-btn-3"  onclick="setMonthFilter('3')" >Mar</button>
+      <button class="filter-btn" id="mo-btn-4"  onclick="setMonthFilter('4')" >Apr</button>
+      <button class="filter-btn" id="mo-btn-5"  onclick="setMonthFilter('5')" >May</button>
+      <button class="filter-btn" id="mo-btn-6"  onclick="setMonthFilter('6')" >Jun</button>
+      <button class="filter-btn" id="mo-btn-7"  onclick="setMonthFilter('7')" >Jul</button>
+      <button class="filter-btn" id="mo-btn-8"  onclick="setMonthFilter('8')" >Aug</button>
+      <button class="filter-btn" id="mo-btn-9"  onclick="setMonthFilter('9')" >Sep</button>
+      <button class="filter-btn" id="mo-btn-10" onclick="setMonthFilter('10')">Oct</button>
+      <button class="filter-btn" id="mo-btn-11" onclick="setMonthFilter('11')">Nov</button>
+      <button class="filter-btn" id="mo-btn-12" onclick="setMonthFilter('12')">Dec</button>
+    </div>
+
     <div class="table-wrap">
       <table>
         <thead>
@@ -211,6 +228,7 @@
     var currentOrgFilter = 'all';
     var currentDistFilter = 'all';
     var currentLocFilter = 'all';
+    var currentMonthFilter = 'all';
 
     function isShabbat(dateStr) {
       var p = dateStr.split('-');
@@ -288,6 +306,9 @@
       }).filter(function(r) {
         if (currentLocFilter === 'all') return true;
         return r.loc.toLowerCase().replace(' ', '-') === currentLocFilter;
+      }).filter(function(r) {
+        if (currentMonthFilter === 'all') return true;
+        return String(parseInt(r.date.split('-')[1], 10)) === currentMonthFilter;
       });
       var tbody = document.getElementById('race-body');
       if (!rows.length) {
@@ -336,6 +357,16 @@
       currentDistFilter = b;
       DIST_BTNS.forEach(function(k) {
         document.getElementById('dist-btn-' + k).classList.toggle('active', k === b);
+      });
+      render();
+    }
+
+    var MO_BTNS = ['all','1','2','3','4','5','6','7','8','9','10','11','12'];
+
+    function setMonthFilter(m) {
+      currentMonthFilter = m;
+      MO_BTNS.forEach(function(k) {
+        document.getElementById('mo-btn-' + k).classList.toggle('active', k === m);
       });
       render();
     }
