@@ -1,38 +1,6 @@
 {
-  "generated": "2026-05-09T06:37:45Z",
+  "generated": "2026-05-10T06:48:51Z",
   "races": [
-    {
-      "date": "2026-05-09",
-      "name": "Mott Street Mile",
-      "dist": "1M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/194799",
-      "source": ""
-    },
-    {
-      "date": "2026-05-09",
-      "name": "Sri Chinmoy 5K, Half-Marathon & Relay",
-      "dist": "HM/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/31032",
-      "source": ""
-    },
-    {
-      "date": "2026-05-09",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-05-09",
-      "name": "Veterans Everyday 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/194800",
-      "source": ""
-    },
     {
       "date": "2026-05-10",
       "name": "NYC Race of Hope 5K",
@@ -71,6 +39,14 @@
       "dist": "5K/1M",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/197681",
+      "source": ""
+    },
+    {
+      "date": "2026-05-16",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
