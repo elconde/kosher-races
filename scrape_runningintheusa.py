@@ -13,12 +13,12 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.runningintheusa.com"
 LIST_URLS = [
-    BASE_URL + "/classic/list/new%20york-ny/upcoming/run",
-    BASE_URL + "/classic/list/bronx-ny/upcoming/run",
-    BASE_URL + "/classic/list/brooklyn-ny/upcoming/run",
-    BASE_URL + "/classic/list/queens-ny/upcoming/run",
-    BASE_URL + "/classic/list/queens-county-ny/upcoming/run",
-    BASE_URL + "/classic/list/staten%20island-ny/upcoming/run",
+    (BASE_URL + "/classic/list/new%20york-ny/upcoming/run", None),
+    (BASE_URL + "/classic/list/bronx-ny/upcoming/run", None),
+    (BASE_URL + "/classic/list/brooklyn-ny/upcoming/run", None),
+    (BASE_URL + "/classic/list/queens-ny/upcoming/run", None),
+    (BASE_URL + "/classic/list/queens-county-ny/upcoming/run", "Queens"),
+    (BASE_URL + "/classic/list/staten%20island-ny/upcoming/run", None),
 ]
 
 HEADERS = {
@@ -228,7 +228,7 @@ def parse_page(html):
     return races, total
 
 
-def scrape_list(list_url):
+def scrape_list(list_url, default_loc=None):
     all_races = []
     total = None
     page = 1
@@ -245,6 +245,11 @@ def scrape_list(list_url):
         if page == 1 and page_total is not None:
             total = page_total
 
+        if default_loc:
+            for race in races:
+                if not race["loc"]:
+                    race["loc"] = default_loc
+
         all_races.extend(races)
 
         if not races:
@@ -260,9 +265,9 @@ def scrape():
     seen_urls = set()
     all_races = []
 
-    for list_url in LIST_URLS:
+    for list_url, default_loc in LIST_URLS:
         print(f"\nFetching {list_url} ...", flush=True)
-        for race in scrape_list(list_url):
+        for race in scrape_list(list_url, default_loc):
             if race["url"] not in seen_urls:
                 seen_urls.add(race["url"])
                 all_races.append(race)
