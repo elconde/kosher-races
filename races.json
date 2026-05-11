@@ -1,38 +1,6 @@
 {
-  "generated": "2026-05-10T16:52:53Z",
+  "generated": "2026-05-11T07:01:13Z",
   "races": [
-    {
-      "date": "2026-05-10",
-      "name": "NYC Race of Hope 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/141638",
-      "source": ""
-    },
-    {
-      "date": "2026-05-10",
-      "name": "Brooklyn Mother's Day Half",
-      "dist": "HM/10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/46951",
-      "source": ""
-    },
-    {
-      "date": "2026-05-10",
-      "name": "Yo Mama's So Fast 5K & Half Marathon",
-      "dist": "HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/139048",
-      "source": ""
-    },
-    {
-      "date": "2026-05-10",
-      "name": "Run Hustle Run Mother's Day 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/198680",
-      "source": ""
-    },
     {
       "date": "2026-05-16",
       "name": "Thomas Jefferson Run Series",
@@ -783,6 +751,14 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/175175",
+      "source": ""
+    },
+    {
+      "date": "2026-09-12",
+      "name": "New York City's Race Against Gun Violence",
+      "dist": "8K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/199616",
       "source": ""
     },
     {
@@ -1656,6 +1632,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/21654",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2027-04-25",
+      "name": "Footsteps for Progress 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/113472",
+      "source": ""
     },
     {
       "date": "2027-05-01",
