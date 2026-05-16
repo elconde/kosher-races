@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T06:58:55Z",
+  "generated": "2026-05-16T06:42:04Z",
   "races": [
     {
       "date": "2026-05-16",
@@ -571,14 +571,6 @@
     },
     {
       "date": "2026-07-25",
-      "name": "NYRR Start Line Series - Queens",
-      "dist": "2.5M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/188309",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-07-25",
       "name": "Hip Hop Half Marathon & 5K",
       "dist": "5K",
       "loc": "Brooklyn",
@@ -695,6 +687,14 @@
       "dist": "12M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/91906",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-08-22",
+      "name": "NYRR Start Line Series - Queens",
+      "dist": "2.5M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/188309",
       "source": "NYRR"
     },
     {
@@ -887,6 +887,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/25882",
+      "source": ""
+    },
+    {
+      "date": "2026-09-27",
+      "name": "Tunnel To Towers",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/11174",
       "source": ""
     },
     {
