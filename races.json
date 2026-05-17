@@ -1,62 +1,6 @@
 {
-  "generated": "2026-05-16T06:42:04Z",
+  "generated": "2026-05-17T06:51:54Z",
   "races": [
-    {
-      "date": "2026-05-16",
-      "name": "Thomas Jefferson Run Series",
-      "dist": "10K/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/199156",
-      "source": ""
-    },
-    {
-      "date": "2026-05-16",
-      "name": "Chasing Memphis - A Legacy Run",
-      "dist": "5K/1M",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/197681",
-      "source": ""
-    },
-    {
-      "date": "2026-05-16",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-05-16",
-      "name": "I Am Not My Diagnosis 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/197682",
-      "source": ""
-    },
-    {
-      "date": "2026-05-16",
-      "name": "RBC Brooklyn Half",
-      "dist": "HM",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/13321",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-05-16",
-      "name": "The Great Hawaiian Luau 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/124615",
-      "source": ""
-    },
-    {
-      "date": "2026-05-16",
-      "name": "Queensborough Tigers 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/184380",
-      "source": ""
-    },
     {
       "date": "2026-05-17",
       "name": "5K Forward: Fast Track to Empowerment",
@@ -111,6 +55,14 @@
       "dist": "4M",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/124176",
+      "source": ""
+    },
+    {
+      "date": "2026-05-23",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
