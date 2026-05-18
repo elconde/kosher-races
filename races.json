@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T14:13:37Z",
+  "generated": "2026-05-18T21:21:14Z",
   "races": [
     {
       "date": "2026-05-20",
@@ -207,6 +207,14 @@
       "dist": "5M/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194829",
+      "source": ""
+    },
+    {
+      "date": "2026-06-13",
+      "name": "The NYC Run Into Summer 5K at Central Park",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/199806",
       "source": ""
     },
     {
