@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T07:11:54Z",
+  "generated": "2026-05-18T14:09:18Z",
   "races": [
     {
       "date": "2026-05-20",
@@ -594,6 +594,14 @@
       "source": ""
     },
     {
+      "date": "2026-08-09",
+      "name": "Robert Van Tassel Live the Dash Memorial 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/83773",
+      "source": ""
+    },
+    {
       "date": "2026-08-15",
       "name": "New York City Marathon Training Series 12M",
       "dist": "12M",
@@ -623,6 +631,22 @@
       "dist": "Marathon/HM/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/142248",
+      "source": ""
+    },
+    {
+      "date": "2026-08-29",
+      "name": "NYCRUNS Endless Summer 10K",
+      "dist": "10K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/24559",
+      "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-08-30",
+      "name": "ZERO Prostate Cancer Run/Walk - New York City",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/64273",
       "source": ""
     },
     {
@@ -695,6 +719,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/178047",
+      "source": ""
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Corporate FunRun Manhattan Financial District 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/89431",
       "source": ""
     },
     {
@@ -1131,6 +1163,14 @@
     },
     {
       "date": "2026-11-08",
+      "name": "Polish Independence Day Run",
+      "dist": "Race",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/194856",
+      "source": ""
+    },
+    {
+      "date": "2026-11-08",
       "name": "Brooklyn Fall Half",
       "dist": "HM/10K/5K",
       "loc": "Brooklyn",
@@ -1207,6 +1247,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/191921",
+      "source": ""
+    },
+    {
+      "date": "2026-11-23",
+      "name": "As Is Tofurkey Trot 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/194858",
       "source": ""
     },
     {
