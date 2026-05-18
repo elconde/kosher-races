@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T21:21:14Z",
+  "generated": "2026-05-18T21:25:42Z",
   "races": [
     {
       "date": "2026-05-20",
@@ -199,6 +199,14 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/11170",
+      "source": ""
+    },
+    {
+      "date": "2026-06-07",
+      "name": "Shirley Chisholm Trail Run 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/125041",
       "source": ""
     },
     {
@@ -1208,6 +1216,14 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/193020",
       "source": "QDR"
+    },
+    {
+      "date": "2026-11-14",
+      "name": "NYC Trail Mix",
+      "dist": "50M/50K/HM",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/139648",
+      "source": ""
     },
     {
       "date": "2026-11-15",
