@@ -21,6 +21,7 @@ LIST_URLS = [
     (BASE_URL + "/classic/list/kings-county-ny/upcoming/run", "Brooklyn"),
     (BASE_URL + "/classic/list/queens-ny/upcoming/run", "Queens"),
     (BASE_URL + "/classic/list/queens-county-ny/upcoming/run", "Queens"),
+    (BASE_URL + "/classic/list/corona-ny/upcoming/run", "Queens"),
     (BASE_URL + "/classic/list/staten%20island-ny/upcoming/run", "Staten Island"),
     (BASE_URL + "/classic/list/richmond-county-ny/upcoming/run", "Staten Island"),
 ]
