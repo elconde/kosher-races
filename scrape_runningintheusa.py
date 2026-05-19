@@ -14,15 +14,15 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.runningintheusa.com"
 LIST_URLS = [
     (BASE_URL + "/classic/list/new%20york-ny/upcoming/run", "Manhattan"),
-    (BASE_URL + "/classic/list/new%20york-county-ny/upcoming", "Manhattan"),
+    (BASE_URL + "/classic/list/new%20york-county-ny/upcoming/run", "Manhattan"),
     (BASE_URL + "/classic/list/bronx-ny/upcoming/run", "Bronx"),
-    (BASE_URL + "/classic/list/bronx-county-ny/upcoming", "Bronx"),
+    (BASE_URL + "/classic/list/bronx-county-ny/upcoming/run", "Bronx"),
     (BASE_URL + "/classic/list/brooklyn-ny/upcoming/run", "Brooklyn"),
-    (BASE_URL + "/classic/list/kings-county-ny/upcoming", "Brooklyn"),
+    (BASE_URL + "/classic/list/kings-county-ny/upcoming/run", "Brooklyn"),
     (BASE_URL + "/classic/list/queens-ny/upcoming/run", "Queens"),
     (BASE_URL + "/classic/list/queens-county-ny/upcoming/run", "Queens"),
     (BASE_URL + "/classic/list/staten%20island-ny/upcoming/run", "Staten Island"),
-    (BASE_URL + "/classic/list/richmond-county-ny/upcoming", "Staten Island"),
+    (BASE_URL + "/classic/list/richmond-county-ny/upcoming/run", "Staten Island"),
 ]
 
 HEADERS = {
