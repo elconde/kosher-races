@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-19T07:04:21Z",
+  "generated": "2026-05-20T07:03:56Z",
   "races": [
     {
       "date": "2026-05-20",
@@ -419,6 +419,14 @@
     },
     {
       "date": "2026-07-11",
+      "name": "9/11 Memorial & Museum 4M",
+      "dist": "4M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/199847",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-07-11",
       "name": "NYRR Retro 4-Miler",
       "dist": "4M",
       "loc": "Manhattan",
@@ -650,20 +658,20 @@
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-08-29",
+      "name": "QDR Jackson Heights Mile",
+      "dist": "1M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/127911",
+      "source": "QDR"
+    },
+    {
       "date": "2026-08-30",
       "name": "ZERO Prostate Cancer Run/Walk - New York City",
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/64273",
       "source": ""
-    },
-    {
-      "date": "2026-08-30",
-      "name": "QDR Jackson Heights Mile",
-      "dist": "1M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/127911",
-      "source": "QDR"
     },
     {
       "date": "2026-09-06",
@@ -1575,6 +1583,14 @@
       "dist": "HM/10K/5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/112087",
+      "source": ""
+    },
+    {
+      "date": "2027-03-14",
+      "name": "Sri Chinmoy 5K/7M - Prospect Park",
+      "dist": "7M/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/48157",
       "source": ""
     },
     {
