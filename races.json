@@ -1,14 +1,6 @@
 {
-  "generated": "2026-05-20T07:03:56Z",
+  "generated": "2026-05-21T07:11:00Z",
   "races": [
-    {
-      "date": "2026-05-20",
-      "name": "Al Goldstein Speed Series",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/16768",
-      "source": ""
-    },
     {
       "date": "2026-05-22",
       "name": "4 for Fahy",
@@ -127,6 +119,14 @@
       "dist": "5K",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/196504",
+      "source": ""
+    },
+    {
+      "date": "2026-06-03",
+      "name": "Al Goldstein Speed Series",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/16768",
       "source": ""
     },
     {
