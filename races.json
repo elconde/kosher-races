@@ -1,14 +1,6 @@
 {
-  "generated": "2026-05-21T07:11:00Z",
+  "generated": "2026-05-23T06:49:05Z",
   "races": [
-    {
-      "date": "2026-05-22",
-      "name": "4 for Fahy",
-      "dist": "4M",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/124176",
-      "source": ""
-    },
     {
       "date": "2026-05-23",
       "name": "Brooklyn Bridge parkrun",
@@ -683,6 +675,14 @@
     },
     {
       "date": "2026-09-12",
+      "name": "9/11 Heroes Run - New York",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/21425",
+      "source": ""
+    },
+    {
+      "date": "2026-09-12",
       "name": "NYCRUNS Squirrel Stampede 10K",
       "dist": "10K",
       "loc": "Manhattan",
@@ -807,6 +807,14 @@
       "dist": "5K/1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/172920",
+      "source": ""
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Michael's Cause Step for a Cure 5K Run",
+      "dist": "5K",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/125486",
       "source": ""
     },
     {
@@ -959,14 +967,6 @@
       "dist": "HM/5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/109143",
-      "source": ""
-    },
-    {
-      "date": "2026-10-10",
-      "name": "Michael's Cause Step for a Cure 5K Run",
-      "dist": "5K",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/125486",
       "source": ""
     },
     {
@@ -1663,6 +1663,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/169448",
+      "source": ""
+    },
+    {
+      "date": "2027-05-09",
+      "name": "Yo Mama's So Fast 5K & Half Marathon",
+      "dist": "HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/139048",
       "source": ""
     }
   ],
