@@ -1,22 +1,6 @@
 {
-  "generated": "2026-05-23T06:49:05Z",
+  "generated": "2026-05-24T06:59:31Z",
   "races": [
-    {
-      "date": "2026-05-23",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-05-23",
-      "name": "Brooklyn Queens Brewery Express 10K",
-      "dist": "10K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/199717",
-      "source": ""
-    },
     {
       "date": "2026-05-24",
       "name": "NYC Strawberry Fest 5K & Half Marathon",
@@ -87,6 +71,14 @@
       "dist": "5K/3K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/186771",
+      "source": ""
+    },
+    {
+      "date": "2026-05-30",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
@@ -411,15 +403,7 @@
     },
     {
       "date": "2026-07-11",
-      "name": "9/11 Memorial & Museum 4M",
-      "dist": "4M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/199847",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-07-11",
-      "name": "NYRR Retro 4-Miler",
+      "name": "NYRR 9/11 Memorial and Museum Retro 4-Miler",
       "dist": "4M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/31238",
@@ -899,6 +883,14 @@
     },
     {
       "date": "2026-10-03",
+      "name": "Dyckman 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/178343",
+      "source": ""
+    },
+    {
+      "date": "2026-10-03",
       "name": "Terry Fox Run for Cancer Research 5K - Central Park, NYC",
       "dist": "5K",
       "loc": "Manhattan",
@@ -984,14 +976,6 @@
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/12534",
       "source": "NYRR"
-    },
-    {
-      "date": "2026-10-17",
-      "name": "Dyckman 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/178343",
-      "source": ""
     },
     {
       "date": "2026-10-17",
