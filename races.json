@@ -1,30 +1,6 @@
 {
-  "generated": "2026-05-24T06:59:31Z",
+  "generated": "2026-05-25T07:23:08Z",
   "races": [
-    {
-      "date": "2026-05-24",
-      "name": "NYC Strawberry Fest 5K & Half Marathon",
-      "dist": "HM/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/184377",
-      "source": ""
-    },
-    {
-      "date": "2026-05-24",
-      "name": "Young Israel of Jamaica Estates L'Chaim 5K for Israel",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/184378",
-      "source": ""
-    },
-    {
-      "date": "2026-05-24",
-      "name": "Forest Park Runners Classic 4 Mile Road and Trail Race",
-      "dist": "4M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/14732",
-      "source": ""
-    },
     {
       "date": "2026-05-25",
       "name": "5K Run & Walk for Israel",
@@ -1655,6 +1631,14 @@
       "dist": "HM/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/139048",
+      "source": ""
+    },
+    {
+      "date": "2027-05-22",
+      "name": "Brooklyn Queens Brewery Express 10K",
+      "dist": "10K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/199717",
       "source": ""
     }
   ],
