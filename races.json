@@ -1,22 +1,6 @@
 {
-  "generated": "2026-05-28T07:10:19Z",
+  "generated": "2026-05-29T07:10:34Z",
   "races": [
-    {
-      "date": "2026-05-28",
-      "name": "J.P. Morgan Corporate Challenge",
-      "dist": "3.5M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/12101",
-      "source": ""
-    },
-    {
-      "date": "2026-05-28",
-      "name": "VCTC Cross Country Summer Series",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/12213",
-      "source": ""
-    },
     {
       "date": "2026-05-30",
       "name": "Bronx CB6 5K for Diabetes Awareness",
@@ -151,6 +135,14 @@
       "dist": "5M/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194829",
+      "source": ""
+    },
+    {
+      "date": "2026-06-11",
+      "name": "VCTC Cross Country Summer Series",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/12213",
       "source": ""
     },
     {
