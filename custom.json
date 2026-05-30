@@ -1,12 +1,12 @@
 {
   "races": [
     {
-      "date": "YYYY-MM-DD",
-      "name": "Example Custom Race",
-      "dist": "5K",
+      "date": "2026-08-22",
+      "name": "NYRR Grete's Great Gallop 10K",
+      "dist": "10K",
       "loc": "Manhattan",
-      "url": "https://example.com",
-      "source": "Custom"
+      "url": "https://events.nyrr.org/nyrr-grete-s-great-gallop-10k",
+      "source": "NYRR"
     }
   ]
 }
