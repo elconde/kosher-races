@@ -65,6 +65,20 @@ def build_holiday_maps(races):
     return hag_dates, chol_hamoed_dates
 
 
+def load_custom_races():
+    try:
+        with open("custom.json") as f:
+            data = json.load(f)
+        races = [r for r in data.get("races", []) if r.get("date", "YYYY") != "YYYY-MM-DD"]
+        print(f"  Loaded {len(races)} custom race(s)", flush=True)
+        return races
+    except FileNotFoundError:
+        return []
+    except Exception as e:
+        print(f"  Warning: could not load custom.json: {e}", file=sys.stderr)
+        return []
+
+
 def main():
     try:
         all_races = scrape_runningintheusa.scrape()
@@ -72,6 +86,9 @@ def main():
         print(f"ERROR during scrape: {e}", file=sys.stderr)
         traceback.print_exc()
         sys.exit(1)
+
+    print("\nLoading custom races...", flush=True)
+    all_races += load_custom_races()
 
     today = date.today().isoformat()
     all_races = sorted(

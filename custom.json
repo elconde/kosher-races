@@ -1,0 +1,12 @@
+{
+  "races": [
+    {
+      "date": "YYYY-MM-DD",
+      "name": "Example Custom Race",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://example.com",
+      "source": "Custom"
+    }
+  ]
+}
