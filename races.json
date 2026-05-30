@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T07:10:34Z",
+  "generated": "2026-05-30T06:54:08Z",
   "races": [
     {
       "date": "2026-05-30",
@@ -624,6 +624,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/175497",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Tell Every Amazing Lady Brooklyn 5K Fun Run",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/200961",
+      "source": ""
     },
     {
       "date": "2026-09-12",
