@@ -1,30 +1,6 @@
 {
-  "generated": "2026-05-31T07:11:27Z",
+  "generated": "2026-06-01T07:34:02Z",
   "races": [
-    {
-      "date": "2026-05-31",
-      "name": "NYC Memorial Day Half Marathon",
-      "dist": "HM/10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/168461",
-      "source": ""
-    },
-    {
-      "date": "2026-05-31",
-      "name": "Running for Success 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/142963",
-      "source": ""
-    },
-    {
-      "date": "2026-05-31",
-      "name": "Michael Hanly 5K",
-      "dist": "5K",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/196504",
-      "source": ""
-    },
     {
       "date": "2026-06-03",
       "name": "Al Goldstein Speed Series",
