@@ -1,14 +1,6 @@
 {
-  "generated": "2026-06-03T07:31:32Z",
+  "generated": "2026-06-04T07:28:30Z",
   "races": [
-    {
-      "date": "2026-06-03",
-      "name": "Al Goldstein Speed Series",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/16768",
-      "source": ""
-    },
     {
       "date": "2026-06-04",
       "name": "Wise 5K",
@@ -192,6 +184,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/139245",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-06-17",
+      "name": "Al Goldstein Speed Series",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/16768",
+      "source": ""
     },
     {
       "date": "2026-06-19",
@@ -520,6 +520,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/188309",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-08-22",
+      "name": "Vyshyvanka Run NYC",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/177444",
+      "source": ""
     },
     {
       "date": "2026-08-22",
@@ -1275,6 +1283,14 @@
     },
     {
       "date": "2026-12-06",
+      "name": "PPTC 50 Mile Endurance Fest",
+      "dist": "50M",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/98313",
+      "source": ""
+    },
+    {
+      "date": "2026-12-06",
       "name": "Queens Marathon",
       "dist": "Marathon/HM",
       "loc": "Queens",
@@ -1586,11 +1602,43 @@
       "source": ""
     },
     {
+      "date": "2027-05-15",
+      "name": "Queensborough Tigers 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/184380",
+      "source": ""
+    },
+    {
+      "date": "2027-05-16",
+      "name": "Jodi Merendino Bencivenga Run",
+      "dist": "5K",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/184179",
+      "source": ""
+    },
+    {
       "date": "2027-05-22",
       "name": "Brooklyn Queens Brewery Express 10K",
       "dist": "10K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/199717",
+      "source": ""
+    },
+    {
+      "date": "2027-05-23",
+      "name": "NYC Strawberry Fest 5K & Half Marathon",
+      "dist": "HM/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/184377",
+      "source": ""
+    },
+    {
+      "date": "2027-05-29",
+      "name": "Bronx CB6 5K for Diabetes Awareness",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/184376",
       "source": ""
     }
   ],
