@@ -1,22 +1,6 @@
 {
-  "generated": "2026-06-04T07:28:30Z",
+  "generated": "2026-06-05T07:20:04Z",
   "races": [
-    {
-      "date": "2026-06-04",
-      "name": "Wise 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/184480",
-      "source": ""
-    },
-    {
-      "date": "2026-06-04",
-      "name": "The W!se 5K Fun Run",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/198699",
-      "source": ""
-    },
     {
       "date": "2026-06-06",
       "name": "NYRR New York Mini 10K",
@@ -1639,6 +1623,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/184376",
+      "source": ""
+    },
+    {
+      "date": "2027-05-30",
+      "name": "Running for Success 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/142963",
       "source": ""
     }
   ],
