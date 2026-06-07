@@ -1,54 +1,6 @@
 {
-  "generated": "2026-06-06T06:57:40Z",
+  "generated": "2026-06-07T07:16:19Z",
   "races": [
-    {
-      "date": "2026-06-06",
-      "name": "NYRR New York Mini 10K",
-      "dist": "10K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/12210",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-06-06",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-06-06",
-      "name": "McCarthy Brothers Memorial Run",
-      "dist": "5K/1M",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/175451",
-      "source": ""
-    },
-    {
-      "date": "2026-06-06",
-      "name": "Run to the Verrazzano 4 Miler",
-      "dist": "4M",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/113545",
-      "source": ""
-    },
-    {
-      "date": "2026-06-06",
-      "name": "Welcome Home Plants 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/168935",
-      "source": ""
-    },
-    {
-      "date": "2026-06-06",
-      "name": "LIC Waterfront 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/43622",
-      "source": ""
-    },
     {
       "date": "2026-06-07",
       "name": "Cypress Hills Cemetery 5K Run Through History",
@@ -103,6 +55,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/141963",
+      "source": ""
+    },
+    {
+      "date": "2026-06-13",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
@@ -256,6 +216,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/12211",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-06-27",
+      "name": "Brooklyn Duathlon",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/187053",
+      "source": ""
     },
     {
       "date": "2026-06-28",
@@ -475,6 +443,14 @@
     },
     {
       "date": "2026-08-08",
+      "name": "Welcome Home Plants 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/168935",
+      "source": ""
+    },
+    {
+      "date": "2026-08-08",
       "name": "NYC Police Chase",
       "dist": "5K",
       "loc": "Queens",
@@ -587,14 +563,6 @@
     },
     {
       "date": "2026-09-12",
-      "name": "Tell Every Amazing Lady Brooklyn 5K Fun Run",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/200961",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
       "name": "Bushwick 5K",
       "dist": "5K",
       "loc": "Brooklyn",
@@ -615,6 +583,14 @@
       "dist": "8K/5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/199616",
+      "source": ""
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Tell Every Amazing Lady Brooklyn 5K Fun Run",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/200961",
       "source": ""
     },
     {
