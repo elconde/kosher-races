@@ -1,30 +1,6 @@
 {
-  "generated": "2026-06-07T07:16:19Z",
+  "generated": "2026-06-08T07:29:54Z",
   "races": [
-    {
-      "date": "2026-06-07",
-      "name": "Cypress Hills Cemetery 5K Run Through History",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/28813",
-      "source": ""
-    },
-    {
-      "date": "2026-06-07",
-      "name": "Kenneth Dolan Memorial 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/11170",
-      "source": ""
-    },
-    {
-      "date": "2026-06-07",
-      "name": "Strawberry Fest 5K & 5M",
-      "dist": "5M/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/194829",
-      "source": ""
-    },
     {
       "date": "2026-06-11",
       "name": "VCTC Cross Country Summer Series",
@@ -475,6 +451,14 @@
     },
     {
       "date": "2026-08-22",
+      "name": "New York Harriers Mile and Donut Relay",
+      "dist": "1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/187580",
+      "source": ""
+    },
+    {
+      "date": "2026-08-22",
       "name": "NYRR Start Line Series - Queens",
       "dist": "2.5M",
       "loc": "Manhattan",
@@ -520,6 +504,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/24559",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-08-29",
+      "name": "Like Father Like Son - Centro 10 Miler",
+      "dist": "10M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/201281",
+      "source": ""
     },
     {
       "date": "2026-08-29",
