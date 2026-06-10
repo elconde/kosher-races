@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T07:05:35Z",
+  "generated": "2026-06-10T07:19:42Z",
   "races": [
     {
       "date": "2026-06-11",
@@ -531,7 +531,7 @@
     },
     {
       "date": "2026-09-06",
-      "name": "Last Bash at the Beach 5K/10K",
+      "name": "Last Bash at the Beach 5K & 10K",
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/109007",
@@ -763,7 +763,7 @@
     },
     {
       "date": "2026-09-27",
-      "name": "INCLUDEnyc 5K Run, Walk, or Roll for Love, Equity and Access",
+      "name": "INCLUDEnyc 5K for Love, Equity and Access",
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/184538",
@@ -807,14 +807,6 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/184539",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "CrimsonRise Waterfront Run/Roll/Walk",
-      "dist": "5K/1M",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/192123",
       "source": ""
     },
     {
@@ -1088,6 +1080,14 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/193020",
       "source": "QDR"
+    },
+    {
+      "date": "2026-11-14",
+      "name": "CrimsonRise Waterfront Run/Roll/Walk",
+      "dist": "5K/1M",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/192123",
+      "source": ""
     },
     {
       "date": "2026-11-15",
@@ -1599,6 +1599,30 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/142963",
+      "source": ""
+    },
+    {
+      "date": "2027-06-05",
+      "name": "Run to the Verrazzano 4 Miler",
+      "dist": "4M",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/113545",
+      "source": ""
+    },
+    {
+      "date": "2027-06-05",
+      "name": "LIC Waterfront 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/43622",
+      "source": ""
+    },
+    {
+      "date": "2027-06-06",
+      "name": "Strawberry Fest 5K & 5M",
+      "dist": "5M/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/194829",
       "source": ""
     }
   ],
