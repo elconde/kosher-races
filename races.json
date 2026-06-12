@@ -1,14 +1,6 @@
 {
-  "generated": "2026-06-11T07:30:01Z",
+  "generated": "2026-06-12T07:28:19Z",
   "races": [
-    {
-      "date": "2026-06-11",
-      "name": "VCTC Cross Country Summer Series",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/12213",
-      "source": ""
-    },
     {
       "date": "2026-06-13",
       "name": "The NYC Run Into Summer 5K at Central Park",
@@ -183,6 +175,14 @@
       "dist": "5K",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/184486",
+      "source": ""
+    },
+    {
+      "date": "2026-06-25",
+      "name": "VCTC Cross Country Summer Series",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/12213",
       "source": ""
     },
     {
@@ -723,14 +723,6 @@
     },
     {
       "date": "2026-09-27",
-      "name": "BT5K - New York",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/25882",
-      "source": ""
-    },
-    {
-      "date": "2026-09-27",
       "name": "Tunnel To Towers",
       "dist": "5K",
       "loc": "Manhattan",
@@ -872,6 +864,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/82980",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-10-18",
+      "name": "BT5K - New York",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/25882",
+      "source": ""
     },
     {
       "date": "2026-10-18",
