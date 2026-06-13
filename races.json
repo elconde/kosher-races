@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T07:28:19Z",
+  "generated": "2026-06-13T07:11:17Z",
   "races": [
     {
       "date": "2026-06-13",
@@ -359,14 +359,6 @@
       "dist": "HM/5M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/89728",
-      "source": ""
-    },
-    {
-      "date": "2026-08-01",
-      "name": "Tavern Cup 10K",
-      "dist": "10K",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/198101",
       "source": ""
     },
     {
@@ -1087,6 +1079,14 @@
       "dist": "5K/1M",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/192123",
+      "source": ""
+    },
+    {
+      "date": "2026-11-14",
+      "name": "Tavern Cup 10K",
+      "dist": "10K",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/198101",
       "source": ""
     },
     {
