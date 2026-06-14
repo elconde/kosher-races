@@ -1,62 +1,6 @@
 {
-  "generated": "2026-06-13T07:11:17Z",
+  "generated": "2026-06-14T07:28:02Z",
   "races": [
-    {
-      "date": "2026-06-13",
-      "name": "The NYC Run Into Summer 5K at Central Park",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/199806",
-      "source": ""
-    },
-    {
-      "date": "2026-06-13",
-      "name": "CRF Full Steam Ahead 5K",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/105440",
-      "source": ""
-    },
-    {
-      "date": "2026-06-13",
-      "name": "iBE-FiT 5K Invitational",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/141963",
-      "source": ""
-    },
-    {
-      "date": "2026-06-13",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-06-13",
-      "name": "Brooklyn Pride LGBTQIA+ 5K Run",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/23727",
-      "source": ""
-    },
-    {
-      "date": "2026-06-13",
-      "name": "Dime McCarren 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/24505",
-      "source": ""
-    },
-    {
-      "date": "2026-06-13",
-      "name": "Brooklyn Queens Brewery Express Half Marathon",
-      "dist": "HM",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/49709",
-      "source": ""
-    },
     {
       "date": "2026-06-14",
       "name": "Summer Slushee 5K",
@@ -111,6 +55,14 @@
       "dist": "4M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/124638",
+      "source": ""
+    },
+    {
+      "date": "2026-06-20",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
@@ -711,6 +663,14 @@
       "dist": "HM/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/164785",
+      "source": ""
+    },
+    {
+      "date": "2026-09-27",
+      "name": "RunThrough Staten Island at Freshkills Park 5K, 10K & Half Marathon",
+      "dist": "HM/10K/5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/201591",
       "source": ""
     },
     {
