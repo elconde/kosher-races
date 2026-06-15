@@ -1,38 +1,6 @@
 {
-  "generated": "2026-06-14T07:28:02Z",
+  "generated": "2026-06-15T07:44:46Z",
   "races": [
-    {
-      "date": "2026-06-14",
-      "name": "Summer Slushee 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/198700",
-      "source": ""
-    },
-    {
-      "date": "2026-06-14",
-      "name": "Buckley's to Kennedy's 5K Charity Run",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/184514",
-      "source": ""
-    },
-    {
-      "date": "2026-06-14",
-      "name": "QDR Elmhurst Mile",
-      "dist": "1M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/146162",
-      "source": "QDR"
-    },
-    {
-      "date": "2026-06-14",
-      "name": "SSG Ollis 5K Run",
-      "dist": "5K",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/50290",
-      "source": ""
-    },
     {
       "date": "2026-06-16",
       "name": "NYCRUNS Lousy T-Shirt Race",
@@ -499,6 +467,14 @@
     },
     {
       "date": "2026-09-12",
+      "name": "Patriots & Paws 5K",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/201656",
+      "source": ""
+    },
+    {
+      "date": "2026-09-12",
       "name": "Bushwick 5K",
       "dist": "5K",
       "loc": "Brooklyn",
@@ -543,6 +519,14 @@
       "dist": "10K/5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/109008",
+      "source": ""
+    },
+    {
+      "date": "2026-09-13",
+      "name": "The Endless Summer 5K/10K/HM",
+      "dist": "HM/10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/201657",
       "source": ""
     },
     {
@@ -1063,6 +1047,14 @@
       "dist": "HM",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/182374",
+      "source": ""
+    },
+    {
+      "date": "2026-11-15",
+      "name": "New York Flushing Meadows 5K, 10K, & Half Marathon",
+      "dist": "HM/10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/192621",
       "source": ""
     },
     {
