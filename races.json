@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T07:44:46Z",
+  "generated": "2026-06-16T07:47:12Z",
   "races": [
     {
       "date": "2026-06-16",
@@ -175,6 +175,14 @@
       "dist": "HM/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/103514",
+      "source": ""
+    },
+    {
+      "date": "2026-07-11",
+      "name": "Fun Run Championship",
+      "dist": "3M",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/201661",
       "source": ""
     },
     {
