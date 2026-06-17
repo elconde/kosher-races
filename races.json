@@ -1,14 +1,6 @@
 {
-  "generated": "2026-06-16T07:47:12Z",
+  "generated": "2026-06-17T07:38:25Z",
   "races": [
-    {
-      "date": "2026-06-16",
-      "name": "NYCRUNS Lousy T-Shirt Race",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/139245",
-      "source": "NYCRUNS"
-    },
     {
       "date": "2026-06-17",
       "name": "Al Goldstein Speed Series",
@@ -1584,6 +1576,38 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194829",
       "source": ""
+    },
+    {
+      "date": "2027-06-12",
+      "name": "Brooklyn Pride LGBTQIA+ 5K Run",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/23727",
+      "source": ""
+    },
+    {
+      "date": "2027-06-12",
+      "name": "Dime McCarren 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/24505",
+      "source": ""
+    },
+    {
+      "date": "2027-06-12",
+      "name": "Brooklyn Queens Brewery Express Half Marathon",
+      "dist": "HM",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/49709",
+      "source": ""
+    },
+    {
+      "date": "2027-06-13",
+      "name": "QDR Elmhurst Mile",
+      "dist": "1M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/146162",
+      "source": "QDR"
     }
   ],
   "hag_dates": {
