@@ -1,14 +1,6 @@
 {
-  "generated": "2026-06-17T07:38:25Z",
+  "generated": "2026-06-18T07:30:48Z",
   "races": [
-    {
-      "date": "2026-06-17",
-      "name": "Al Goldstein Speed Series",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/16768",
-      "source": ""
-    },
     {
       "date": "2026-06-19",
       "name": "Juneteenth March 4M Run/Walk Roll",
@@ -138,6 +130,14 @@
       "source": ""
     },
     {
+      "date": "2026-07-01",
+      "name": "Al Goldstein Speed Series",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/16768",
+      "source": ""
+    },
+    {
       "date": "2026-07-05",
       "name": "Awesome 80s Half Marathon and 5K",
       "dist": "HM/5K",
@@ -210,14 +210,6 @@
       "source": ""
     },
     {
-      "date": "2026-07-18",
-      "name": "QDR Rockaway Beach 5K and 10K",
-      "dist": "10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/194832",
-      "source": "QDR"
-    },
-    {
       "date": "2026-07-19",
       "name": "Only In Harlem 5K Run/Walk",
       "dist": "5K",
@@ -270,7 +262,7 @@
       "name": "Bed-Stuy Heritage 5K",
       "dist": "5K",
       "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/127858",
+      "url": "https://www.runningintheusa.com/details/52280",
       "source": ""
     },
     {
@@ -1463,6 +1455,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/15275",
+      "source": ""
+    },
+    {
+      "date": "2027-04-24",
+      "name": "Dock Street School Autism Acceptance 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/137167",
       "source": ""
     },
     {
