@@ -1,14 +1,6 @@
 {
-  "generated": "2026-06-19T07:41:59Z",
+  "generated": "2026-06-20T07:12:54Z",
   "races": [
-    {
-      "date": "2026-06-19",
-      "name": "Juneteenth March 4M Run/Walk Roll",
-      "dist": "4M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/124638",
-      "source": ""
-    },
     {
       "date": "2026-06-20",
       "name": "Brooklyn Bridge parkrun",
@@ -615,6 +607,14 @@
       "dist": "10K/5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/62075",
+      "source": ""
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Odyssey House Run For Your Life",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/14289",
       "source": ""
     },
     {
@@ -1608,6 +1608,14 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/146162",
       "source": "QDR"
+    },
+    {
+      "date": "2027-06-13",
+      "name": "SSG Ollis 5K Run",
+      "dist": "5K",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/50290",
+      "source": ""
     }
   ],
   "hag_dates": {
