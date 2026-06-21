@@ -1,46 +1,6 @@
 {
-  "generated": "2026-06-20T07:12:54Z",
+  "generated": "2026-06-21T07:30:03Z",
   "races": [
-    {
-      "date": "2026-06-20",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-06-20",
-      "name": "Juneteenth 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/115194",
-      "source": ""
-    },
-    {
-      "date": "2026-06-20",
-      "name": "NYRR Queens 10K",
-      "dist": "10K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/29057",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-06-20",
-      "name": "Joanna Sophia Around the World 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/77904",
-      "source": ""
-    },
-    {
-      "date": "2026-06-20",
-      "name": "Rockaway Beach Fathers Day Half",
-      "dist": "HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/35794",
-      "source": ""
-    },
     {
       "date": "2026-06-21",
       "name": "Cheryl Diamond NYC 5K Cancer Schlep Run/Walk",
@@ -88,6 +48,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/12211",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-06-27",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
+      "source": ""
     },
     {
       "date": "2026-06-27",
