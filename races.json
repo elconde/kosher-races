@@ -1,38 +1,6 @@
 {
-  "generated": "2026-06-21T07:30:03Z",
+  "generated": "2026-06-22T07:46:21Z",
   "races": [
-    {
-      "date": "2026-06-21",
-      "name": "Cheryl Diamond NYC 5K Cancer Schlep Run/Walk",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/21344",
-      "source": ""
-    },
-    {
-      "date": "2026-06-21",
-      "name": "NYCRUNS Summer Loving 5K and 10K",
-      "dist": "10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/57489",
-      "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-06-21",
-      "name": "Dad Bod 5K & 10K",
-      "dist": "10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/124640",
-      "source": ""
-    },
-    {
-      "date": "2026-06-21",
-      "name": "BWC Fitness and TIA Initiative 5K",
-      "dist": "5K",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/184486",
-      "source": ""
-    },
     {
       "date": "2026-06-25",
       "name": "VCTC Cross Country Summer Series",
@@ -423,6 +391,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/201656",
+      "source": ""
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Brooklyn T.E.A.L. Walk/Run",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/33360",
       "source": ""
     },
     {
