@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13T08:38:17Z",
+  "generated": "2026-07-13T12:00:00Z",
   "races": [
     {
       "date": "2026-08-22",
@@ -7,6 +7,14 @@
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://events.nyrr.org/nyrr-grete-s-great-gallop-10k",
+      "source": "NYRR"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "NYRR Jersey City 5K",
+      "dist": "5K",
+      "loc": "Jersey City",
+      "url": "https://events.nyrr.org/nyrr-jersey-city-5k",
       "source": "NYRR"
     }
   ],
