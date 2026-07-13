@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, kosher-races-runner]
 
     steps:
       - name: Check out repo
