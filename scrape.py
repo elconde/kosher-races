@@ -81,12 +81,17 @@ def load_custom_races():
 
 def main():
     try:
-        all_races = scrape_runningintheusa.scrape()
+        scraped_races = scrape_runningintheusa.scrape()
     except Exception as e:
         print(f"ERROR during scrape: {e}", file=sys.stderr)
         traceback.print_exc()
         sys.exit(1)
 
+    if not scraped_races:
+        print("ERROR: RunningInTheUSA returned 0 races — likely blocked. Aborting to preserve existing races.json.", file=sys.stderr)
+        sys.exit(1)
+
+    all_races = scraped_races
     print("\nLoading custom races...", flush=True)
     all_races += load_custom_races()
 
