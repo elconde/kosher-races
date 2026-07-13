@@ -17,16 +17,11 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: python3 -m pip install --user requests beautifulsoup4
 
       - name: Run scraper
-        run: python scrape.py
+        run: python3 scrape.py
 
       - name: Commit races.json
         run: |
