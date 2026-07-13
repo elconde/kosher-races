@@ -7,6 +7,14 @@
       "loc": "Manhattan",
       "url": "https://events.nyrr.org/nyrr-grete-s-great-gallop-10k",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "NYRR Jersey City 5K",
+      "dist": "5K",
+      "loc": "Jersey City",
+      "url": "https://events.nyrr.org/nyrr-jersey-city-5k",
+      "source": "NYRR"
     }
   ]
 }
