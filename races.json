@@ -1,124 +1,12 @@
 {
-  "generated": "2026-06-23T07:05:49Z",
+  "generated": "2026-07-14T01:04:25Z",
   "races": [
     {
-      "date": "2026-06-25",
-      "name": "VCTC Cross Country Summer Series",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/12213",
-      "source": ""
-    },
-    {
-      "date": "2026-06-27",
-      "name": "Front Runners New York LGBT Pride Run",
-      "dist": "4M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/12211",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-06-27",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-06-27",
-      "name": "Brooklyn Duathlon",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/187053",
-      "source": ""
-    },
-    {
-      "date": "2026-06-28",
-      "name": "Achilles Hope & Possibility 4 Mile Run",
-      "dist": "4M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/12212",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-06-28",
-      "name": "Flushing NYC Half",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/127712",
-      "source": ""
-    },
-    {
-      "date": "2026-06-28",
-      "name": "Staten Island Firecracker 3 Mile Run",
-      "dist": "3M",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/141401",
-      "source": ""
-    },
-    {
-      "date": "2026-07-01",
+      "date": "2026-07-15",
       "name": "Al Goldstein Speed Series",
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/16768",
-      "source": ""
-    },
-    {
-      "date": "2026-07-05",
-      "name": "Awesome 80s Half Marathon and 5K",
-      "dist": "HM/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/142890",
-      "source": ""
-    },
-    {
-      "date": "2026-07-05",
-      "name": "Firecracker Half Marathon",
-      "dist": "HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/46707",
-      "source": ""
-    },
-    {
-      "date": "2026-07-11",
-      "name": "NYRR 9/11 Memorial and Museum Retro 4-Miler",
-      "dist": "4M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/31238",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-07-11",
-      "name": "Sri Chinmoy 5K, Half Marathon & Relay",
-      "dist": "HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/103514",
-      "source": ""
-    },
-    {
-      "date": "2026-07-11",
-      "name": "Fun Run Championship",
-      "dist": "3M",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/201661",
-      "source": ""
-    },
-    {
-      "date": "2026-07-12",
-      "name": "Brooklynite Summer Half, 10K, 5K",
-      "dist": "HM/10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/198430",
-      "source": ""
-    },
-    {
-      "date": "2026-07-12",
-      "name": "The Nostalgic 90's 5K and 5 Mile Run/Walk",
-      "dist": "5M/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/184530",
       "source": ""
     },
     {
@@ -138,6 +26,14 @@
       "source": ""
     },
     {
+      "date": "2026-07-18",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
+      "source": ""
+    },
+    {
       "date": "2026-07-19",
       "name": "Only In Harlem 5K Run/Walk",
       "dist": "5K",
@@ -152,6 +48,22 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194831",
       "source": "QDR"
+    },
+    {
+      "date": "2026-07-23",
+      "name": "VCTC Cross Country Summer Series",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/12213",
+      "source": ""
+    },
+    {
+      "date": "2026-07-25",
+      "name": "NYRR Start Line Series - Queens",
+      "dist": "3M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/188309",
+      "source": "NYRR"
     },
     {
       "date": "2026-07-25",
@@ -199,6 +111,14 @@
       "dist": "HM/5M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/89728",
+      "source": ""
+    },
+    {
+      "date": "2026-08-01",
+      "name": "NYRR Start Line Series - Manhattan",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/202284",
       "source": ""
     },
     {
@@ -258,14 +178,6 @@
       "source": ""
     },
     {
-      "date": "2026-08-08",
-      "name": "NYC Police Chase",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/20839",
-      "source": ""
-    },
-    {
       "date": "2026-08-09",
       "name": "Robert Van Tassel Live the Dash Memorial 5K",
       "dist": "5K",
@@ -291,11 +203,11 @@
     },
     {
       "date": "2026-08-22",
-      "name": "NYRR Start Line Series - Queens",
-      "dist": "2.5M",
+      "name": "NYRR Start Line Series - The Bronx",
+      "dist": "5K",
       "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/188309",
-      "source": "NYRR"
+      "url": "https://www.runningintheusa.com/details/202285",
+      "source": ""
     },
     {
       "date": "2026-08-22",
@@ -359,6 +271,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/64273",
+      "source": ""
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Hydration Guy High Five",
+      "dist": "5M",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/202327",
       "source": ""
     },
     {
@@ -475,6 +395,14 @@
     },
     {
       "date": "2026-09-19",
+      "name": "Miles for Melanoma - New York",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/42820",
+      "source": ""
+    },
+    {
+      "date": "2026-09-19",
       "name": "NYRR Bronx 10 Mile",
       "dist": "10M",
       "loc": "Bronx",
@@ -495,6 +423,14 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/109006",
+      "source": ""
+    },
+    {
+      "date": "2026-09-19",
+      "name": "JIFI-NYC Fun Run/Walk 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/202162",
       "source": ""
     },
     {
@@ -583,6 +519,14 @@
       "dist": "HM/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/164785",
+      "source": ""
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Church of St. Andrew 5K Steeplechase",
+      "dist": "5K",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/128256",
       "source": ""
     },
     {
@@ -698,6 +642,14 @@
       "source": ""
     },
     {
+      "date": "2026-10-04",
+      "name": "NYRR Jersey City 5K",
+      "dist": "5K",
+      "loc": "Jersey City",
+      "url": "https://events.nyrr.org/nyrr-jersey-city-5k",
+      "source": "NYRR"
+    },
+    {
       "date": "2026-10-10",
       "name": "Classic Apple Pie Half Marathon",
       "dist": "HM/5K",
@@ -736,6 +688,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/82980",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Support Our Troops",
+      "dist": "5K/1M",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/189761",
+      "source": ""
     },
     {
       "date": "2026-10-18",
@@ -811,6 +771,14 @@
     },
     {
       "date": "2026-10-24",
+      "name": "Brooklyn PTA Fun Run",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/110216",
+      "source": ""
+    },
+    {
+      "date": "2026-10-24",
       "name": "Run Rockaway Beach Half Marathon or 5K",
       "dist": "HM/5K",
       "loc": "Queens",
@@ -858,12 +826,20 @@
       "source": ""
     },
     {
+      "date": "2026-10-25",
+      "name": "Richmond Rockets Halloween 5K",
+      "dist": "5K",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/147320",
+      "source": ""
+    },
+    {
       "date": "2026-10-31",
       "name": "Abbott Dash to the Finish Line",
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/18257",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-10-31",
@@ -903,6 +879,14 @@
       "dist": "HM/10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/182373",
+      "source": ""
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Dyspraxia DCD America 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/202236",
       "source": ""
     },
     {
@@ -967,6 +951,14 @@
       "dist": "10K",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/198101",
+      "source": ""
+    },
+    {
+      "date": "2026-11-15",
+      "name": "Manhattan Turkey Trot 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/130124",
       "source": ""
     },
     {
@@ -1143,7 +1135,7 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/12691",
-      "source": ""
+      "source": "NYRR"
     },
     {
       "date": "2026-12-12",
@@ -1267,14 +1259,6 @@
     },
     {
       "date": "2027-02-13",
-      "name": "Cupid's Chase 5K - Manhattan",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/15922",
-      "source": ""
-    },
-    {
-      "date": "2027-02-13",
       "name": "Cupid's Chase 5K - Brooklyn",
       "dist": "5K",
       "loc": "Brooklyn",
@@ -1303,6 +1287,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/76194",
+      "source": ""
+    },
+    {
+      "date": "2027-02-20",
+      "name": "Cupid's Chase 5K - Manhattan",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/15922",
       "source": ""
     },
     {
@@ -1442,11 +1434,27 @@
       "source": ""
     },
     {
+      "date": "2027-05-02",
+      "name": "New York Harbor Oyster Classic 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/49974",
+      "source": ""
+    },
+    {
       "date": "2027-05-09",
       "name": "Yo Mama's So Fast 5K & Half Marathon",
       "dist": "HM/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/139048",
+      "source": ""
+    },
+    {
+      "date": "2027-05-15",
+      "name": "I Am Not My Diagnosis 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/197682",
       "source": ""
     },
     {
@@ -1559,6 +1567,38 @@
       "dist": "5K",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/50290",
+      "source": ""
+    },
+    {
+      "date": "2027-06-20",
+      "name": "Cheryl Diamond NYC 5K Cancer Schlep Run/Walk",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/21344",
+      "source": ""
+    },
+    {
+      "date": "2027-06-20",
+      "name": "Dad Bod 5K & 10K",
+      "dist": "10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/124640",
+      "source": ""
+    },
+    {
+      "date": "2027-06-20",
+      "name": "BWC Fitness and TIA Initiative 5K",
+      "dist": "5K",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/184486",
+      "source": ""
+    },
+    {
+      "date": "2027-07-04",
+      "name": "Awesome 80s Half Marathon and 5K",
+      "dist": "HM/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/142890",
       "source": ""
     }
   ],
