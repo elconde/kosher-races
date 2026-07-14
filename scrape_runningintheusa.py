@@ -6,9 +6,9 @@ Returns a list of race dicts with keys: date, name, dist, loc, url, source.
 
 import os
 import re
+import subprocess
 from datetime import datetime, date as date_cls
 
-import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.runningintheusa.com"
@@ -139,10 +139,20 @@ def should_skip(name, dist_raw):
 
 
 def fetch_page(list_url, n):
+    # Cloudflare fingerprints requests' TLS/HTTP2 handshake and blocks it as a
+    # bot even from an allowlisted IP with a browser User-Agent; curl passes.
     url = f"{list_url}/page-{n}"
-    r = requests.get(url, headers=HEADERS, timeout=15)
-    r.raise_for_status()
-    return r.text
+    result = subprocess.run(
+        ["curl", "-4", "-s", "--fail", "--max-time", "15",
+         "-A", HEADERS["User-Agent"], url],
+        capture_output=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"curl failed for {url}: exit {result.returncode}: "
+            f"{result.stderr.decode(errors='replace').strip()}"
+        )
+    return result.stdout.decode("utf-8", errors="replace")
 
 
 def parse_total(soup):
