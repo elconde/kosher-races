@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T01:04:25Z",
+  "generated": "2026-07-14T07:31:02Z",
   "races": [
     {
       "date": "2026-07-15",
@@ -40,14 +40,6 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/113547",
       "source": ""
-    },
-    {
-      "date": "2026-07-19",
-      "name": "QDR Bayside 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/194831",
-      "source": "QDR"
     },
     {
       "date": "2026-07-23",
@@ -104,6 +96,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/52280",
       "source": ""
+    },
+    {
+      "date": "2026-07-26",
+      "name": "QDR Bayside 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/194831",
+      "source": "QDR"
     },
     {
       "date": "2026-08-01",
