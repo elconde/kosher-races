@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T07:31:02Z",
+  "generated": "2026-07-15T07:44:44Z",
   "races": [
     {
       "date": "2026-07-15",
@@ -1202,6 +1202,14 @@
       "source": "NYRR"
     },
     {
+      "date": "2026-12-31",
+      "name": "Queens New Year's Eve",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/111975",
+      "source": ""
+    },
+    {
       "date": "2027-01-01",
       "name": "Sri Chinmoy New Year's Day Half-Marathon at Flushing Meadows",
       "dist": "HM",
@@ -1599,6 +1607,14 @@
       "dist": "HM/5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/142890",
+      "source": ""
+    },
+    {
+      "date": "2027-07-11",
+      "name": "The Nostalgic 90's 5K and 5 Mile Run/Walk",
+      "dist": "5M/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/184530",
       "source": ""
     }
   ],
