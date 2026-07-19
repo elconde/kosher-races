@@ -1,22 +1,6 @@
 {
-  "generated": "2026-07-18T07:21:42Z",
+  "generated": "2026-07-19T07:52:39Z",
   "races": [
-    {
-      "date": "2026-07-18",
-      "name": "Miles for the Future 5K",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/198702",
-      "source": ""
-    },
-    {
-      "date": "2026-07-18",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
     {
       "date": "2026-07-19",
       "name": "Only In Harlem 5K Run/Walk",
@@ -40,6 +24,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/188309",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-07-25",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
+      "source": ""
     },
     {
       "date": "2026-07-25",
@@ -960,14 +952,6 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/191801",
       "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-11-15",
-      "name": "Thankful 131! A Half Marathon Event",
-      "dist": "HM",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/182374",
-      "source": ""
     },
     {
       "date": "2026-11-15",
