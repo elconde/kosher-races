@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T08:01:45Z",
+  "generated": "2026-07-23T08:04:48Z",
   "races": [
     {
       "date": "2026-07-23",
@@ -387,7 +387,7 @@
     },
     {
       "date": "2026-09-19",
-      "name": "Unity Race",
+      "name": "Unity Race 5K Run/Walk",
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/113548",
@@ -447,6 +447,14 @@
       "dist": "5K/1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/172920",
+      "source": ""
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Fundacion Ser Feliz 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/202497",
       "source": ""
     },
     {
