@@ -1,14 +1,6 @@
 {
-  "generated": "2026-07-23T08:04:48Z",
+  "generated": "2026-07-24T08:01:28Z",
   "races": [
-    {
-      "date": "2026-07-23",
-      "name": "VCTC Cross Country Summer Series",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/12213",
-      "source": ""
-    },
     {
       "date": "2026-07-25",
       "name": "NYRR Start Line Series - Queens",
@@ -82,6 +74,14 @@
       "source": ""
     },
     {
+      "date": "2026-07-30",
+      "name": "VCTC Cross Country Summer Series",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/12213",
+      "source": ""
+    },
+    {
       "date": "2026-08-01",
       "name": "NYC Summer Half Central Park",
       "dist": "HM/5M",
@@ -119,14 +119,6 @@
       "dist": "HM/10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/76121",
-      "source": ""
-    },
-    {
-      "date": "2026-08-02",
-      "name": "Queens NYC Half, 10K, 5K",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/194970",
       "source": ""
     },
     {
@@ -411,14 +403,6 @@
     },
     {
       "date": "2026-09-19",
-      "name": "Enabled 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/195451",
-      "source": ""
-    },
-    {
-      "date": "2026-09-19",
       "name": "Planet NY Half Marathon",
       "dist": "HM/10K/5K",
       "loc": "Queens",
@@ -627,6 +611,14 @@
     },
     {
       "date": "2026-10-04",
+      "name": "Victoria's 5K Run/Walk for Life",
+      "dist": "5K/1M",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/124874",
+      "source": ""
+    },
+    {
+      "date": "2026-10-04",
       "name": "NYRR Jersey City 5K",
       "dist": "5K",
       "loc": "Jersey City",
@@ -647,6 +639,14 @@
       "dist": "10K/5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/176809",
+      "source": ""
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Enabled 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/195451",
       "source": ""
     },
     {
