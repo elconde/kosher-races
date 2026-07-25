@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T08:01:28Z",
+  "generated": "2026-07-25T07:45:42Z",
   "races": [
     {
       "date": "2026-07-25",
@@ -1203,6 +1203,14 @@
     },
     {
       "date": "2027-01-09",
+      "name": "NYRR Joe Kleinerman 10K",
+      "dist": "10K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/12690",
+      "source": "NYRR"
+    },
+    {
+      "date": "2027-01-09",
       "name": "NYC Parks Winter Series - Frosty 5K and Icy 5 Mile",
       "dist": "5M/5K",
       "loc": "Queens",
@@ -1242,6 +1250,22 @@
       "source": ""
     },
     {
+      "date": "2027-01-24",
+      "name": "NYRR Fred Lebow Half Marathon",
+      "dist": "HM",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/13320",
+      "source": "NYRR"
+    },
+    {
+      "date": "2027-02-07",
+      "name": "NYRR Manhattan 10K",
+      "dist": "10K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/62306",
+      "source": ""
+    },
+    {
       "date": "2027-02-13",
       "name": "Cupid's Chase 5K - Brooklyn",
       "dist": "5K",
@@ -1264,6 +1288,14 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/54255",
       "source": ""
+    },
+    {
+      "date": "2027-02-14",
+      "name": "NYRR Gridiron 4M",
+      "dist": "4M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/12785",
+      "source": "NYRR"
     },
     {
       "date": "2027-02-14",
@@ -1290,6 +1322,14 @@
       "source": ""
     },
     {
+      "date": "2027-02-27",
+      "name": "NYRR Al Gordon 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/146142",
+      "source": "NYRR"
+    },
+    {
       "date": "2027-02-28",
       "name": "NYCRUNS Central Park Half Marathon",
       "dist": "HM",
@@ -1312,6 +1352,14 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/112085",
       "source": ""
+    },
+    {
+      "date": "2027-03-07",
+      "name": "NYRR Washington Heights Salsa, Blues, and Shamrocks 5K",
+      "dist": "5K/1.5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/26550",
+      "source": "NYRR"
     },
     {
       "date": "2027-03-07",
