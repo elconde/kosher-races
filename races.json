@@ -1,46 +1,6 @@
 {
-  "generated": "2026-07-25T07:45:42Z",
+  "generated": "2026-07-26T08:00:23Z",
   "races": [
-    {
-      "date": "2026-07-25",
-      "name": "NYRR Start Line Series - Queens",
-      "dist": "3M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/188309",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-07-25",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-07-25",
-      "name": "Hip Hop Half Marathon & 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/142892",
-      "source": ""
-    },
-    {
-      "date": "2026-07-25",
-      "name": "NYCRUNS Brooklyn Ice Cream Social 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/58470",
-      "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-07-25",
-      "name": "Track Morning NYC - Early Bird Special",
-      "dist": "5K/1M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/199094",
-      "source": ""
-    },
     {
       "date": "2026-07-26",
       "name": "NYRR Team Championships",
@@ -95,6 +55,22 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/202284",
+      "source": ""
+    },
+    {
+      "date": "2026-08-01",
+      "name": "12th BedStuy 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/202528",
+      "source": ""
+    },
+    {
+      "date": "2026-08-01",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
