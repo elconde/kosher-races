@@ -1,30 +1,6 @@
 {
-  "generated": "2026-07-26T08:00:23Z",
+  "generated": "2026-07-27T09:00:25Z",
   "races": [
-    {
-      "date": "2026-07-26",
-      "name": "NYRR Team Championships",
-      "dist": "5M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/29058",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-07-26",
-      "name": "Bed-Stuy Heritage 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/52280",
-      "source": ""
-    },
-    {
-      "date": "2026-07-26",
-      "name": "QDR Bayside 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/194831",
-      "source": "QDR"
-    },
     {
       "date": "2026-07-29",
       "name": "Al Goldstein Speed Series",
@@ -127,6 +103,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/83773",
+      "source": ""
+    },
+    {
+      "date": "2026-08-14",
+      "name": "5K on the Beach",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/115890",
       "source": ""
     },
     {
@@ -359,14 +343,6 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/113548",
-      "source": ""
-    },
-    {
-      "date": "2026-09-19",
-      "name": "Esophageal Cancer Awareness",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/109006",
       "source": ""
     },
     {
@@ -1615,6 +1591,14 @@
       "dist": "5M/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/184530",
+      "source": ""
+    },
+    {
+      "date": "2027-07-18",
+      "name": "Only In Harlem 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/113547",
       "source": ""
     }
   ],
