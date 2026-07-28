@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T09:00:25Z",
+  "generated": "2026-07-28T08:08:21Z",
   "races": [
     {
       "date": "2026-07-29",
@@ -368,6 +368,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/187310",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "P.O. Chris Hoban Memorial 5 Miler, 5K and Kid's Dash",
+      "dist": "5M/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/202676",
+      "source": ""
     },
     {
       "date": "2026-09-20",
