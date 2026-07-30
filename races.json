@@ -1,14 +1,6 @@
 {
-  "generated": "2026-07-29T08:12:23Z",
+  "generated": "2026-07-30T08:00:45Z",
   "races": [
-    {
-      "date": "2026-07-29",
-      "name": "Al Goldstein Speed Series",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/16768",
-      "source": ""
-    },
     {
       "date": "2026-07-30",
       "name": "VCTC Cross Country Summer Series",
@@ -103,6 +95,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/83773",
+      "source": ""
+    },
+    {
+      "date": "2026-08-12",
+      "name": "Al Goldstein Speed Series",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/16768",
       "source": ""
     },
     {
