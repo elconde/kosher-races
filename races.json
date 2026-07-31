@@ -1,14 +1,6 @@
 {
-  "generated": "2026-07-30T08:00:45Z",
+  "generated": "2026-07-31T08:25:01Z",
   "races": [
-    {
-      "date": "2026-07-30",
-      "name": "VCTC Cross Country Summer Series",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/12213",
-      "source": ""
-    },
     {
       "date": "2026-08-01",
       "name": "NYC Summer Half Central Park",
@@ -567,6 +559,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/142601",
+      "source": ""
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Queens Way 5K",
+      "dist": "5K/1M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/192227",
       "source": ""
     },
     {
@@ -1608,6 +1608,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/113547",
       "source": ""
+    },
+    {
+      "date": "2027-07-25",
+      "name": "QDR Bayside 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/194831",
+      "source": "QDR"
     }
   ],
   "hag_dates": {
