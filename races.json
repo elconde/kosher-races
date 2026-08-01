@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T08:25:01Z",
+  "generated": "2026-08-01T07:55:02Z",
   "races": [
     {
       "date": "2026-08-01",
@@ -619,6 +619,14 @@
     },
     {
       "date": "2026-10-17",
+      "name": "Global Kids 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/34180",
+      "source": ""
+    },
+    {
+      "date": "2026-10-17",
       "name": "Miles for Migraine",
       "dist": "5K",
       "loc": "Manhattan",
@@ -831,14 +839,6 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/202236",
-      "source": ""
-    },
-    {
-      "date": "2026-11-08",
-      "name": "Global Kids 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/34180",
       "source": ""
     },
     {
