@@ -1,38 +1,6 @@
 {
-  "generated": "2026-08-01T07:55:02Z",
+  "generated": "2026-08-02T07:57:30Z",
   "races": [
-    {
-      "date": "2026-08-01",
-      "name": "NYC Summer Half Central Park",
-      "dist": "HM/5M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/89728",
-      "source": ""
-    },
-    {
-      "date": "2026-08-01",
-      "name": "NYRR Start Line Series - Manhattan",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/202284",
-      "source": ""
-    },
-    {
-      "date": "2026-08-01",
-      "name": "12th BedStuy 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/202528",
-      "source": ""
-    },
-    {
-      "date": "2026-08-01",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
     {
       "date": "2026-08-02",
       "name": "NSRF Comic Run",
@@ -72,6 +40,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/17136",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-08-08",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
+      "source": ""
     },
     {
       "date": "2026-08-08",
@@ -808,6 +784,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/10019",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Riverside Church Turkey Trot",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/192452",
+      "source": ""
     },
     {
       "date": "2026-11-07",
