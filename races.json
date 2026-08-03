@@ -1,30 +1,6 @@
 {
-  "generated": "2026-08-02T07:57:30Z",
+  "generated": "2026-08-03T08:53:25Z",
   "races": [
-    {
-      "date": "2026-08-02",
-      "name": "NSRF Comic Run",
-      "dist": "10K/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/142894",
-      "source": ""
-    },
-    {
-      "date": "2026-08-02",
-      "name": "Brooklyn Mile",
-      "dist": "1M",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/44626",
-      "source": ""
-    },
-    {
-      "date": "2026-08-02",
-      "name": "Queens NYC Half Marathon",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/76121",
-      "source": ""
-    },
     {
       "date": "2026-08-08",
       "name": "NYCRUNS Manhattan Ice Cream Social 10K",
@@ -667,6 +643,14 @@
     },
     {
       "date": "2026-10-18",
+      "name": "TeamWRK Fall 5K at Brooklyn Bridge Park",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/204871",
+      "source": ""
+    },
+    {
+      "date": "2026-10-18",
       "name": "LaGuardia Community 5K",
       "dist": "5K",
       "loc": "Queens",
@@ -1034,19 +1018,19 @@
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-12-05",
+      "name": "Queens Marathon",
+      "dist": "10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/41307",
+      "source": ""
+    },
+    {
       "date": "2026-12-06",
       "name": "PPTC 50 Mile Endurance Fest",
       "dist": "50M",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/98313",
-      "source": ""
-    },
-    {
-      "date": "2026-12-06",
-      "name": "Queens Marathon",
-      "dist": "Marathon/HM",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/41307",
       "source": ""
     },
     {
@@ -1335,6 +1319,14 @@
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/195039",
+      "source": ""
+    },
+    {
+      "date": "2027-03-27",
+      "name": "NYU DPT 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/179893",
       "source": ""
     },
     {
