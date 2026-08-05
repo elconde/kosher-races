@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T08:11:36Z",
+  "generated": "2026-08-05T08:09:58Z",
   "races": [
     {
       "date": "2026-08-08",
@@ -224,6 +224,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/200961",
       "source": ""
+    },
+    {
+      "date": "2026-09-12",
+      "name": "QDR Astoria Mile",
+      "dist": "1M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/204980",
+      "source": "QDR"
     },
     {
       "date": "2026-09-13",
@@ -1592,6 +1600,14 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194831",
       "source": "QDR"
+    },
+    {
+      "date": "2027-08-01",
+      "name": "NSRF Comic Run",
+      "dist": "10K/5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/142894",
+      "source": ""
     }
   ],
   "hag_dates": {
