@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T08:09:58Z",
+  "generated": "2026-08-06T08:08:54Z",
   "races": [
     {
       "date": "2026-08-08",
@@ -495,6 +495,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/184539",
+      "source": ""
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Miles for Smiles",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/177295",
       "source": ""
     },
     {
