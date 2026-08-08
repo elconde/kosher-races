@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T06:55:22Z",
+  "generated": "2026-08-08T06:28:00Z",
   "races": [
     {
       "date": "2026-08-08",
@@ -1368,6 +1368,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/179471",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2027-04-17",
+      "name": "Rockaway Beach Spring Marathon",
+      "dist": "Marathon/HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/160389",
+      "source": ""
     },
     {
       "date": "2027-04-24",
