@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T07:00:49Z",
+  "generated": "2026-08-11T06:40:30Z",
   "races": [
     {
       "date": "2026-08-12",
@@ -1402,6 +1402,14 @@
       "source": ""
     },
     {
+      "date": "2027-05-08",
+      "name": "Mother's Day Half Marathon & 5K",
+      "dist": "HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/160390",
+      "source": ""
+    },
+    {
       "date": "2027-05-09",
       "name": "Yo Mama's So Fast 5K & Half Marathon",
       "dist": "HM/5K",
@@ -1530,6 +1538,14 @@
       "source": ""
     },
     {
+      "date": "2027-06-19",
+      "name": "Rockaway Beach Fathers Day Half",
+      "dist": "HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/35794",
+      "source": ""
+    },
+    {
       "date": "2027-06-20",
       "name": "Cheryl Diamond NYC 5K Cancer Schlep Run/Walk",
       "dist": "5K",
@@ -1554,6 +1570,14 @@
       "source": ""
     },
     {
+      "date": "2027-07-03",
+      "name": "Firecracker Half Marathon",
+      "dist": "HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/46707",
+      "source": ""
+    },
+    {
       "date": "2027-07-04",
       "name": "Awesome 80s Half Marathon and 5K",
       "dist": "HM/5K",
@@ -1575,6 +1599,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/113547",
+      "source": ""
+    },
+    {
+      "date": "2027-07-24",
+      "name": "Hip Hop Half Marathon & 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/142892",
       "source": ""
     },
     {
