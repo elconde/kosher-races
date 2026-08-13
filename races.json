@@ -1,14 +1,6 @@
 {
-  "generated": "2026-08-12T07:01:09Z",
+  "generated": "2026-08-13T07:04:54Z",
   "races": [
-    {
-      "date": "2026-08-12",
-      "name": "Al Goldstein Speed Series",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/16768",
-      "source": ""
-    },
     {
       "date": "2026-08-14",
       "name": "5K on the Beach",
@@ -307,7 +299,7 @@
     },
     {
       "date": "2026-09-20",
-      "name": "LiveOnNY Donor Hero's 5K",
+      "name": "LiveOnNY Donor Heroes 5K",
       "dist": "5K/1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/172920",
@@ -583,14 +575,6 @@
       "dist": "5K/1M",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/189761",
-      "source": ""
-    },
-    {
-      "date": "2026-10-18",
-      "name": "BT5K - New York",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/25882",
       "source": ""
     },
     {
