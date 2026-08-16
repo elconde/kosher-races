@@ -1,22 +1,6 @@
 {
-  "generated": "2026-08-15T06:15:07Z",
+  "generated": "2026-08-16T06:16:43Z",
   "races": [
-    {
-      "date": "2026-08-15",
-      "name": "New York City Marathon Training Series 12M",
-      "dist": "12M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/91906",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
     {
       "date": "2026-08-22",
       "name": "New York Harriers Mile and Donut Relay",
@@ -39,6 +23,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/177444",
+      "source": ""
+    },
+    {
+      "date": "2026-08-22",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
