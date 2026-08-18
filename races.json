@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T06:24:54Z",
+  "generated": "2026-08-18T06:19:08Z",
   "races": [
     {
       "date": "2026-08-22",
@@ -1019,6 +1019,14 @@
     },
     {
       "date": "2026-12-19",
+      "name": "The Great New York City 10K",
+      "dist": "10K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205297",
+      "source": ""
+    },
+    {
+      "date": "2026-12-19",
       "name": "Santa Suit Grinch Fun Run",
       "dist": "5K",
       "loc": "Queens",
@@ -1210,6 +1218,22 @@
       "source": "NYRR"
     },
     {
+      "date": "2027-02-27",
+      "name": "Run Together Against Breast Cancer NYC Central",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205313",
+      "source": ""
+    },
+    {
+      "date": "2027-02-27",
+      "name": "Run Together Against Breast Cancer NYC",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205312",
+      "source": ""
+    },
+    {
       "date": "2027-02-28",
       "name": "NYCRUNS Central Park Half Marathon",
       "dist": "HM",
@@ -1267,6 +1291,14 @@
     },
     {
       "date": "2027-03-20",
+      "name": "St. Paddy's Day Lucky Run 5K/10K/13.1 NYC",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205329",
+      "source": ""
+    },
+    {
+      "date": "2027-03-20",
       "name": "The Unforgettable Staten Island Half Marathon",
       "dist": "HM",
       "loc": "Staten Island",
@@ -1279,6 +1311,22 @@
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/195039",
+      "source": ""
+    },
+    {
+      "date": "2027-03-27",
+      "name": "Always Hope Easter Run NYC Central",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205340",
+      "source": ""
+    },
+    {
+      "date": "2027-03-27",
+      "name": "Always Hope Easter Run NYC",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205339",
       "source": ""
     },
     {
