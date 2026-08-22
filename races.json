@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T06:20:58Z",
+  "generated": "2026-08-22T06:16:15Z",
   "races": [
     {
       "date": "2026-08-22",
@@ -531,14 +531,6 @@
     },
     {
       "date": "2026-10-17",
-      "name": "Global Kids 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/34180",
-      "source": ""
-    },
-    {
-      "date": "2026-10-17",
       "name": "Miles for Migraine",
       "dist": "5K",
       "loc": "Manhattan",
@@ -552,6 +544,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/82980",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Global Kids 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/34180",
+      "source": ""
     },
     {
       "date": "2026-10-17",
@@ -723,6 +723,14 @@
     },
     {
       "date": "2026-11-07",
+      "name": "Care For the Homeless Awareness 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205479",
+      "source": ""
+    },
+    {
+      "date": "2026-11-07",
       "name": "Riverside Church Turkey Trot",
       "dist": "5K",
       "loc": "Manhattan",
@@ -731,10 +739,10 @@
     },
     {
       "date": "2026-11-07",
-      "name": "Saving the Elephants 10K",
+      "name": "Miles for Midwives 5K",
       "dist": "10K/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/33700",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/205475",
       "source": ""
     },
     {
@@ -743,6 +751,14 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/178353",
+      "source": ""
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Saving the Elephants 5K & 10K Run/Walk",
+      "dist": "10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/33700",
       "source": ""
     },
     {
@@ -839,6 +855,14 @@
       "dist": "HM/10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/192621",
+      "source": ""
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Central Park Turkey Trot 4 Miler",
+      "dist": "4M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205448",
       "source": ""
     },
     {
