@@ -1,62 +1,6 @@
 {
-  "generated": "2026-08-22T06:16:15Z",
+  "generated": "2026-08-23T06:17:55Z",
   "races": [
-    {
-      "date": "2026-08-22",
-      "name": "New York Harriers Mile and Donut Relay",
-      "dist": "1M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/187580",
-      "source": ""
-    },
-    {
-      "date": "2026-08-22",
-      "name": "NYRR Start Line Series - The Bronx",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/202285",
-      "source": ""
-    },
-    {
-      "date": "2026-08-22",
-      "name": "Vyshyvanka Run NYC",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/177444",
-      "source": ""
-    },
-    {
-      "date": "2026-08-22",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-08-22",
-      "name": "NYCRUNS Brooklyn Ice Cream Social Half Marathon",
-      "dist": "HM",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/184374",
-      "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-08-22",
-      "name": "Rockaway Beach End Of Summer Marathon",
-      "dist": "Marathon/HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/142248",
-      "source": ""
-    },
-    {
-      "date": "2026-08-22",
-      "name": "NYRR Grete's Great Gallop 10K",
-      "dist": "10K",
-      "loc": "Manhattan",
-      "url": "https://events.nyrr.org/nyrr-grete-s-great-gallop-10k",
-      "source": "NYRR"
-    },
     {
       "date": "2026-08-29",
       "name": "NYCRUNS Endless Summer 10K",
@@ -64,6 +8,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/24559",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2026-08-29",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
+      "source": ""
     },
     {
       "date": "2026-08-29",
@@ -475,7 +427,7 @@
     },
     {
       "date": "2026-10-04",
-      "name": "Queens Way 5K",
+      "name": "QueensWay 5K",
       "dist": "5K/1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/192227",
@@ -642,14 +594,6 @@
       "source": ""
     },
     {
-      "date": "2026-10-24",
-      "name": "Run Rockaway Beach Half Marathon or 5K",
-      "dist": "HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/149390",
-      "source": ""
-    },
-    {
       "date": "2026-10-25",
       "name": "NYCRUNS Haunted Island 5K",
       "dist": "5K",
@@ -711,6 +655,14 @@
       "dist": "Marathon",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/194397",
+      "source": ""
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Run Rockaway Beach Half Marathon or 5K",
+      "dist": "HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/149390",
       "source": ""
     },
     {
@@ -943,6 +895,14 @@
       "dist": "4M/2M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/130126",
+      "source": ""
+    },
+    {
+      "date": "2026-11-26",
+      "name": "Queens Turkey Trot 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/205483",
       "source": ""
     },
     {
