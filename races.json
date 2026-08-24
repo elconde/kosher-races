@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T06:17:55Z",
+  "generated": "2026-08-24T06:29:22Z",
   "races": [
     {
       "date": "2026-08-29",
@@ -339,18 +339,18 @@
     },
     {
       "date": "2026-09-27",
-      "name": "Run For Children's Smile 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/130116",
-      "source": ""
-    },
-    {
-      "date": "2026-09-27",
       "name": "INCLUDEnyc 5K for Love, Equity and Access",
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/184538",
+      "source": ""
+    },
+    {
+      "date": "2026-09-27",
+      "name": "Run For Children's Smile 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/130116",
       "source": ""
     },
     {
@@ -891,18 +891,10 @@
     },
     {
       "date": "2026-11-26",
-      "name": "Hot to Turkey Trot",
-      "dist": "4M/2M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/130126",
-      "source": ""
-    },
-    {
-      "date": "2026-11-26",
       "name": "Queens Turkey Trot 5K Run/Walk",
       "dist": "5K",
       "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/205483",
+      "url": "https://www.runningintheusa.com/details/130126",
       "source": ""
     },
     {
