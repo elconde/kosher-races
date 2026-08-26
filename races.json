@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T06:21:05Z",
+  "generated": "2026-08-26T06:23:03Z",
   "races": [
     {
       "date": "2026-08-29",
@@ -1610,6 +1610,14 @@
       "source": ""
     },
     {
+      "date": "2027-07-24",
+      "name": "NYCRUNS Brooklyn Ice Cream Social 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/58470",
+      "source": "NYCRUNS"
+    },
+    {
       "date": "2027-07-25",
       "name": "QDR Bayside 5K",
       "dist": "5K",
@@ -1624,6 +1632,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/142894",
       "source": ""
+    },
+    {
+      "date": "2027-08-21",
+      "name": "NYCRUNS Brooklyn Ice Cream Social Half Marathon",
+      "dist": "HM",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/184374",
+      "source": "NYCRUNS"
     }
   ],
   "hag_dates": {
