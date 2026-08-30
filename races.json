@@ -1,38 +1,6 @@
 {
-  "generated": "2026-08-29T11:48:44Z",
+  "generated": "2026-08-30T10:45:26Z",
   "races": [
-    {
-      "date": "2026-08-29",
-      "name": "NYCRUNS Endless Summer 10K",
-      "dist": "10K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/24559",
-      "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-08-29",
-      "name": "Like Father Like Son - Centro 10 Miler",
-      "dist": "10M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/201281",
-      "source": ""
-    },
-    {
-      "date": "2026-08-29",
-      "name": "QDR Jackson Heights Mile",
-      "dist": "1M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/127911",
-      "source": "QDR"
-    },
     {
       "date": "2026-08-30",
       "name": "ZERO Prostate Cancer Run/Walk - New York City",
@@ -47,6 +15,14 @@
       "dist": "5M",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/202327",
+      "source": ""
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
