@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T10:34:04Z",
+  "generated": "2026-09-02T09:59:49Z",
   "races": [
     {
       "date": "2026-09-03",
@@ -515,7 +515,7 @@
     },
     {
       "date": "2026-10-18",
-      "name": "TeamWRK Fall 5K at Brooklyn Bridge Park",
+      "name": "Mi Gente 5K at Brooklyn Bridge Park",
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/204871",
@@ -847,6 +847,14 @@
       "dist": "2.5M",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/186924",
+      "source": ""
+    },
+    {
+      "date": "2026-11-26",
+      "name": "PPTC Turkey Trot",
+      "dist": "5M",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/12646",
       "source": ""
     },
     {
