@@ -1,14 +1,6 @@
 {
-  "generated": "2026-09-05T09:30:13Z",
+  "generated": "2026-09-06T09:44:14Z",
   "races": [
-    {
-      "date": "2026-09-05",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
     {
       "date": "2026-09-06",
       "name": "Last Bash at the Beach 5K & 10K",
@@ -39,6 +31,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/201656",
+      "source": ""
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
@@ -1343,6 +1343,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/113472",
+      "source": ""
+    },
+    {
+      "date": "2027-05-01",
+      "name": "NYC Race of Hope 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/141638",
       "source": ""
     },
     {
