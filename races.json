@@ -1,14 +1,6 @@
 {
-  "generated": "2026-09-06T09:44:14Z",
+  "generated": "2026-09-07T10:47:22Z",
   "races": [
-    {
-      "date": "2026-09-06",
-      "name": "Last Bash at the Beach 5K & 10K",
-      "dist": "10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/109007",
-      "source": ""
-    },
     {
       "date": "2026-09-12",
       "name": "9/11 Heroes Run - New York",
@@ -1163,18 +1155,18 @@
     },
     {
       "date": "2027-02-27",
-      "name": "Run Together Against Breast Cancer NYC Central",
-      "dist": "HM/10K/5K/1M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/205313",
-      "source": ""
-    },
-    {
-      "date": "2027-02-27",
       "name": "Run Together Against Breast Cancer NYC",
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205312",
+      "source": ""
+    },
+    {
+      "date": "2027-02-27",
+      "name": "Run Together Against Breast Cancer NYC Central",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205313",
       "source": ""
     },
     {
@@ -1259,18 +1251,18 @@
     },
     {
       "date": "2027-03-27",
-      "name": "Always Hope Easter Run NYC Central",
-      "dist": "HM/10K/5K/1M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/205340",
-      "source": ""
-    },
-    {
-      "date": "2027-03-27",
       "name": "Always Hope Easter Run NYC",
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205339",
+      "source": ""
+    },
+    {
+      "date": "2027-03-27",
+      "name": "Always Hope Easter Run NYC Central",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205340",
       "source": ""
     },
     {
@@ -1616,6 +1608,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/184374",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2027-08-28",
+      "name": "QDR Jackson Heights Mile",
+      "dist": "1M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/127911",
+      "source": "QDR"
     }
   ],
   "hag_dates": {
