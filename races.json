@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T10:10:08Z",
+  "generated": "2026-09-10T10:05:39Z",
   "races": [
     {
       "date": "2026-09-12",
@@ -1307,6 +1307,14 @@
     },
     {
       "date": "2027-04-24",
+      "name": "Race to Cure Sarcoma",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/141670",
+      "source": ""
+    },
+    {
+      "date": "2027-04-24",
       "name": "Run For The Wild",
       "dist": "5K",
       "loc": "Bronx",
@@ -1616,6 +1624,14 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/127911",
       "source": "QDR"
+    },
+    {
+      "date": "2027-09-05",
+      "name": "Last Bash at the Beach 5K & 10K",
+      "dist": "10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/109007",
+      "source": ""
     }
   ],
   "hag_dates": {
