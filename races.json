@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T10:05:39Z",
+  "generated": "2026-09-11T10:03:02Z",
   "races": [
     {
       "date": "2026-09-12",
@@ -643,18 +643,18 @@
     },
     {
       "date": "2026-11-07",
-      "name": "Miles for Midwives 5K",
-      "dist": "10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/205475",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
       "name": "Brooklyn Adult and Teen Challenge Race for Recovery 5K",
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/178353",
+      "source": ""
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Miles for Midwives 5K",
+      "dist": "10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/205475",
       "source": ""
     },
     {
