@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11T10:03:02Z",
+  "generated": "2026-09-12T09:39:11Z",
   "races": [
     {
       "date": "2026-09-12",
@@ -511,6 +511,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/142900",
+      "source": ""
+    },
+    {
+      "date": "2026-10-24",
+      "name": "The Haunted Hustle for HOPE",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205843",
       "source": ""
     },
     {
@@ -1610,7 +1618,7 @@
       "source": ""
     },
     {
-      "date": "2027-08-21",
+      "date": "2027-08-28",
       "name": "NYCRUNS Brooklyn Ice Cream Social Half Marathon",
       "dist": "HM",
       "loc": "Brooklyn",
