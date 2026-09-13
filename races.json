@@ -1,86 +1,6 @@
 {
-  "generated": "2026-09-12T09:39:11Z",
+  "generated": "2026-09-13T10:40:16Z",
   "races": [
-    {
-      "date": "2026-09-12",
-      "name": "9/11 Heroes Run - New York",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/21425",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "NYCRUNS Squirrel Stampede 10K",
-      "dist": "10K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/175497",
-      "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Patriots & Paws 5K",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/201656",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Brooklyn T.E.A.L. Walk/Run",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/33360",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Bushwick 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/127805",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Haven 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/175175",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "New York City's Race Against Gun Violence",
-      "dist": "8K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/199616",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "Tell Every Amazing Lady Brooklyn 5K Fun Run",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/200961",
-      "source": ""
-    },
-    {
-      "date": "2026-09-12",
-      "name": "QDR Astoria Mile",
-      "dist": "1M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/204980",
-      "source": "QDR"
-    },
     {
       "date": "2026-09-13",
       "name": "5th Avenue Mile",
@@ -143,6 +63,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/113548",
+      "source": ""
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
