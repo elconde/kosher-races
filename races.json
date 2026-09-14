@@ -1,30 +1,6 @@
 {
-  "generated": "2026-09-13T10:40:16Z",
+  "generated": "2026-09-14T11:00:43Z",
   "races": [
-    {
-      "date": "2026-09-13",
-      "name": "5th Avenue Mile",
-      "dist": "1M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/13228",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-09-13",
-      "name": "NSRF Endless Summer 5K and 10K",
-      "dist": "10K/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/109008",
-      "source": ""
-    },
-    {
-      "date": "2026-09-13",
-      "name": "The Endless Summer 5K/10K/HM",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/201657",
-      "source": ""
-    },
     {
       "date": "2026-09-14",
       "name": "Corporate FunRun Manhattan Midtown 5K",
@@ -864,6 +840,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/12691",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-12-12",
+      "name": "Running of the Bulls",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/149586",
+      "source": ""
     },
     {
       "date": "2026-12-12",
