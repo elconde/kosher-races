@@ -1,14 +1,6 @@
 {
-  "generated": "2026-09-14T11:00:43Z",
+  "generated": "2026-09-15T10:30:53Z",
   "races": [
-    {
-      "date": "2026-09-14",
-      "name": "Corporate FunRun Manhattan Midtown 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/178047",
-      "source": ""
-    },
     {
       "date": "2026-09-17",
       "name": "Corporate FunRun Manhattan Financial District 5K",
@@ -1551,6 +1543,14 @@
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/109007",
+      "source": ""
+    },
+    {
+      "date": "2027-09-12",
+      "name": "NSRF Endless Summer 5K and 10K",
+      "dist": "10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/109008",
       "source": ""
     }
   ],
