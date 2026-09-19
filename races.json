@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T10:06:15Z",
+  "generated": "2026-09-19T09:47:31Z",
   "races": [
     {
       "date": "2026-09-19",
@@ -547,14 +547,6 @@
     },
     {
       "date": "2026-11-07",
-      "name": "Miles for Midwives 5K",
-      "dist": "10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/205475",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
       "name": "Saving the Elephants 5K & 10K Run/Walk",
       "dist": "10K/5K",
       "loc": "Brooklyn",
@@ -607,6 +599,14 @@
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/198750",
+      "source": ""
+    },
+    {
+      "date": "2026-11-14",
+      "name": "Miles for Midwives 5K",
+      "dist": "10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/205475",
       "source": ""
     },
     {
