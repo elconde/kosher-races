@@ -1,54 +1,6 @@
 {
-  "generated": "2026-09-19T09:47:31Z",
+  "generated": "2026-09-20T10:09:00Z",
   "races": [
-    {
-      "date": "2026-09-19",
-      "name": "Miles for Melanoma - New York",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/42820",
-      "source": ""
-    },
-    {
-      "date": "2026-09-19",
-      "name": "NYRR Bronx 10 Mile",
-      "dist": "10M",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/29066",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "Unity Race 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/113548",
-      "source": ""
-    },
-    {
-      "date": "2026-09-19",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-09-19",
-      "name": "JIFI-NYC Fun Run/Walk 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/202162",
-      "source": ""
-    },
-    {
-      "date": "2026-09-19",
-      "name": "Planet NY Half Marathon",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/106344",
-      "source": ""
-    },
     {
       "date": "2026-09-20",
       "name": "New York City Marathon Training Series 18M",
@@ -119,6 +71,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/39243",
+      "source": ""
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
@@ -231,6 +191,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/184539",
+      "source": ""
+    },
+    {
+      "date": "2026-10-03",
+      "name": "Rockaway Beach 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/206032",
       "source": ""
     },
     {
@@ -535,6 +503,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/192452",
+      "source": ""
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Brooklyn Free Clinic 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/206038",
       "source": ""
     },
     {
