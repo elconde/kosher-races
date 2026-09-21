@@ -1,54 +1,6 @@
 {
-  "generated": "2026-09-20T10:09:00Z",
+  "generated": "2026-09-21T11:10:18Z",
   "races": [
-    {
-      "date": "2026-09-20",
-      "name": "New York City Marathon Training Series 18M",
-      "dist": "18M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/187310",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-09-20",
-      "name": "P.O. Chris Hoban Memorial 5 Miler, 5K and Kid's Dash",
-      "dist": "5M/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/202676",
-      "source": ""
-    },
-    {
-      "date": "2026-09-20",
-      "name": "Prospect Park 13.1 Half Marathon",
-      "dist": "HM",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/78195",
-      "source": ""
-    },
-    {
-      "date": "2026-09-20",
-      "name": "LiveOnNY Donor Heroes 5K",
-      "dist": "5K/1M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/172920",
-      "source": ""
-    },
-    {
-      "date": "2026-09-20",
-      "name": "Fundacion Ser Feliz 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/202497",
-      "source": ""
-    },
-    {
-      "date": "2026-09-20",
-      "name": "Michael's Cause Step for a Cure 5K Run",
-      "dist": "5K",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/125486",
-      "source": ""
-    },
     {
       "date": "2026-09-26",
       "name": "New Yorker 5K and 10K at Riverside Park",
@@ -1170,6 +1122,14 @@
       "source": ""
     },
     {
+      "date": "2027-04-10",
+      "name": "Run for PB&J 5K/10K/13.1 NYC",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/206148",
+      "source": ""
+    },
+    {
       "date": "2027-04-11",
       "name": "NYCRUNS Prospect Park 5K",
       "dist": "5K",
@@ -1255,6 +1215,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/49974",
+      "source": ""
+    },
+    {
+      "date": "2027-05-08",
+      "name": "Run for Chocolate 5K/10K/13.1 NYC",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/206132",
       "source": ""
     },
     {
