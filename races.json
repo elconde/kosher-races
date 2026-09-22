@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T11:10:18Z",
+  "generated": "2026-09-22T10:23:57Z",
   "races": [
     {
       "date": "2026-09-26",
@@ -568,14 +568,6 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/130124",
       "source": ""
-    },
-    {
-      "date": "2026-11-15",
-      "name": "NYCRUNS Go Nuts for Donuts 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/191801",
-      "source": "NYCRUNS"
     },
     {
       "date": "2026-11-15",
