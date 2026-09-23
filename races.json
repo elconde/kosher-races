@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T10:23:57Z",
+  "generated": "2026-09-23T10:19:27Z",
   "races": [
     {
       "date": "2026-09-26",
@@ -1055,6 +1055,14 @@
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205329",
+      "source": ""
+    },
+    {
+      "date": "2027-03-20",
+      "name": "Brooklyn Spring Half",
+      "dist": "HM/10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/46682",
       "source": ""
     },
     {
