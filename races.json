@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T10:19:27Z",
+  "generated": "2026-09-24T10:33:31Z",
   "races": [
     {
       "date": "2026-09-26",
@@ -611,7 +611,7 @@
     },
     {
       "date": "2026-11-22",
-      "name": "QCC Athletics Turkey Trot",
+      "name": "QCC Athletics Turkey Trot 5K Run/Walk",
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/191921",
@@ -755,6 +755,14 @@
     },
     {
       "date": "2026-12-12",
+      "name": "'Twas the Night Before 5K & FREE Kiddie Dash!",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/206174",
+      "source": ""
+    },
+    {
+      "date": "2026-12-12",
       "name": "NSRF Twas the Night B4 5K",
       "dist": "5K",
       "loc": "Queens",
@@ -770,19 +778,27 @@
       "source": "NYCRUNS"
     },
     {
-      "date": "2026-12-13",
-      "name": "Ugly Sweater 5K and HM",
-      "dist": "HM/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/133973",
-      "source": ""
-    },
-    {
       "date": "2026-12-19",
       "name": "The Great New York City 10K",
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205297",
+      "source": ""
+    },
+    {
+      "date": "2026-12-19",
+      "name": "NYC Ugly Sweater 5K & HM",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/206172",
+      "source": ""
+    },
+    {
+      "date": "2026-12-19",
+      "name": "Ugly Sweater 5K and HM",
+      "dist": "HM/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/133973",
       "source": ""
     },
     {
@@ -1071,6 +1087,14 @@
       "dist": "HM",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/194754",
+      "source": "NYRR"
+    },
+    {
+      "date": "2027-03-21",
+      "name": "United Airlines NYC Half",
+      "dist": "HM",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/13691",
       "source": "NYRR"
     },
     {
@@ -1487,6 +1511,14 @@
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/109008",
+      "source": ""
+    },
+    {
+      "date": "2027-09-19",
+      "name": "LiveOnNY Donor Heroes 5K",
+      "dist": "5K/1M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/172920",
       "source": ""
     }
   ],
