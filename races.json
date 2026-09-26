@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T10:37:08Z",
+  "generated": "2026-09-26T10:20:36Z",
   "races": [
     {
       "date": "2026-09-26",
@@ -1255,6 +1255,14 @@
       "dist": "HM/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/160390",
+      "source": ""
+    },
+    {
+      "date": "2027-05-09",
+      "name": "Brooklyn Mother's Day Half",
+      "dist": "HM/10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/46951",
       "source": ""
     },
     {
