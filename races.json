@@ -1,54 +1,6 @@
 {
-  "generated": "2026-09-27T10:52:42Z",
+  "generated": "2026-09-28T12:03:52Z",
   "races": [
-    {
-      "date": "2026-09-27",
-      "name": "RunThrough Staten Island at Freshkills Park 5K, 10K & Half Marathon",
-      "dist": "HM/10K/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/201591",
-      "source": ""
-    },
-    {
-      "date": "2026-09-27",
-      "name": "Tunnel To Towers",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/11174",
-      "source": ""
-    },
-    {
-      "date": "2026-09-27",
-      "name": "Friends of 4 Parks 5K/10K",
-      "dist": "10K/5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/109181",
-      "source": ""
-    },
-    {
-      "date": "2026-09-27",
-      "name": "NYBG 5K Fun Run",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/191653",
-      "source": ""
-    },
-    {
-      "date": "2026-09-27",
-      "name": "INCLUDEnyc 5K for Love, Equity and Access",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/184538",
-      "source": ""
-    },
-    {
-      "date": "2026-09-27",
-      "name": "Run For Children's Smile 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/130116",
-      "source": ""
-    },
     {
       "date": "2026-10-03",
       "name": "Dyckman 5K",
