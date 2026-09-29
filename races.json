@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T12:03:52Z",
+  "generated": "2026-09-29T11:37:47Z",
   "races": [
     {
       "date": "2026-10-03",
@@ -826,12 +826,20 @@
       "source": "NYRR"
     },
     {
-      "date": "2027-02-07",
+      "date": "2027-01-31",
       "name": "NYRR Manhattan 10K",
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/62306",
       "source": ""
+    },
+    {
+      "date": "2027-02-07",
+      "name": "NYRR Gridiron 4M",
+      "dist": "4M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/12785",
+      "source": "NYRR"
     },
     {
       "date": "2027-02-13",
@@ -856,14 +864,6 @@
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/54255",
       "source": ""
-    },
-    {
-      "date": "2027-02-14",
-      "name": "NYRR Gridiron 4M",
-      "dist": "4M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/12785",
-      "source": "NYRR"
     },
     {
       "date": "2027-02-14",
