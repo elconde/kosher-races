@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T11:37:47Z",
+  "generated": "2026-09-30T11:25:19Z",
   "races": [
     {
       "date": "2026-10-03",
@@ -7,6 +7,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/178343",
+      "source": ""
+    },
+    {
+      "date": "2026-10-03",
+      "name": "New Yorker 5K and 10K at Riverside Park",
+      "dist": "10K/5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/62075",
       "source": ""
     },
     {
