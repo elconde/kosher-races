@@ -1,70 +1,6 @@
 {
-  "generated": "2026-10-03T10:41:34Z",
+  "generated": "2026-10-04T11:22:02Z",
   "races": [
-    {
-      "date": "2026-10-03",
-      "name": "Dyckman 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/178343",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "New Yorker 5K and 10K at Riverside Park",
-      "dist": "10K/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/62075",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "Terry Fox Run for Cancer Research 5K - Central Park, NYC",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/11517",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "Bay Ridge Half Marathon",
-      "dist": "HM",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/28129",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "East Brooklyn 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/64278",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "CHCF Hispanic Heritage 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/184539",
-      "source": ""
-    },
-    {
-      "date": "2026-10-03",
-      "name": "Rockaway Beach 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/206032",
-      "source": ""
-    },
     {
       "date": "2026-10-04",
       "name": "Miles for Smiles",
@@ -120,6 +56,14 @@
       "loc": "Jersey City",
       "url": "https://events.nyrr.org/nyrr-jersey-city-5k",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-10-10",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
+      "source": ""
     },
     {
       "date": "2026-10-10",
