@@ -1,62 +1,6 @@
 {
-  "generated": "2026-10-04T11:22:02Z",
+  "generated": "2026-10-05T12:44:43Z",
   "races": [
-    {
-      "date": "2026-10-04",
-      "name": "Miles for Smiles",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/177295",
-      "source": ""
-    },
-    {
-      "date": "2026-10-04",
-      "name": "New York City Empower Walk & 5K Run",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/188463",
-      "source": ""
-    },
-    {
-      "date": "2026-10-04",
-      "name": "N.O.B.L.E. 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/178340",
-      "source": ""
-    },
-    {
-      "date": "2026-10-04",
-      "name": "Catch a Cure 5K Walk Run",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/142601",
-      "source": ""
-    },
-    {
-      "date": "2026-10-04",
-      "name": "QueensWay 5K",
-      "dist": "5K/1M",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/192227",
-      "source": ""
-    },
-    {
-      "date": "2026-10-04",
-      "name": "Victoria's 5K Run/Walk for Life",
-      "dist": "5K/1M",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/124874",
-      "source": ""
-    },
-    {
-      "date": "2026-10-04",
-      "name": "NYRR Jersey City 5K",
-      "dist": "5K",
-      "loc": "Jersey City",
-      "url": "https://events.nyrr.org/nyrr-jersey-city-5k",
-      "source": "NYRR"
-    },
     {
       "date": "2026-10-10",
       "name": "Brooklyn Bridge parkrun",
@@ -626,6 +570,14 @@
       "source": "NYCRUNS"
     },
     {
+      "date": "2026-12-13",
+      "name": "Miles for Mark 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/206290",
+      "source": ""
+    },
+    {
       "date": "2026-12-19",
       "name": "The Great New York City 10K",
       "dist": "10K",
@@ -691,7 +643,7 @@
     },
     {
       "date": "2026-12-31",
-      "name": "Queens New Year's Eve",
+      "name": "The Queens New Year's Eve 5K",
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/111975",
