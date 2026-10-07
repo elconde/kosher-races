@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T12:15:49Z",
+  "generated": "2026-10-07T12:06:51Z",
   "races": [
     {
       "date": "2026-10-10",
@@ -946,6 +946,14 @@
       "source": ""
     },
     {
+      "date": "2027-04-04",
+      "name": "Verrazano 10K, 5K",
+      "dist": "10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/100131",
+      "source": ""
+    },
+    {
       "date": "2027-04-10",
       "name": "Run for PB&J 5K/10K/13.1 NYC",
       "dist": "HM/10K/5K/1M",
@@ -992,6 +1000,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/137167",
       "source": ""
+    },
+    {
+      "date": "2027-04-24",
+      "name": "Less Popular Brooklyn Half Marathon",
+      "dist": "HM",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/61476",
+      "source": "NYRR"
     },
     {
       "date": "2027-04-25",
