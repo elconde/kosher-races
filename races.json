@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T12:17:26Z",
+  "generated": "2026-10-09T12:08:23Z",
   "races": [
     {
       "date": "2026-10-10",
@@ -779,6 +779,14 @@
     },
     {
       "date": "2027-02-20",
+      "name": "NYRR Brooklyn R-U-N 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/43575",
+      "source": ""
+    },
+    {
+      "date": "2027-02-20",
       "name": "Hot Cocoa Crush 5K & 10K Queens",
       "dist": "10K/5K",
       "loc": "Queens",
@@ -795,18 +803,18 @@
     },
     {
       "date": "2027-02-27",
-      "name": "Run Together Against Breast Cancer NYC",
-      "dist": "HM/10K/5K/1M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/205312",
-      "source": ""
-    },
-    {
-      "date": "2027-02-27",
       "name": "Run Together Against Breast Cancer NYC Central",
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205313",
+      "source": ""
+    },
+    {
+      "date": "2027-02-27",
+      "name": "Run Together Against Breast Cancer NYC",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205312",
       "source": ""
     },
     {
@@ -907,18 +915,18 @@
     },
     {
       "date": "2027-03-27",
-      "name": "Always Hope Easter Run NYC",
-      "dist": "HM/10K/5K/1M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/205339",
-      "source": ""
-    },
-    {
-      "date": "2027-03-27",
       "name": "Always Hope Easter Run NYC Central",
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205340",
+      "source": ""
+    },
+    {
+      "date": "2027-03-27",
+      "name": "Always Hope Easter Run NYC",
+      "dist": "HM/10K/5K/1M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205339",
       "source": ""
     },
     {
