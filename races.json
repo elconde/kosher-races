@@ -1,22 +1,6 @@
 {
-  "generated": "2026-10-10T11:25:52Z",
+  "generated": "2026-10-11T11:39:26Z",
   "races": [
-    {
-      "date": "2026-10-10",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-10-10",
-      "name": "The Classic Apple Pie HM & 5K",
-      "dist": "HM/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/109143",
-      "source": ""
-    },
     {
       "date": "2026-10-11",
       "name": "Brooklynite Fall 10K and 5K",
@@ -47,6 +31,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/142675",
+      "source": ""
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
@@ -1319,6 +1311,14 @@
       "dist": "10K/5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/142894",
+      "source": ""
+    },
+    {
+      "date": "2027-08-21",
+      "name": "Rockaway Beach End Of Summer Marathon",
+      "dist": "Marathon/HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/142248",
       "source": ""
     },
     {
