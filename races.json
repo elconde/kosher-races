@@ -1,30 +1,6 @@
 {
-  "generated": "2026-10-11T11:39:26Z",
+  "generated": "2026-10-12T13:36:05Z",
   "races": [
-    {
-      "date": "2026-10-11",
-      "name": "Brooklynite Fall 10K and 5K",
-      "dist": "10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/176809",
-      "source": ""
-    },
-    {
-      "date": "2026-10-11",
-      "name": "Enabled 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/195451",
-      "source": ""
-    },
-    {
-      "date": "2026-10-11",
-      "name": "NYRR Staten Island Half",
-      "dist": "HM",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/12534",
-      "source": "NYRR"
-    },
     {
       "date": "2026-10-17",
       "name": "Miles for Migraine",
@@ -1354,11 +1330,67 @@
       "source": ""
     },
     {
+      "date": "2027-09-12",
+      "name": "The Endless Summer 5K/10K/HM",
+      "dist": "HM/10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/201657",
+      "source": ""
+    },
+    {
       "date": "2027-09-19",
       "name": "LiveOnNY Donor Heroes 5K",
       "dist": "5K/1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/172920",
+      "source": ""
+    },
+    {
+      "date": "2027-09-25",
+      "name": "Run Rockaway Beach Half Marathon (tune Up) And 5K",
+      "dist": "HM/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/164785",
+      "source": ""
+    },
+    {
+      "date": "2027-09-26",
+      "name": "Friends of 4 Parks 5K/10K",
+      "dist": "10K/5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/109181",
+      "source": ""
+    },
+    {
+      "date": "2027-09-26",
+      "name": "INCLUDEnyc 5K for Love, Equity and Access",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/184538",
+      "source": ""
+    },
+    {
+      "date": "2027-09-26",
+      "name": "Run For Children's Smile 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/130116",
+      "source": ""
+    },
+    {
+      "date": "2027-10-02",
+      "name": "Dyckman 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/178343",
+      "source": ""
+    },
+    {
+      "date": "2027-10-02",
+      "name": "CHCF Hispanic Heritage 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/184539",
       "source": ""
     }
   ],
