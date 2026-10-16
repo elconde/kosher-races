@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T10:24:03Z",
+  "generated": "2026-10-16T10:11:19Z",
   "races": [
     {
       "date": "2026-10-17",
@@ -290,6 +290,14 @@
       "source": ""
     },
     {
+      "date": "2026-11-08",
+      "name": "Enabled 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/195451",
+      "source": ""
+    },
+    {
       "date": "2026-11-14",
       "name": "NYCRUNS Go Nuts For Donuts",
       "dist": "10K",
@@ -447,6 +455,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/132045",
+      "source": ""
+    },
+    {
+      "date": "2026-11-28",
+      "name": "Lettuce Run 5K",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/167731",
       "source": ""
     },
     {
@@ -1002,14 +1018,6 @@
       "source": "NYCRUNS"
     },
     {
-      "date": "2027-04-25",
-      "name": "Footsteps for Progress 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/113472",
-      "source": ""
-    },
-    {
       "date": "2027-05-01",
       "name": "NYC Race of Hope 5K",
       "dist": "5K",
@@ -1079,6 +1087,14 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/197682",
+      "source": ""
+    },
+    {
+      "date": "2027-05-15",
+      "name": "Footsteps for Progress 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/113472",
       "source": ""
     },
     {
