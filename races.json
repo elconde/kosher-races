@@ -1,54 +1,6 @@
 {
-  "generated": "2026-10-18T09:58:31Z",
+  "generated": "2026-10-19T11:19:38Z",
   "races": [
-    {
-      "date": "2026-10-18",
-      "name": "Faith in Children 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/125335",
-      "source": ""
-    },
-    {
-      "date": "2026-10-18",
-      "name": "Get Your Rear in Gear - New York",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/16238",
-      "source": ""
-    },
-    {
-      "date": "2026-10-18",
-      "name": "Riverdale Temple Fall of Life 5K/10K",
-      "dist": "10K/5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/160098",
-      "source": ""
-    },
-    {
-      "date": "2026-10-18",
-      "name": "Get to the Point 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/109191",
-      "source": ""
-    },
-    {
-      "date": "2026-10-18",
-      "name": "Mi Gente 5K at Brooklyn Bridge Park",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/204871",
-      "source": ""
-    },
-    {
-      "date": "2026-10-18",
-      "name": "LaGuardia Community 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/142900",
-      "source": ""
-    },
     {
       "date": "2026-10-24",
       "name": "The Haunted Hustle for HOPE",
@@ -231,14 +183,6 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/202236",
-      "source": ""
-    },
-    {
-      "date": "2026-11-08",
-      "name": "Polish Independence Day Run",
-      "dist": "Race",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/194856",
       "source": ""
     },
     {
