@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T10:39:22Z",
+  "generated": "2026-10-22T10:42:23Z",
   "races": [
     {
       "date": "2026-10-24",
@@ -1119,6 +1119,14 @@
       "dist": "5K",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/50290",
+      "source": ""
+    },
+    {
+      "date": "2027-06-19",
+      "name": "Joanna Sophia Around the World 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/77904",
       "source": ""
     },
     {
