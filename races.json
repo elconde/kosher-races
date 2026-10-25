@@ -1,54 +1,6 @@
 {
-  "generated": "2026-10-24T09:52:39Z",
+  "generated": "2026-10-25T10:12:43Z",
   "races": [
-    {
-      "date": "2026-10-24",
-      "name": "The Haunted Hustle for HOPE",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/205843",
-      "source": ""
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Diplo's Run Club New York",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/199483",
-      "source": ""
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Komen Greater New York City Race for the Cure",
-      "dist": "Race",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/10222",
-      "source": ""
-    },
-    {
-      "date": "2026-10-24",
-      "name": "NYCRUNS Haunted Island 10K",
-      "dist": "10K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/29756",
-      "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Brooklyn PTA Fun Run",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/110216",
-      "source": ""
-    },
     {
       "date": "2026-10-25",
       "name": "NYCRUNS Haunted Island 5K",
@@ -104,6 +56,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/18257",
       "source": "NYRR"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
+      "source": ""
     },
     {
       "date": "2026-10-31",
@@ -1279,6 +1239,14 @@
       "dist": "HM/10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/201657",
+      "source": ""
+    },
+    {
+      "date": "2027-09-19",
+      "name": "Prospect Park 13.1 Half Marathon",
+      "dist": "HM",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/78195",
       "source": ""
     },
     {
