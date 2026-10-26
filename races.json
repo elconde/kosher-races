@@ -1,54 +1,6 @@
 {
-  "generated": "2026-10-25T10:12:43Z",
+  "generated": "2026-10-26T11:36:19Z",
   "races": [
-    {
-      "date": "2026-10-25",
-      "name": "NYCRUNS Haunted Island 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/164020",
-      "source": "NYCRUNS"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "Hell On Earth Halloween 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/67937",
-      "source": ""
-    },
-    {
-      "date": "2026-10-25",
-      "name": "Day of the Dead 5K & Half Marathon",
-      "dist": "HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/109145",
-      "source": ""
-    },
-    {
-      "date": "2026-10-25",
-      "name": "JFK Rotary Club 5K Runway Run",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/11165",
-      "source": ""
-    },
-    {
-      "date": "2026-10-25",
-      "name": "Totten Trot 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/15799",
-      "source": ""
-    },
-    {
-      "date": "2026-10-25",
-      "name": "Richmond Rockets Halloween 5K",
-      "dist": "5K",
-      "loc": "Staten Island",
-      "url": "https://www.runningintheusa.com/details/147320",
-      "source": ""
-    },
     {
       "date": "2026-10-31",
       "name": "Abbott Dash to the Finish Line",
@@ -411,14 +363,6 @@
     },
     {
       "date": "2026-12-12",
-      "name": "'Twas the Night Before 5K & FREE Kiddie Dash!",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/206174",
-      "source": ""
-    },
-    {
-      "date": "2026-12-12",
       "name": "NSRF Twas the Night B4 5K",
       "dist": "5K",
       "loc": "Queens",
@@ -447,14 +391,6 @@
       "dist": "10K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205297",
-      "source": ""
-    },
-    {
-      "date": "2026-12-19",
-      "name": "NYC Ugly Sweater 5K & HM",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/206172",
       "source": ""
     },
     {
@@ -1234,14 +1170,6 @@
       "source": ""
     },
     {
-      "date": "2027-09-12",
-      "name": "The Endless Summer 5K/10K/HM",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/201657",
-      "source": ""
-    },
-    {
       "date": "2027-09-19",
       "name": "Prospect Park 13.1 Half Marathon",
       "dist": "HM",
@@ -1255,6 +1183,14 @@
       "dist": "5K/1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/172920",
+      "source": ""
+    },
+    {
+      "date": "2027-09-25",
+      "name": "Jamaica Q 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/130118",
       "source": ""
     },
     {
@@ -1299,10 +1235,50 @@
     },
     {
       "date": "2027-10-02",
+      "name": "Bay Ridge Half Marathon",
+      "dist": "HM",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/28129",
+      "source": ""
+    },
+    {
+      "date": "2027-10-02",
       "name": "CHCF Hispanic Heritage 5K",
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/184539",
+      "source": ""
+    },
+    {
+      "date": "2027-10-16",
+      "name": "NYCRUNS Falling Leaves Half Marathon",
+      "dist": "HM",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/82980",
+      "source": "NYCRUNS"
+    },
+    {
+      "date": "2027-10-16",
+      "name": "Global Kids 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/34180",
+      "source": ""
+    },
+    {
+      "date": "2027-10-17",
+      "name": "Mi Gente 5K at Brooklyn Bridge Park",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/204871",
+      "source": ""
+    },
+    {
+      "date": "2027-10-17",
+      "name": "LaGuardia Community 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/142900",
       "source": ""
     }
   ],
