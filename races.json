@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T11:50:13Z",
+  "generated": "2026-10-30T11:42:57Z",
   "races": [
     {
       "date": "2026-10-31",
@@ -831,6 +831,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/141638",
+      "source": ""
+    },
+    {
+      "date": "2027-05-01",
+      "name": "Run the Bronx",
+      "dist": "10K/5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/12247",
       "source": ""
     },
     {
