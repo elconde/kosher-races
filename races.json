@@ -1,38 +1,6 @@
 {
-  "generated": "2026-10-31T11:16:42Z",
+  "generated": "2026-11-01T12:05:52Z",
   "races": [
-    {
-      "date": "2026-10-31",
-      "name": "Abbott Dash to the Finish Line",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/18257",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-10-31",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-10-31",
-      "name": "Other NYC Marathon Rockaway Ocean Marathon",
-      "dist": "Marathon",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/194397",
-      "source": ""
-    },
-    {
-      "date": "2026-10-31",
-      "name": "Run Rockaway Beach Half Marathon or 5K",
-      "dist": "HM/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/149390",
-      "source": ""
-    },
     {
       "date": "2026-11-01",
       "name": "New York City Marathon",
@@ -71,6 +39,14 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/178353",
+      "source": ""
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
