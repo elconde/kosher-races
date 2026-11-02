@@ -1,14 +1,6 @@
 {
-  "generated": "2026-11-01T12:05:52Z",
+  "generated": "2026-11-02T13:54:48Z",
   "races": [
-    {
-      "date": "2026-11-01",
-      "name": "New York City Marathon",
-      "dist": "Marathon",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/10019",
-      "source": "NYRR"
-    },
     {
       "date": "2026-11-07",
       "name": "Care For the Homeless Awareness 5K Run/Walk",
@@ -498,6 +490,14 @@
       "source": ""
     },
     {
+      "date": "2027-01-31",
+      "name": "Ted Corbitt 50K",
+      "dist": "50K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/164207",
+      "source": ""
+    },
+    {
       "date": "2027-02-07",
       "name": "NYRR Gridiron 4M",
       "dist": "4M",
@@ -515,6 +515,14 @@
     },
     {
       "date": "2027-02-13",
+      "name": "Cupids Chase 5K Brooklyn",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/193165",
+      "source": ""
+    },
+    {
+      "date": "2027-02-13",
       "name": "Go Hard or Go Home Half Marathon",
       "dist": "HM",
       "loc": "Brooklyn",
@@ -527,6 +535,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/54255",
+      "source": ""
+    },
+    {
+      "date": "2027-02-13",
+      "name": "Immigrants Run NYC 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/207036",
       "source": ""
     },
     {
@@ -735,6 +751,14 @@
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/206148",
+      "source": ""
+    },
+    {
+      "date": "2027-04-10",
+      "name": "Soundview 5K",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/113016",
       "source": ""
     },
     {
@@ -1263,6 +1287,22 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/142900",
+      "source": ""
+    },
+    {
+      "date": "2027-10-24",
+      "name": "Totten Trot 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/15799",
+      "source": ""
+    },
+    {
+      "date": "2027-10-31",
+      "name": "Hell On Earth Halloween 5K",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/67937",
       "source": ""
     }
   ],
