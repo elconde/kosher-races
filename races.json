@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T13:19:06Z",
+  "generated": "2026-11-05T13:32:08Z",
   "races": [
     {
       "date": "2026-11-07",
@@ -875,6 +875,14 @@
     },
     {
       "date": "2027-05-08",
+      "name": "Sri Chinmoy 5K, Half-Marathon & Relay",
+      "dist": "HM/5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/31032",
+      "source": ""
+    },
+    {
+      "date": "2027-05-08",
       "name": "Mother's Day Half Marathon & 5K",
       "dist": "HM/5K",
       "loc": "Queens",
@@ -1024,6 +1032,14 @@
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/50290",
       "source": ""
+    },
+    {
+      "date": "2027-06-15",
+      "name": "NYCRUNS Lousy T-Shirt Race",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/139245",
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-06-19",
