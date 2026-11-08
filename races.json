@@ -1,70 +1,6 @@
 {
-  "generated": "2026-11-07T11:57:35Z",
+  "generated": "2026-11-08T12:16:06Z",
   "races": [
-    {
-      "date": "2026-11-07",
-      "name": "Care For the Homeless Awareness 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/205479",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
-      "name": "Riverside Church Turkey Trot",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/192452",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
-      "name": "Brooklyn Free Clinic 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/206038",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
-      "name": "Brooklyn Adult and Teen Challenge Race for Recovery 5K",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/178353",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
-      "name": "Brooklyn Bridge parkrun",
-      "dist": "5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/195019",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
-      "name": "Saving the Elephants 5K & 10K Run/Walk",
-      "dist": "10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/33700",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
-      "name": "New Yorker Half Marathon Shake Out",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/182373",
-      "source": ""
-    },
-    {
-      "date": "2026-11-07",
-      "name": "Dyspraxia DCD America 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/202236",
-      "source": ""
-    },
     {
       "date": "2026-11-08",
       "name": "NYBG 5K Fun Run",
@@ -103,6 +39,14 @@
       "dist": "HM/10K/5K/1M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/198750",
+      "source": ""
+    },
+    {
+      "date": "2026-11-14",
+      "name": "Brooklyn Bridge parkrun",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/195019",
       "source": ""
     },
     {
