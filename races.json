@@ -1,30 +1,6 @@
 {
-  "generated": "2026-11-08T12:16:06Z",
+  "generated": "2026-11-09T14:26:16Z",
   "races": [
-    {
-      "date": "2026-11-08",
-      "name": "NYBG 5K Fun Run",
-      "dist": "5K",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/191653",
-      "source": ""
-    },
-    {
-      "date": "2026-11-08",
-      "name": "Brooklyn Fall Half",
-      "dist": "HM/10K/5K",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/51515",
-      "source": ""
-    },
-    {
-      "date": "2026-11-08",
-      "name": "Enabled 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/195451",
-      "source": ""
-    },
     {
       "date": "2026-11-14",
       "name": "NYCRUNS Go Nuts For Donuts",
@@ -808,6 +784,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/49974",
       "source": ""
+    },
+    {
+      "date": "2027-05-08",
+      "name": "NYCRUNS Summer Loving 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/168169",
+      "source": "NYCRUNS"
     },
     {
       "date": "2027-05-08",
