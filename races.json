@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T14:26:16Z",
+  "generated": "2026-11-10T13:49:18Z",
   "races": [
     {
       "date": "2026-11-14",
@@ -95,14 +95,6 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/191921",
-      "source": ""
-    },
-    {
-      "date": "2026-11-23",
-      "name": "As Is Tofurkey Trot 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/194858",
       "source": ""
     },
     {
@@ -418,6 +410,14 @@
       "source": ""
     },
     {
+      "date": "2027-02-06",
+      "name": "Hot Cocoa Crush 5K & 10K Queens",
+      "dist": "10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/193245",
+      "source": ""
+    },
+    {
       "date": "2027-02-07",
       "name": "NYRR Gridiron 4M",
       "dist": "4M",
@@ -458,19 +458,19 @@
       "source": ""
     },
     {
-      "date": "2027-02-13",
-      "name": "Immigrants Run NYC 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/207036",
-      "source": ""
-    },
-    {
       "date": "2027-02-14",
       "name": "Love on the Run 5K",
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/76194",
+      "source": ""
+    },
+    {
+      "date": "2027-02-14",
+      "name": "Immigrants Run NYC 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/207036",
       "source": ""
     },
     {
@@ -487,14 +487,6 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/43575",
-      "source": ""
-    },
-    {
-      "date": "2027-02-20",
-      "name": "Hot Cocoa Crush 5K & 10K Queens",
-      "dist": "10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/193245",
       "source": ""
     },
     {
