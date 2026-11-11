@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T13:49:18Z",
+  "generated": "2026-11-11T13:00:10Z",
   "races": [
     {
       "date": "2026-11-14",
@@ -864,6 +864,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/199717",
       "source": ""
+    },
+    {
+      "date": "2027-05-22",
+      "name": "RBC Brooklyn Half",
+      "dist": "HM",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/13321",
+      "source": "NYRR"
     },
     {
       "date": "2027-05-23",
