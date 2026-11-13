@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T14:01:47Z",
+  "generated": "2026-11-13T13:28:37Z",
   "races": [
     {
       "date": "2026-11-14",
@@ -63,6 +63,14 @@
       "dist": "4M",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/205448",
+      "source": ""
+    },
+    {
+      "date": "2026-11-21",
+      "name": "St.Nicholas Run For Children in Ukraine",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/193076",
       "source": ""
     },
     {
@@ -1130,6 +1138,14 @@
       "source": ""
     },
     {
+      "date": "2027-09-18",
+      "name": "Unity Race 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Bronx",
+      "url": "https://www.runningintheusa.com/details/113548",
+      "source": ""
+    },
+    {
       "date": "2027-09-19",
       "name": "Prospect Park 13.1 Half Marathon",
       "dist": "HM",
@@ -1210,6 +1226,14 @@
       "source": ""
     },
     {
+      "date": "2027-10-03",
+      "name": "Catch a Cure 5K Walk Run",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/142601",
+      "source": ""
+    },
+    {
       "date": "2027-10-16",
       "name": "NYCRUNS Falling Leaves Half Marathon",
       "dist": "HM",
@@ -1263,6 +1287,14 @@
       "dist": "5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/67937",
+      "source": ""
+    },
+    {
+      "date": "2027-11-06",
+      "name": "Saving the Elephants 5K & 10K Run/Walk",
+      "dist": "10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/33700",
       "source": ""
     },
     {
