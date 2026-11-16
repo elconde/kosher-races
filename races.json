@@ -1,22 +1,6 @@
 {
-  "generated": "2026-11-15T12:59:49Z",
+  "generated": "2026-11-16T14:03:38Z",
   "races": [
-    {
-      "date": "2026-11-15",
-      "name": "Manhattan Turkey Trot 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/130124",
-      "source": ""
-    },
-    {
-      "date": "2026-11-15",
-      "name": "New York Flushing Meadows 5K, 10K, & Half Marathon",
-      "dist": "HM/10K/5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/192621",
-      "source": ""
-    },
     {
       "date": "2026-11-21",
       "name": "Central Park Turkey Trot 4 Miler",
@@ -528,6 +512,14 @@
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/179470",
       "source": "NYCRUNS"
+    },
+    {
+      "date": "2027-03-06",
+      "name": "Queens Women's 5K & Spring Forward 10 and 5 Mile",
+      "dist": "10M/5M",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/194779",
+      "source": ""
     },
     {
       "date": "2027-03-06",
