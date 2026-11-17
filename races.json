@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T14:03:38Z",
+  "generated": "2026-11-17T14:57:22Z",
   "races": [
     {
       "date": "2026-11-21",
@@ -546,7 +546,7 @@
       "source": ""
     },
     {
-      "date": "2027-03-14",
+      "date": "2027-03-13",
       "name": "Brooklyn St. Patrick's 5K, 10K and Half Marathon",
       "dist": "HM/10K/5K",
       "loc": "Brooklyn",
@@ -1127,6 +1127,14 @@
       "dist": "5K",
       "loc": "Bronx",
       "url": "https://www.runningintheusa.com/details/113548",
+      "source": ""
+    },
+    {
+      "date": "2027-09-18",
+      "name": "Haven 5K",
+      "dist": "5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/175175",
       "source": ""
     },
     {
