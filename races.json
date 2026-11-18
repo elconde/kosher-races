@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T14:57:22Z",
+  "generated": "2026-11-18T14:38:02Z",
   "races": [
     {
       "date": "2026-11-21",
@@ -435,6 +435,14 @@
     },
     {
       "date": "2027-02-13",
+      "name": "Valentine's 10K, 5K at Bay Ridge",
+      "dist": "10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/179948",
+      "source": ""
+    },
+    {
+      "date": "2027-02-13",
       "name": "Cupid's Chase 5K - Queens",
       "dist": "5K",
       "loc": "Queens",
@@ -471,6 +479,14 @@
       "dist": "5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/43575",
+      "source": ""
+    },
+    {
+      "date": "2027-02-21",
+      "name": "Cherry Tree 10 Miler",
+      "dist": "10M",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/10558",
       "source": ""
     },
     {
@@ -559,6 +575,14 @@
       "dist": "7M/5K",
       "loc": "Brooklyn",
       "url": "https://www.runningintheusa.com/details/48157",
+      "source": ""
+    },
+    {
+      "date": "2027-03-14",
+      "name": "Pi Day 3.14 Mile Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/112086",
       "source": ""
     },
     {
@@ -1304,6 +1328,14 @@
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/10019",
       "source": "NYRR"
+    },
+    {
+      "date": "2027-11-13",
+      "name": "CrimsonRise Waterfront Run/Roll/Walk",
+      "dist": "5K/1M",
+      "loc": "Staten Island",
+      "url": "https://www.runningintheusa.com/details/192123",
+      "source": ""
     }
   ],
   "hag_dates": {
