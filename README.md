@@ -2,7 +2,7 @@
 
 A web app that lists upcoming NYC races and flags which ones fall on Shabbat or Jewish holidays, so observant runners can plan accordingly.
 
-**Live site:** https://elconde.github.io/kosher-races/
+**Live site:** https://elconde.nyc/kosher-races/ (synced hourly from this repo; mirror at https://elconde.github.io/kosher-races/)
 
 ## What it does
 
