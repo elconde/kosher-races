@@ -1,22 +1,6 @@
 {
-  "generated": "2026-11-22T13:39:09Z",
+  "generated": "2026-11-23T16:33:54Z",
   "races": [
-    {
-      "date": "2026-11-22",
-      "name": "Race to Deliver",
-      "dist": "4M",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/10353",
-      "source": "NYRR"
-    },
-    {
-      "date": "2026-11-22",
-      "name": "QCC Athletics Turkey Trot 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/191921",
-      "source": ""
-    },
     {
       "date": "2026-11-25",
       "name": "Earl's-Giving 5K",
@@ -619,7 +603,15 @@
     },
     {
       "date": "2027-03-28",
-      "name": "The Great Easter Basket 5K/10K",
+      "name": "Queens Spring Half",
+      "dist": "HM/10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/166639",
+      "source": ""
+    },
+    {
+      "date": "2027-03-28",
+      "name": "The Great Easter Basket 5K & 10K",
       "dist": "10K/5K",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/112089",
@@ -759,6 +751,14 @@
       "dist": "5K",
       "loc": "Manhattan",
       "url": "https://www.runningintheusa.com/details/169448",
+      "source": ""
+    },
+    {
+      "date": "2027-05-02",
+      "name": "NYC Spring 10K & 5K",
+      "dist": "10K/5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/77415",
       "source": ""
     },
     {
@@ -999,6 +999,14 @@
       "dist": "5K",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/184486",
+      "source": ""
+    },
+    {
+      "date": "2027-06-27",
+      "name": "Flushing NYC Half",
+      "dist": "HM/10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/127712",
       "source": ""
     },
     {
