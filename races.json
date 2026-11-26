@@ -1,14 +1,6 @@
 {
-  "generated": "2026-11-25T16:12:24Z",
+  "generated": "2026-11-26T15:51:46Z",
   "races": [
-    {
-      "date": "2026-11-25",
-      "name": "Earl's-Giving 5K",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/207208",
-      "source": ""
-    },
     {
       "date": "2026-11-26",
       "name": "Inwood Hill Turkey Trot",
@@ -1074,6 +1066,14 @@
       "source": ""
     },
     {
+      "date": "2027-08-07",
+      "name": "NYC Summer Half Central Park",
+      "dist": "HM/5M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/89728",
+      "source": ""
+    },
+    {
       "date": "2027-08-21",
       "name": "Rockaway Beach End Of Summer Marathon",
       "dist": "Marathon/HM/5K",
@@ -1114,6 +1114,14 @@
       "source": ""
     },
     {
+      "date": "2027-09-13",
+      "name": "Corporate FunRun Manhattan Midtown 5K",
+      "dist": "5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/178047",
+      "source": ""
+    },
+    {
       "date": "2027-09-18",
       "name": "Unity Race 5K Run/Walk",
       "dist": "5K",
@@ -1143,6 +1151,14 @@
       "dist": "5K/1M",
       "loc": "Queens",
       "url": "https://www.runningintheusa.com/details/172920",
+      "source": ""
+    },
+    {
+      "date": "2027-09-25",
+      "name": "New Yorker 5K and 10K at Riverside Park",
+      "dist": "10K/5K",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/62075",
       "source": ""
     },
     {
@@ -1303,6 +1319,14 @@
       "dist": "5K/1M",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/192123",
+      "source": ""
+    },
+    {
+      "date": "2027-11-21",
+      "name": "QCC Athletics Turkey Trot 5K Run/Walk",
+      "dist": "5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/191921",
       "source": ""
     }
   ],
