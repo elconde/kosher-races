@@ -1,62 +1,6 @@
 {
-  "generated": "2026-11-26T15:51:46Z",
+  "generated": "2026-11-27T15:40:10Z",
   "races": [
-    {
-      "date": "2026-11-26",
-      "name": "Inwood Hill Turkey Trot",
-      "dist": "5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/179632",
-      "source": ""
-    },
-    {
-      "date": "2026-11-26",
-      "name": "Sri Chinmoy Thanksgiving Day 5K & 10K",
-      "dist": "10K/5K",
-      "loc": "Manhattan",
-      "url": "https://www.runningintheusa.com/details/50356",
-      "source": ""
-    },
-    {
-      "date": "2026-11-26",
-      "name": "Hip Hop Turkey Trot 5K",
-      "dist": "2.5M",
-      "loc": "Bronx",
-      "url": "https://www.runningintheusa.com/details/186924",
-      "source": ""
-    },
-    {
-      "date": "2026-11-26",
-      "name": "PPTC Turkey Trot",
-      "dist": "5M",
-      "loc": "Brooklyn",
-      "url": "https://www.runningintheusa.com/details/12646",
-      "source": ""
-    },
-    {
-      "date": "2026-11-26",
-      "name": "Gratitude 5K",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/169110",
-      "source": ""
-    },
-    {
-      "date": "2026-11-26",
-      "name": "Queens Turkey Trot 5K Run/Walk",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/130126",
-      "source": ""
-    },
-    {
-      "date": "2026-11-26",
-      "name": "Healy's Pub and Run Rockaway Beach Turkey Trot",
-      "dist": "5K",
-      "loc": "Queens",
-      "url": "https://www.runningintheusa.com/details/132045",
-      "source": ""
-    },
     {
       "date": "2026-11-28",
       "name": "Lettuce Run 5K",
@@ -1138,6 +1082,14 @@
       "source": ""
     },
     {
+      "date": "2027-09-18",
+      "name": "Planet NY Half Marathon",
+      "dist": "HM/10K/5K",
+      "loc": "Queens",
+      "url": "https://www.runningintheusa.com/details/106344",
+      "source": ""
+    },
+    {
       "date": "2027-09-19",
       "name": "Prospect Park 13.1 Half Marathon",
       "dist": "HM",
@@ -1234,6 +1186,14 @@
       "source": ""
     },
     {
+      "date": "2027-10-10",
+      "name": "Brooklynite Fall 10K and 5K",
+      "dist": "10K/5K",
+      "loc": "Brooklyn",
+      "url": "https://www.runningintheusa.com/details/176809",
+      "source": ""
+    },
+    {
       "date": "2027-10-16",
       "name": "NYCRUNS Falling Leaves Half Marathon",
       "dist": "HM",
@@ -1319,6 +1279,14 @@
       "dist": "5K/1M",
       "loc": "Staten Island",
       "url": "https://www.runningintheusa.com/details/192123",
+      "source": ""
+    },
+    {
+      "date": "2027-11-20",
+      "name": "Central Park Turkey Trot 4 Miler",
+      "dist": "4M",
+      "loc": "Manhattan",
+      "url": "https://www.runningintheusa.com/details/205448",
       "source": ""
     },
     {
